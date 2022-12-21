@@ -1,0 +1,31 @@
+/* reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ol,
+li {
+  list-style: none;
+}
+img {
+  border: none;
+  max-width: 100%;
+  object-fit: contain;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+}
+html,
+body {
+  line-height: 1;
+}
+/*----------------*/
