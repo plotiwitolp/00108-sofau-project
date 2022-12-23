@@ -69,6 +69,14 @@ body {
 
 header {
   border-bottom: 1px solid rgba(93, 95, 239, 0.2);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+main {
+  padding-top: 83px;
 }
 
 .header {
@@ -131,12 +139,8 @@ header {
   border-bottom: 4px solid #5d5fef;
   color: #5d5fef;
 }
-.header__desk li a:hover::after {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-.header__desk li:has(.header__desk-sub) > a::after {
-  content: "";
+
+span.nav-arr {
   display: block;
   width: 20px;
   height: 20px;
@@ -148,11 +152,21 @@ header {
   transition: 0.2s;
 }
 
-.header__desk-sub {
+span.nav-arr_down {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.header__desk-sub-wrap {
   display: none;
   position: absolute;
-  top: 38px;
-  left: -35px;
+  z-index: 999;
+  top: 35px;
+  left: 0px;
+  padding-top: 4px;
+}
+
+.header__desk-sub {
   padding: 14px;
   background: #140c1f;
   border: 1px solid rgba(93, 95, 239, 0.2);
@@ -228,6 +242,7 @@ header {
 
 .main-pic {
   position: relative;
+  z-index: -1;
 }
 
 .main-pic__bg {
@@ -277,7 +292,8 @@ header {
   text-transform: capitalize;
 }
 
-.main-title__contact-us {
+.main-title__contact-us a {
+  display: inline-block;
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
@@ -785,4 +801,21 @@ footer .section:last-child {
 .bright-spot-4 {
   right: -95px;
   bottom: 0;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 99;
+  background: rgba(20, 12, 31, 0.9607843137);
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+span {
+  display: inline-block;
+}
+
+.animate__animated {
+  --animate-duration: 0.7s;
 }

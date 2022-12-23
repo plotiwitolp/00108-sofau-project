@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wellore: Game art and development outsourcing studio | 2D and 3D art for games</title>
-    <link href="./assets/images/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <link href="./assets/images/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
     <meta name="keywords" content="gamedev, game art, game design, 2d art, 3d art, character design, environment design, props, vfx, animation, game development, illustration">
     <meta name="description" content="Game art and Development outsourcing studio. We have been creating 2D and 3D art for more than 12 years. We turn your ideas into reality!">
-    <link rel="stylesheet" href="./assets/fonts/Lato/stylesheet.css">
-    <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/fonts/Lato/stylesheet.css">
+    <link rel="stylesheet" href="./assets/libs/animate/animate.min.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 
 <body>
@@ -27,24 +28,28 @@
                             <ul class="header__desk">
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">Services</a>
-                                    <ul class="header__desk-sub">
-                                        <li><a href="#">3D Art</a></li>
-                                        <li><a href="#">2D Art</a></li>
-                                        <li><a href="#">Animation</a></li>
-                                        <li><a href="#">Game development</a></li>
-                                        <li><a href="#">Marketing</a></li>
-                                        <li><a href="#">Cinematics</a></li>
-                                    </ul>
+                                    <div class="header__desk-sub-wrap">
+                                        <ul class="header__desk-sub">
+                                            <li><a href="#">3D Art</a></li>
+                                            <li><a href="#">2D Art</a></li>
+                                            <li><a href="#">Animation</a></li>
+                                            <li><a href="#">Game development</a></li>
+                                            <li><a href="#">Marketing</a></li>
+                                            <li><a href="#">Cinematics</a></li>
+                                        </ul>
+                                    </div>
                                 </li>
                                 <li><a href="#">Portfolio</a>
-                                    <ul class="header__desk-sub">
-                                        <li><a href="#">3D Art</a></li>
-                                        <li><a href="#">2D Art</a></li>
-                                        <li><a href="#">Animation</a></li>
-                                        <li><a href="#">Game development</a></li>
-                                        <li><a href="#">Marketing</a></li>
-                                        <li><a href="#">Cinematics</a></li>
-                                    </ul>
+                                    <div class="header__desk-sub-wrap">
+                                        <ul class="header__desk-sub">
+                                            <li><a href="#">3D Art</a></li>
+                                            <li><a href="#">2D Art</a></li>
+                                            <li><a href="#">Animation</a></li>
+                                            <li><a href="#">Game development</a></li>
+                                            <li><a href="#">Marketing</a></li>
+                                            <li><a href="#">Cinematics</a></li>
+                                        </ul>
+                                    </div>
                                 </li>
                                 <li><a href="#">About us</a></li>
                                 <li><a href="#">Blog</a></li>
@@ -88,7 +93,7 @@
                         </nav>
                         <div class="button-wrapper">
                             <div class="button header__contact-us">
-                                <a href="#">Contact Us</a>
+                                <a class="feedback-form-link" href="#feedback-form">Contact Us</a>
                             </div>
                         </div>
                         <div class="header__socials">
@@ -123,18 +128,23 @@
             <div class="section">
                 <!-- MAIN TOP -->
                 <section class="main-top">
-                    <div class="main-pic">
+                    <div class="main-pic ">
                         <img src="./assets/images/baner-1.png" alt="baner-1">
-                        <img class="main-pic__bg" src="./assets/images/baner-1-bg.png" alt="baner-1-bg">
+                        <img class="main-pic__bg " src="./assets/images/baner-1-bg.png" alt="baner-1-bg">
                     </div>
                     <div class="main-title">
-                        <h1><span class="title-accent">Development</span> and <span class="title-accent">game art</span> outsourtcing studio.</h1>
-                        <div class="description">
+                        <h1>
+                            <span class="title-accent animate__animated animate__slideInDown">Development&nbsp;</span>
+                            <span class="animate__animated animate__slideInLeft">and&nbsp;</span>
+                            <span class="title-accent animate__animated animate__slideInDown">game art&nbsp;</span>
+                            <span class="animate__animated animate__slideInLeft">outsourtcing studio.&nbsp;</span>
+                        </h1>
+                        <div class="description animate__animated animate__slideInUp">
                             We have been creating 2D and 3D art for more than 12 years. We turn your ideas into reality!
                         </div>
                         <div class="button-wrapper">
-                            <div class="button main-title__contact-us">
-                                <a href="#">Contact Us</a>
+                            <div class="main-title__contact-us animate__animated animate__slideInUp">
+                                <a class="button feedback-form-link" href="#feedback-form">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -145,7 +155,7 @@
                         <h2>OUR SERVIСES</h2>
                     </div>
                     <div class="job-preview">
-                        <div class="job-preview__item ">
+                        <div class="job-preview__item wow animate__slideInLeft" data-wow-duration="500ms">
                             <div class="job-preview__thumb">
                                 <img src="./assets/images/our_services-3d_art.png" alt="our_services-3d_art">
                             </div>
@@ -159,7 +169,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="job-preview__item ">
+                        <div class="job-preview__item wow animate__slideInUp" data-wow-duration="500ms">
                             <div class="job-preview__thumb">
                                 <img src="./assets/images/our_services-2d_art.png" alt="our_services-2d_art">
                             </div>
@@ -173,7 +183,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="job-preview__item">
+                        <div class="job-preview__item wow animate__slideInRight" data-wow-duration="500ms">
                             <div class="job-preview__thumb">
                                 <img src="./assets/images/animation.png" alt="animation">
                             </div>
@@ -187,7 +197,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="job-preview__item ">
+                        <div class="job-preview__item wow animate__slideInLeft" data-wow-duration="500ms">
                             <div class="job-preview__thumb">
                                 <img src="./assets/images/game_development.png" alt="game_development">
                             </div>
@@ -201,7 +211,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="job-preview__item job-preview__item__active">
+                        <div class="job-preview__item wow animate__slideInUp job-preview__item__active" data-wow-duration="500ms">
                             <div class="job-preview__thumb">
                                 <img src="./assets/images/marketing.png" alt="marketing">
                             </div>
@@ -215,7 +225,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="job-preview__item ">
+                        <div class="job-preview__item wow animate__slideInRight" data-wow-duration="500ms">
                             <div class="job-preview__thumb">
                                 <img src="./assets/images/cinematics.png" alt="cinematics">
                             </div>
@@ -373,7 +383,7 @@
                 </section>
                 <!--  Feedback form -->
                 <section>
-                    <div class="feedback-form">
+                    <div class="feedback-form" id="feedback-form">
                         <div class="feedback-form__left">
                             <div class="feedback-form__left-wrapper">
                                 <div class="feedback-form__top">
@@ -464,7 +474,6 @@
                             <img src="./assets/images/wellorepromoscreen_caschar.png" alt="wellorepromoscreen_caschar">
                         </div>
                     </div>
-
                 </section>
             </div>
         </main>
@@ -548,6 +557,7 @@
         </footer>
     </div>
     <script src="./assets/scripts/jquery-3.6.0.min.js"></script>
+    <script src="./assets/libs/wow/wow.min.js"></script>
     <script src="./assets/scripts/script.js"></script>
 </body>
 
