@@ -134,16 +134,16 @@
                     </div>
                     <div class="main-title">
                         <h1>
-                            <span class="title-accent animate__animated animate__slideInDown">Development&nbsp;</span>
-                            <span class="animate__animated animate__slideInLeft">and&nbsp;</span>
-                            <span class="title-accent animate__animated animate__slideInDown">game art&nbsp;</span>
-                            <span class="animate__animated animate__slideInLeft">outsourtcing studio.&nbsp;</span>
+                            <span class="title-accent animate__animated animate__fadeInDown">Development&nbsp;</span>
+                            <span class="animate__animated animate__fadeInLeft">and&nbsp;</span>
+                            <span class="title-accent animate__animated animate__fadeInDown">game art&nbsp;</span>
+                            <span class="animate__animated animate__fadeInLeft">outsourtcing studio.&nbsp;</span>
                         </h1>
-                        <div class="description animate__animated animate__slideInUp">
+                        <div class="description animate__animated animate__fadeInUp">
                             We have been creating 2D and 3D art for more than 12 years. We turn your ideas into reality!
                         </div>
                         <div class="button-wrapper">
-                            <div class="main-title__contact-us animate__animated animate__slideInUp">
+                            <div class="main-title__contact-us animate__animated animate__fadeInUp">
                                 <a class="button feedback-form-link" href="#feedback-form">Contact Us</a>
                             </div>
                         </div>
@@ -155,11 +155,11 @@
                         <h2>OUR SERVIСES</h2>
                     </div>
                     <div class="job-preview">
-                        <div class="job-preview__item wow animate__slideInLeft" data-wow-duration="500ms">
+                        <div class="job-preview__item wow animate__fadeInLeft" data-wow-duration="500ms">
                             <div class="job-preview__thumb">
                                 <img src="./assets/images/our_services-3d_art.png" alt="our_services-3d_art">
                             </div>
-                            <div class="job-preview__desc-dark">
+                            <div class="job-preview__desc-wrap">
                                 <div class="job-preview__desc">
                                     <h3>3D art</h3>
                                     <p>
@@ -169,11 +169,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="job-preview__item wow animate__slideInUp" data-wow-duration="500ms">
+                        <div class="job-preview__item wow animate__fadeInUp" data-wow-duration="500ms">
                             <div class="job-preview__thumb">
                                 <img src="./assets/images/our_services-2d_art.png" alt="our_services-2d_art">
                             </div>
-                            <div class="job-preview__desc-dark">
+                            <div class="job-preview__desc-wrap">
                                 <div class="job-preview__desc">
                                     <h3>2D art</h3>
                                     <p>
@@ -187,7 +187,7 @@
                             <div class="job-preview__thumb">
                                 <img src="./assets/images/animation.png" alt="animation">
                             </div>
-                            <div class="job-preview__desc-dark">
+                            <div class="job-preview__desc-wrap">
                                 <div class="job-preview__desc">
                                     <h3>Animation</h3>
                                     <p>
@@ -197,11 +197,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="job-preview__item wow animate__slideInLeft" data-wow-duration="500ms">
+                        <div class="job-preview__item wow animate__fadeInLeft" data-wow-duration="500ms">
                             <div class="job-preview__thumb">
                                 <img src="./assets/images/game_development.png" alt="game_development">
                             </div>
-                            <div class="job-preview__desc-dark">
+                            <div class="job-preview__desc-wrap">
                                 <div class="job-preview__desc">
                                     <h3>Game development</h3>
                                     <p>
@@ -211,11 +211,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="job-preview__item wow animate__slideInUp job-preview__item__active" data-wow-duration="500ms">
+                        <div class="job-preview__item wow animate__fadeInUp" data-wow-duration="500ms">
                             <div class="job-preview__thumb">
                                 <img src="./assets/images/marketing.png" alt="marketing">
                             </div>
-                            <div class="job-preview__desc-dark">
+                            <div class="job-preview__desc-wrap">
                                 <div class="job-preview__desc">
                                     <h3>Marketing</h3>
                                     <p>
@@ -229,7 +229,7 @@
                             <div class="job-preview__thumb">
                                 <img src="./assets/images/cinematics.png" alt="cinematics">
                             </div>
-                            <div class="job-preview__desc-dark">
+                            <div class="job-preview__desc-wrap">
                                 <div class="job-preview__desc">
                                     <h3>Cinematics</h3>
                                     <p>
@@ -250,10 +250,10 @@
                 <!-- Our advantages -->
                 <section class="our-advantages">
                     <div class="our-advantages-wrap">
-                        <div class="our-advantages__h2-wrap">
-                            <h2 class="our-advantages__h2">Our advantages</h2>
+                        <div class="our-advantages__h2-wrap wow animate__fadeInLeft" data-wow-duration="500ms">
+                            <h2 class="our-advantages__h2 ">Our advantages</h2>
                         </div>
-                        <div class="advantages">
+                        <div class="advantages wow animate__slideInRight" data-wow-duration="500ms">
                             <div class="advantages__item">
                                 <div class="advantages__icon">
                                     <img src="./assets/images/dawn.svg" alt="dawn">
@@ -300,7 +300,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="technic">
+                    <div class="technic wow animate__fadeInUp" data-wow-duration="500ms">
                         <div class="technic-wrap">
                             <div class="technic__item">
                                 <img src="./assets/images/technic-1.svg" alt="technic-1">
@@ -332,8 +332,8 @@
                 <!-- OUR WORKS -->
                 <section class="our-works">
                     <div class="works-title">
-                        <h2>OUR WORKS</h2>
-                        <span class="see-more-arrow">
+                        <h2 class="wow animate__fadeInLeft" data-wow-duration="500ms">OUR WORKS</h2>
+                        <span class="see-more-arrow ">
                             <a href="#">
                                 <span>See more works</span>
                                 <img src="./assets/images/see-more-arrow.svg" alt="see-more-arrow">
@@ -341,37 +341,37 @@
                         </span>
                     </div>
                     <div class="works-gallery">
-                        <div class="works-gallery__item">
+                        <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
                             <a href="#">
                                 <img src="./assets/images/our_works-1.png" alt="our_works-1">
                             </a>
                         </div>
-                        <div class="works-gallery__item">
+                        <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
                             <a href="#">
                                 <img src="./assets/images/our_works-2.png" alt="our_works-2">
                             </a>
                         </div>
-                        <div class="works-gallery__item">
+                        <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
                             <a href="#">
                                 <img src="./assets/images/our_works-3.png" alt="our_works-3">
                             </a>
                         </div>
-                        <div class="works-gallery__item">
+                        <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
                             <a href="#">
                                 <img src="./assets/images/our_works-4.png" alt="our_works-4">
                             </a>
                         </div>
-                        <div class="works-gallery__item">
+                        <div class="works-gallery__item wow animate__fadeInBottomLeft" data-wow-duration="500ms">
                             <a href="#">
                                 <img src="./assets/images/our_works-5.png" alt="our_works-5">
                             </a>
                         </div>
-                        <div class="works-gallery__item">
+                        <div class="works-gallery__item wow animate__fadeInUp" data-wow-duration="500ms">
                             <a href="#">
                                 <img src="./assets/images/our_works-6.png" alt="our_works-6">
                             </a>
                         </div>
-                        <div class="works-gallery__item">
+                        <div class="works-gallery__item wow animate__fadeInBottomRight" data-wow-duration="500ms">
                             <a href="#">
                                 <img src="./assets/images/our_works-7.png" alt="our_works-7">
                             </a>
@@ -384,7 +384,7 @@
                 <!--  Feedback form -->
                 <section>
                     <div class="feedback-form" id="feedback-form">
-                        <div class="feedback-form__left">
+                        <div class="feedback-form__left wow animate__fadeInLeft" data-wow-duration="500ms">
                             <div class="feedback-form__left-wrapper">
                                 <div class="feedback-form__top">
                                     <h2>READY TO START YOUR PROJECT?</h2>
@@ -448,7 +448,7 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="feedback-form__right">
+                        <div class="feedback-form__right wow animate__fadeInRight" data-wow-duration="500ms">
                             <div class="socials feedback-form_socials">
                                 <div class="socials-item">
                                     <a href="#">

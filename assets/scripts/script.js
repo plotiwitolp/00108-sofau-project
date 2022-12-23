@@ -39,17 +39,20 @@
     // end easy scroll on Contact Us
 
     // start WOW
-
-    // end WOW
     var wow = new WOW({
-      offset: 50, // distance to the element when triggering the animation
-      'data-wow-duration': '1s',
-      callback: function (box) {
-        // $(box).attr('data-wow-duration', '1s');
-        // console.log(box);
-      },
+      offset: 50,
     });
     wow.init();
+    // end WOW
+
+    // start job-preview hover
+    $('.job-preview .job-preview__item').mouseover(function () {
+      $(this).addClass('job-preview__item__active');
+    });
+    $('.job-preview .job-preview__item').mouseleave(function () {
+      $(this).removeClass('job-preview__item__active');
+    });
+    // end job-preview hover
     // END ALL
   });
 })(jQuery);

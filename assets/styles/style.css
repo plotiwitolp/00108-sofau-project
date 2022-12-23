@@ -62,6 +62,10 @@ body {
   background: #140c1f;
 }
 
+.page-wrap {
+  overflow: hidden;
+}
+
 .section {
   width: 1320px;
   margin: 0 auto;
@@ -348,17 +352,22 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-radius: 20px;
-  overflow: hidden;
   border: 1px solid #e2e2e2;
+  overflow: hidden;
+  height: 382px;
 }
-.job-preview__item .job-preview__desc-dark {
+.job-preview__item .job-preview__desc-wrap {
   background: #140c1f;
 }
 
 .job-preview__thumb {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  height: 240px;
+  overflow: hidden;
+  position: relative;
+}
+.job-preview__thumb img {
+  position: absolute;
+  z-index: -1;
 }
 
 .job-preview__desc {
@@ -388,11 +397,9 @@ h2 {
   line-height: 25px;
 }
 .job-preview__desc .see-more-btn {
-  display: none;
-}
-
-.job-preview__item__active .see-more-btn {
-  display: block;
+  margin-bottom: -90px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .see-more-btn {
@@ -412,13 +419,18 @@ h2 {
 }
 
 .job-preview__item__active {
+  background: linear-gradient(91.98deg, rgba(20, 12, 31, 0) -79.88%, rgba(93, 95, 239, 0.2) 36.95%);
   border: 1px solid #5d5fef;
 }
-.job-preview__item__active .job-preview__thumb img {
-  margin-bottom: -79px;
+.job-preview__item__active .job-preview__desc-wrap {
+  margin-top: -90px;
 }
 .job-preview__item__active .job-preview__desc {
   background: linear-gradient(91.98deg, rgba(20, 12, 31, 0) -79.88%, rgba(93, 95, 239, 0.2) 36.95%);
+}
+
+.job-preview__item__active .see-more-btn {
+  margin-bottom: 0px;
 }
 
 .our-advantages {
