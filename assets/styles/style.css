@@ -706,6 +706,7 @@ h2 {
   opacity: 0.5;
 }
 .feedback-form-pers-data__text a {
+  color: #fff;
   text-decoration: underline;
 }
 

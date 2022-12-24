@@ -15,14 +15,16 @@
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 
-<body>
+<body oncontextmenu="return true;">
     <div class="page-wrap">
         <header>
             <div class="section">
                 <div class="header">
                     <div class="header-left-top">
                         <div class="header__logo">
-                            <img src="./assets/images/logo.svg" alt="wellore.com">
+                            <a href="/">
+                                <img src="./assets/images/logo.svg" alt="wellore.com">
+                            </a>
                         </div>
                         <nav class="header__desk-wrap">
                             <ul class="header__desk">
