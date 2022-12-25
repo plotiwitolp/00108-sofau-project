@@ -46,6 +46,7 @@
     // end WOW
 
     // start job-preview hover
+    // -- может быть нужна проверка на наличие на странице эл .job-preview
     $('.job-preview .job-preview__item').mouseover(function () {
       $(this).addClass('job-preview__item__active');
     });
