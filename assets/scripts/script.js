@@ -17,7 +17,7 @@
     $('.header__desk-sub-wrap').prev().append("<span class='nav-arr'>");
     $('.header__desk li').mouseover(function () {
       $(this).find('a').find('span').addClass('nav-arr_down');
-      $(this).find('.header__desk-sub-wrap').css({ display: 'block' }).addClass('animate__animated animate__slideInDown');
+      $(this).find('.header__desk-sub-wrap').css({ display: 'block' }).addClass('animate__animated animate__fadeIn');
     });
     $('.header__desk li').mouseleave(function () {
       $(this).find('a').find('span').removeClass('nav-arr_down');
@@ -33,7 +33,7 @@
     $('.feedback-form-link').on('click', function (e) {
       $('html,body')
         .stop()
-        .animate({ scrollTop: $('#feedback-form').offset().top - 190 }, 700);
+        .animate({ scrollTop: $('#feedback-form').offset().top - 100 }, 700);
       e.preventDefault();
     });
     // end easy scroll on Contact Us
@@ -54,6 +54,29 @@
       $(this).removeClass('job-preview__item__active');
     });
     // end job-preview hover
+
+    // start временная пагинация для демонстрации
+    $('.pagination__page-item a').bind('click.dontClick', function (e) {
+      e.preventDefault();
+    });
+    let $set = $('.pagination__page-item');
+    $('.pagination__page-item').on('click', function () {
+      $('.pagination__page-item').removeClass('pagination__page-item_active');
+      $(this).addClass('pagination__page-item_active');
+      let n = $set.index(this);
+      console.log($set.length);
+      if (n == 0) {
+        $('.pagination__prev ').hide();
+      } else {
+        $('.pagination__prev ').show();
+      }
+      if (n == $set.length - 1) {
+        $('.pagination__next').hide();
+      } else {
+        $('.pagination__next').show();
+      }
+    });
+    // end временная пагинация для демонстрации
 
     // start security
     // document.onkeydown = function (e) {
