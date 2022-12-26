@@ -6,11 +6,22 @@
           box-sizing: border-box;
 }
 
-a {
+a,
+h2,
+h3 {
   text-decoration: none;
 }
-a:visited {
+a:visited,
+h2:visited,
+h3:visited {
   color: inherit;
+}
+a:active, a:focus,
+h2:active,
+h2:focus,
+h3:active,
+h3:focus {
+  outline: none;
 }
 
 ol,
@@ -556,6 +567,14 @@ h2 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 32px 21px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.works-gallery__item {
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .feedback-form {
@@ -579,6 +598,12 @@ h2 {
 
 .feedback-form__left-wrapper {
   padding: 50px 88px 60px 50px;
+}
+
+.feedback-form__left,
+.feedback-form__right {
+  border: 1px solid rgba(93, 95, 239, 0.1019607843);
+  border-radius: 20px;
 }
 
 .feedback-form__top {
@@ -976,28 +1001,32 @@ main {
   padding: 0px 215px;
 }
 
-.h2-info-two {
+.h2-info {
   position: relative;
   margin-top: 96px;
+  margin-bottom: 96px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 20px;
 }
 
-.h2-info-two__item {
+.h2-info__item {
   padding: 43px 48px 40px 65px;
   background: #140c1f;
   border: 1px solid rgba(93, 95, 239, 0.3);
   border-radius: 20px;
 }
 
-.h2-info-two__body {
+.h2-info__body {
   margin-top: 26px;
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
   text-transform: capitalize;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .banner-our-works {
@@ -1078,12 +1107,17 @@ main {
 
 .bright-spot-about-us-1 {
   left: -95px;
-  top: -140%;
+  top: 0;
 }
 
 .bright-spot-about-us-2 {
   top: -100%;
   left: -95px;
+}
+
+.wrap {
+  position: relative;
+  width: 100%;
 }
 
 .blog {
@@ -1357,4 +1391,266 @@ main {
 
 .portfolio .bright-spot-blog-2 {
   bottom: -63px;
+}
+
+.top-banner-info {
+  min-height: 368px;
+  position: relative;
+  overflow: hidden;
+  margin-left: -95px;
+  margin-right: -95px;
+}
+.top-banner-info img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.top-banner-info h1 {
+  margin-top: 64px;
+  padding: 0 188px;
+  text-align: center;
+}
+
+.top-banner-info__wrap {
+  margin-top: 26px;
+  padding: 0 188px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 26px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-banner-info__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 19px 68px 19px 16px;
+  background: rgba(20, 12, 31, 0.56);
+  border-radius: 20px;
+}
+
+.top-banner-info__title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+.top-banner-info__body {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+.portfolio-banner {
+  margin-top: 50px;
+  width: 1320px;
+}
+
+.bright-spot-portfolio-1 {
+  left: -95px;
+  top: -230%;
+}
+
+.similar-projects {
+  margin-top: 96px;
+}
+.similar-projects h2 {
+  margin-bottom: 45px;
+}
+
+.bright-spot-portfolio-top {
+  top: -1054px;
+  right: -95px;
+}
+
+.bright-spot-portfolio-right {
+  top: -630px;
+  right: -95px;
+}
+
+.portfolio-tmpl-s .top-banner-info h1 {
+  margin-top: 20px;
+}
+
+.services-banner {
+  margin-bottom: 96px;
+}
+
+.services-4-blocks {
+  margin-bottom: 96px;
+}
+.services-4-blocks h2 {
+  margin-bottom: 44px;
+}
+
+.services-4-blocks__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+
+.services-4-blocks__item {
+  width: calc(50% - 10px);
+  border-radius: 20px;
+  background: #140c1f;
+  border: 1px solid rgba(93, 95, 239, 0.3);
+  overflow: hidden;
+}
+
+.services-4-blocks__title {
+  margin: 12px 35px 10px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.services-4-blocks__text {
+  margin: 0 36px 35px 35px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.technical-exp_icons {
+  margin-top: 45px;
+  margin-bottom: 96px;
+}
+
+.services-4-blocks-thumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  gap: 21px;
+  margin-bottom: 96px;
+}
+
+.services-4-blocks-thumb__item {
+  width: calc(25% - 21px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 35px;
+  background: #140c1f;
+  border: 1px solid rgba(93, 95, 239, 0.3);
+  border-radius: 20px;
+}
+
+.services-4-blocks-thumb__pic {
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+
+.services-4-blocks-thumb__title {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.services-4-blocks-thumb__body {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.bright-spot-services-center {
+  top: 1085px;
+  left: 20%;
+}
+
+.h2-info__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.h2-info__text {
+  margin-right: 26px;
+}
+
+.h2-info__marg {
+  margin-bottom: 96px;
+}
+
+.our-works_services {
+  margin-bottom: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.our-works_services-arrow {
+  width: 300px;
+  white-space: nowrap;
+  margin-top: 50px;
+  margin-left: auto;
+}
+
+.bright-spot-services-left {
+  top: -1200px;
+  left: -95px;
+}
+
+.services-4-blocks_row .services-4-blocks__item {
+  width: calc(25% - 15px);
+}
+
+.services-3-blocks_row .services-4-blocks__item {
+  width: calc(33.3333333333% - 14px);
+}
+
+.h2-info__pdn {
+  padding: 42px 148px 42px 65px;
+}
+.h2-info__pdn .h2-info__body {
+  margin: 0;
+}
+
+.bright-spot-services-center_up {
+  top: -80%;
+}
+
+.post h1,
+.contacts h1 {
+  margin: 56px 0 56px;
+  text-align: center;
+}
+.post p,
+.contacts p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+.post img,
+.contacts img {
+  margin: 45px 0 0;
 }

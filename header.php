@@ -32,12 +32,12 @@
                                 <li><a href="#">Services</a>
                                     <div class="header__desk-sub-wrap">
                                         <ul class="header__desk-sub">
-                                            <li><a href="#">3D Art</a></li>
-                                            <li><a href="#">2D Art</a></li>
-                                            <li><a href="#">Animation</a></li>
-                                            <li><a href="#">Game development</a></li>
-                                            <li><a href="#">Marketing</a></li>
-                                            <li><a href="#">Cinematics</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-l.php">3D Art</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-m.php">2D Art</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-s.php">Animation</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-l.php">Game development</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-m.php">Marketing</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-s.php">Cinematics</a></li>
                                         </ul>
                                     </div>
                                 </li>
