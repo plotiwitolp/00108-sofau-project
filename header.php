@@ -13,9 +13,10 @@
     <link rel="stylesheet" href="<?php __FILE__; ?>/assets/fonts/Lato/stylesheet.css">
     <link rel="stylesheet" href="<?php __FILE__; ?>/assets/libs/animate/animate.min.css">
     <link rel="stylesheet" href="<?php __FILE__; ?>/assets/styles/style.css">
+    <link rel="stylesheet" href="<?php __FILE__; ?>/assets/styles/responsive.css">
 </head>
 
-<body oncontextmenu="return true;">
+<body oncontextmenu="return false;">
     <div class="page-wrap">
         <header>
             <div class="section">

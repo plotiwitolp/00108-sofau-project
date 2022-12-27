@@ -193,8 +193,10 @@
         <!--  feedback form -->
         <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/feedback-form.php'; ?>
     </div>
-    <div class="bright-spot bright-spot-blog-2">
-        <img src="<?php __FILE__; ?>/assets/images/bright-spot-blog-2.svg" alt="bright-spot-blog-2">
+    <div class="wrap">
+        <div class="bright-spot bright-spot-blog-bottom">
+            <img src="<?php __FILE__; ?>/assets/images/bright-spots/bright-spot-portfolio-top.svg" alt="bright-spot-portfolio-top">
+        </div>
     </div>
 </div>
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>

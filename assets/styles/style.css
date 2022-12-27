@@ -869,8 +869,8 @@ span {
 }
 
 .bright-spot-404-1 {
-  left: -25px;
-  top: -140px;
+  left: -95px;
+  top: 0px;
   z-index: -1;
 }
 
@@ -1284,6 +1284,7 @@ main {
   font-size: 24px;
   line-height: 50px;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .project-preview__item:hover {
@@ -1536,9 +1537,9 @@ main {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   gap: 21px;
   margin-bottom: 96px;
 }
@@ -1579,8 +1580,8 @@ main {
 }
 
 .bright-spot-services-center {
-  top: 1085px;
-  left: 20%;
+  top: -1350px;
+  left: -95px;
 }
 
 .h2-info__wrap {
@@ -1653,6 +1654,29 @@ main {
 .post img,
 .contacts img {
   margin: 45px 0 0;
+}
+
+.bright-spot-blog-bottom {
+  top: -650px;
+}
+
+.bright-spot-portfolio-m-right {
+  right: -95px;
+  top: -1100px;
+}
+
+.portfolio-tmpl-xs .top-banner-info__wrap {
+  margin: 26px 95px;
+  padding-bottom: 26px;
+  border-bottom: 1px solid rgba(93, 95, 239, 0.2);
+}
+.portfolio-tmpl-xs .top-banner-info__item {
+  border: 1px solid rgba(93, 95, 239, 0.5);
+}
+
+.bright-spot-portfolio-xs-left {
+  left: -95px;
+  bottom: -550px;
 }
 
 .hover {

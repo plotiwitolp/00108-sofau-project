@@ -173,5 +173,10 @@
 
     <!--  Feedback form -->
     <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/feedback-form.php'; ?>
+    <div class="wrap">
+        <div class="bright-spot bright-spot-portfolio-m-right">
+            <img src="<?php __FILE__; ?>/assets/images/bright-spots/bright-spot-portfolio-m-right.svg" alt="bright-spot-portfolio-m-right">
+        </div>
+    </div>
 </div>
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>

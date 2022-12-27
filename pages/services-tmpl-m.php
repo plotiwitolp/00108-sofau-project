@@ -163,8 +163,10 @@
                     Our designers and developers work together to create the best virtual experience to fit your needs.
                 </div>
             </div>
-            <div class="bright-spot bright-spot-services-center">
-                <img src="<?php __FILE__; ?>/assets/images/services/bright-spot-services-center.svg" alt="bright-spot-services-center">
+            <div class="wrap">
+                <div class="bright-spot bright-spot-services-center">
+                    <img src="<?php __FILE__; ?>/assets/images/services/bright-spot-services-center.svg" alt="bright-spot-services-center">
+                </div>
             </div>
         </div>
 

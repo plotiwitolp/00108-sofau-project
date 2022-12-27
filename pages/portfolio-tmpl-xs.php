@@ -38,43 +38,9 @@
     }
     ?>
     <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/h2-info-two.php'; ?>
-
-    <!-- works-gallery Task & Level design & interface -->
-    <div class="works-gallery">
-        <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
-            <a href="#">
-                <img src="<?php __FILE__; ?>/assets/images/portfolio/portfolio-our-works-1.png" alt="portfolio-our-works-1">
-            </a>
-        </div>
-        <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
-            <a href="#">
-                <img src="<?php __FILE__; ?>/assets/images/portfolio/portfolio-our-works-2.png" alt="portfolio-our-works-2">
-            </a>
-        </div>
-        <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
-            <a href="#">
-                <img src="<?php __FILE__; ?>/assets/images/portfolio/portfolio-our-works-3.png" alt="portfolio-our-works-3">
-            </a>
-        </div>
-        <div class="works-gallery__item wow animate__fadeInBottomLeft" data-wow-duration="500ms">
-            <a href="#">
-                <img src="<?php __FILE__; ?>/assets/images/portfolio/portfolio-our-works-4.png" alt="portfolio-our-works-4">
-            </a>
-        </div>
-        <div class="works-gallery__item wow animate__fadeInBottomLeft" data-wow-duration="500ms">
-            <a href="#">
-                <img src="<?php __FILE__; ?>/assets/images/portfolio/portfolio-our-works-5.png" alt="portfolio-our-works-5">
-            </a>
-        </div>
-        <div class="works-gallery__item wow animate__fadeInUp" data-wow-duration="500ms">
-            <a href="#">
-                <img src="<?php __FILE__; ?>/assets/images/portfolio/portfolio-our-works-6.png" alt="portfolio-our-works-6">
-            </a>
-        </div>
-        <div class="works-gallery__item wow animate__fadeInBottomRight" data-wow-duration="500ms">
-            <a href="#">
-                <img src="<?php __FILE__; ?>/assets/images/portfolio/portfolio-our-works-7.png" alt="portfolio-our-works-7">
-            </a>
+    <div class="wrap">
+        <div class="bright-spot bright-spot-portfolio-xs-left">
+            <img src="<?php __FILE__; ?>/assets/images/bright-spots/bright-spot-portfolio-xs-left.svg" alt="bright-spot-portfolio-xs-left">
         </div>
     </div>
 
