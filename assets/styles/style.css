@@ -1654,3 +1654,8 @@ main {
 .contacts img {
   margin: 45px 0 0;
 }
+
+.hover {
+  background: #5d5fef;
+  border-radius: 20px;
+}

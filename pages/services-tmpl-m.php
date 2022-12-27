@@ -8,7 +8,7 @@
     </section>
     <div class="services">
         <!-- tags -->
-        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/tags.php'; ?>
+        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/tags-services.php'; ?>
 
         <div class="services-banner">
             <img src="<?php __FILE__; ?>/assets/images/services/services-top-banner-2.png" alt="services-top-banner-2">

@@ -31,25 +31,25 @@
                                 <li><a href="/">Home</a></li>
                                 <li><a href="#">Services</a>
                                     <div class="header__desk-sub-wrap">
-                                        <ul class="header__desk-sub">
-                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-l.php">3D Art</a></li>
-                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-m.php">2D Art</a></li>
-                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-s.php">Animation</a></li>
-                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-l.php">Game development</a></li>
-                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-m.php">Marketing</a></li>
-                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-s.php">Cinematics</a></li>
+                                        <ul class="header__desk-sub services_sub_test">
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-l.php?id0">3D Art</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-m.php?id1">2D Art</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-s.php?id2">Animation</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-l.php?id3">Game development</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-m.php?id4">Marketing</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-s.php?id5">Cinematics</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li><a href="<?php __FILE__; ?>/pages/portfolio.php">Portfolio</a>
                                     <div class="header__desk-sub-wrap">
-                                        <ul class="header__desk-sub">
-                                            <li><a href="#">3D Art</a></li>
-                                            <li><a href="#">2D Art</a></li>
-                                            <li><a href="#">Animation</a></li>
-                                            <li><a href="#">Game development</a></li>
-                                            <li><a href="#">Marketing</a></li>
-                                            <li><a href="#">Cinematics</a></li>
+                                        <ul class="header__desk-sub header__desk-sub_test">
+                                            <li><a href="<?php __FILE__; ?>/pages/portfolio.php#id0">3D Art</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/portfolio.php#id1">2D Art</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/portfolio.php#id2">Animation</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/portfolio.php#id3">Game development</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/portfolio.php#id4">Marketing</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/portfolio.php#id5">Cinematics</a></li>
                                         </ul>
                                     </div>
                                 </li>

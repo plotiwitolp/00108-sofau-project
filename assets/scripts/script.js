@@ -78,6 +78,26 @@
     });
     // end временная пагинация для демонстрации
 
+    // start временное переключение по меткам для демонстрации
+    /* portfolio */
+    $('.header__desk-sub_test a').on('click', function () {
+      let id = $(this).attr('href').split('id')[1];
+      let elTag = $('.tag .tag__item')[id];
+      $('.tag .tag__item').removeClass('hover');
+      $(elTag).addClass('hover');
+    });
+    /* services */
+    let link = window.location.href;
+    let linkId = link.split('id')[1];
+    let linkIdEl = $('.services .tag__item')[+linkId];
+    $(linkIdEl).addClass('hover');
+    /* portfolio & services  при клике на самой странийце по меткам*/
+    $('.portfolio .tag__item').on('click', function () {
+      $('.portfolio .tag__item').removeClass('hover');
+      $(this).addClass('hover');
+    });
+    // end временное переключение по меткам для демонстрации
+
     // start security
     // document.onkeydown = function (e) {
     //   if (event.keyCode == 123) {
