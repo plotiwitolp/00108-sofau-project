@@ -28,8 +28,9 @@
     <div class="portfolio-banner">
         <img src="<?php __FILE__; ?>/assets/images/banner-car.png" alt="banner-car">
         <div class="wrap">
-            <div class="bright-spot bright-spot-portfolio-top"><?php __FILE__; ?>
-                <img src="../assets/images/portfolio/bright-spot-portfolio-top.svg" alt="bright-spot-portfolio-top">
+            <div class="bright-spot bright-spot-portfolio-top">
+                <img class="desk_img" src="<?php __FILE__; ?>/assets/images/portfolio/bright-spot-portfolio-top.svg" alt="bright-spot-portfolio-top">
+                <img class="mob_img" src="<?php __FILE__; ?>/assets/images/portfolio/bright-spot-portfolio-top__mob.svg" alt="bright-spot-portfolio-top__mob">
             </div>
         </div>
     </div>

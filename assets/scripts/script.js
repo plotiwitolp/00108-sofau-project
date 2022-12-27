@@ -98,24 +98,46 @@
     });
     // end временное переключение по меткам для демонстрации
 
+    // start верхнее меню для моб версии
+    $('.nav-burger').on('click', function () {
+      $('.header-right-bottom').toggle();
+      $('.header__mob').toggle();
+      $('.header__socials').toggle();
+    });
+    $('.header__mob-sub').prev().append("<span class='nav-arr'>");
+
+    $('.header__mob a').on('click', function () {
+      if ($(this).next().css('display') == 'none') {
+        $(this).find('span').addClass('nav-arr_down');
+        $(this).next().css({ display: 'block' }).addClass('animate__animated animate__fadeIn');
+      } else {
+        $(this).find('span').removeClass('nav-arr_down');
+        $(this).next().css({ display: 'none' });
+      }
+    });
+    $('.nav-burger').on('click', function () {
+      $(this).toggleClass('nav-burger_close', '');
+    });
+    // end верхнее меню для моб версии
+
     // start security
-    document.onkeydown = function (e) {
-      if (event.keyCode == 123) {
-        return false;
-      }
-      if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-        return false;
-      }
-      if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-        return false;
-      }
-      if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-        return false;
-      }
-      if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-        return false;
-      }
-    };
+    // document.onkeydown = function (e) {
+    //   if (event.keyCode == 123) {
+    //     return false;
+    //   }
+    //   if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+    //     return false;
+    //   }
+    //   if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+    //     return false;
+    //   }
+    //   if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+    //     return false;
+    //   }
+    //   if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+    //     return false;
+    //   }
+    // };
     // end security
 
     // END ALL

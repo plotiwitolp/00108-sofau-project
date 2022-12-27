@@ -77,6 +77,10 @@ body {
   overflow: hidden;
 }
 
+.mob_img {
+  display: none;
+}
+
 .section {
   width: 1320px;
   margin: 0 auto;
@@ -211,6 +215,25 @@ span.nav-arr_down {
   background: rgba(93, 95, 239, 0.27);
 }
 
+.nav-burger {
+  display: none;
+  width: 24px;
+  height: 18px;
+  margin-top: 17px;
+}
+.nav-burger span {
+  position: relative;
+  display: block;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 6px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.nav-burger span:last-child {
+  margin-bottom: 0;
+}
+
 .header-right-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -254,6 +277,9 @@ span.nav-arr_down {
   background: #140c1f;
   border: 1px solid rgba(93, 95, 239, 0.2);
   border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .main-pic {
@@ -384,6 +410,7 @@ h2 {
 .job-preview__thumb img {
   position: absolute;
   z-index: -1;
+  width: 100%;
 }
 
 .job-preview__desc {

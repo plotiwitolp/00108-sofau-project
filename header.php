@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="<?php __FILE__; ?>/assets/styles/responsive.css">
 </head>
 
-<body oncontextmenu="return false;">
+<body oncontextmenu="return true;">
     <div class="page-wrap">
         <header>
             <div class="section">
@@ -66,60 +66,62 @@
                         </div>
                     </div>
                     <div class="header-right-bottom">
-                        <nav class="header__mob-wrap">
-                            <ul class="header__mob">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Services</a>
-                                    <ul class="header__mob-sub">
-                                        <li><a href="#">3D Art</a></li>
-                                        <li><a href="#">2D Art</a></li>
-                                        <li><a href="#">Animation</a></li>
-                                        <li><a href="#">Game development</a></li>
-                                        <li><a href="#">Marketing</a></li>
-                                        <li><a href="#">Cinematics</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Portfolio</a>
-                                    <ul class="header__mob-sub">
-                                        <li><a href="#">3D Art</a></li>
-                                        <li><a href="#">2D Art</a></li>
-                                        <li><a href="#">Animation</a></li>
-                                        <li><a href="#">Game development</a></li>
-                                        <li><a href="#">Marketing</a></li>
-                                        <li><a href="#">Cinematics</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contacts</a></li>
-                            </ul>
-                        </nav>
-                        <div class="button-wrapper">
-                            <div class="button header__contact-us">
-                                <a class="feedback-form-link" href="#feedback-form">Contact Us</a>
+                        <div class="header-right-bottom-wrap">
+                            <nav class="header__mob-wrap">
+                                <ul class="header__mob">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="#">Services</a>
+                                        <ul class="header__mob-sub">
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-l.php?id0">3D Art</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-l.php?id1">2D Art</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-l.php?id2">Animation</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-l.php?id3">Game development</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-l.php?id4">Marketing</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/services-tmpl-l.php?id5">Cinematics</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Portfolio</a>
+                                        <ul class="header__mob-sub header__desk-sub_test">
+                                            <li><a href="<?php __FILE__; ?>/pages/portfolio.php#id0">3D Art</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/portfolio.php#id1">2D Art</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/portfolio.php#id2">Animation</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/portfolio.php#id3">Game development</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/portfolio.php#id4">Marketing</a></li>
+                                            <li><a href="<?php __FILE__; ?>/pages/portfolio.php#id5">Cinematics</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="<?php __FILE__; ?>/pages/about-us.php">About us</a></li>
+                                    <li><a href="<?php __FILE__; ?>/pages/blog.php">Blog</a></li>
+                                    <li><a href="<?php __FILE__; ?>/pages/contacts.php">Contacts</a></li>
+                                </ul>
+                            </nav>
+                            <div class="button-wrapper">
+                                <div class="button header__contact-us">
+                                    <a class="feedback-form-link" href="#feedback-form">Contact Us</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="header__socials">
-                            <div class="socials">
-                                <div class="socials-item">
-                                    <a href="#">
-                                        <img src="<?php __FILE__; ?>/assets/images/socials/mail.svg" alt="mail wellore.com">
-                                    </a>
-                                </div>
-                                <div class="socials-item">
-                                    <a href="#">
-                                        <img src="<?php __FILE__; ?>/assets/images/socials/facebook.svg" alt="facebook wellore.com">
-                                    </a>
-                                </div>
-                                <div class="socials-item">
-                                    <a href="#">
-                                        <img src="<?php __FILE__; ?>/assets/images/socials/instagram.svg" alt="instagram wellore.com">
-                                    </a>
-                                </div>
-                                <div class="socials-item">
-                                    <a href="#">
-                                        <img src="<?php __FILE__; ?>/assets/images/socials/pinterest.svg" alt="pinterest wellore.com">
-                                    </a>
+                            <div class="header__socials">
+                                <div class="socials">
+                                    <div class="socials-item">
+                                        <a href="#">
+                                            <img src="<?php __FILE__; ?>/assets/images/socials/mail.svg" alt="mail wellore.com">
+                                        </a>
+                                    </div>
+                                    <div class="socials-item">
+                                        <a href="#">
+                                            <img src="<?php __FILE__; ?>/assets/images/socials/facebook.svg" alt="facebook wellore.com">
+                                        </a>
+                                    </div>
+                                    <div class="socials-item">
+                                        <a href="#">
+                                            <img src="<?php __FILE__; ?>/assets/images/socials/instagram.svg" alt="instagram wellore.com">
+                                        </a>
+                                    </div>
+                                    <div class="socials-item">
+                                        <a href="#">
+                                            <img src="<?php __FILE__; ?>/assets/images/socials/pinterest.svg" alt="pinterest wellore.com">
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

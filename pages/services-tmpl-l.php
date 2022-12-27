@@ -11,7 +11,8 @@
         <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/tags-services.php'; ?>
 
         <div class="services-banner">
-            <img src="<?php __FILE__; ?>/assets/images/services/services-top-banner-1.png" alt="services-top-banner-1">
+            <img class="desk_img" src="<?php __FILE__; ?>/assets/images/services/services-top-banner-1.png" alt="services-top-banner-1">
+            <img class="mob_img" src="<?php __FILE__; ?>/assets/images/mob_img/services/services-top-banner_mob_img.svg" alt="services-top-banner-1">
         </div>
 
         <!-- 2D art OUTSOURCING SERVICES -->
