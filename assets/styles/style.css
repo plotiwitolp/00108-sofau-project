@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* reset */
 *,
 *::after,
@@ -780,6 +779,7 @@ h2 {
   gap: 30px;
   padding: 40px 18px 39px 19px;
 }
+
 footer .section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1903,15 +1903,15 @@ main {
 }
 
 body::-webkit-scrollbar {
-  width: 12px; /* ширина scrollbar */
+  width: 12px;
 }
 
 body::-webkit-scrollbar-track {
-  background: #221c48; /* цвет дорожки */
+  background: #221c48;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #5d5fef; /* цвет плашки */
-  border-radius: 20px; /* закругления плашки */
-  border: 2px solid #140c1f; /* padding вокруг плашки */
+  background-color: #5d5fef;
+  border-radius: 20px;
+  border: 2px solid #140c1f;
 }
