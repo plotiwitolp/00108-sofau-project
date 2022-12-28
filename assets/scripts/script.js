@@ -123,10 +123,13 @@
 
     // start закрытие мобильного меню при клике на Contact Us
     $('.feedback-form-link').on('click', function () {
-      $('.nav-burger').removeClass('nav-burger_close');
-      $('.header-right-bottom').hide();
-      $('.header__mob').hide();
-      $('.header__socials').hide();
+      let windowsize = $(window).width();
+      if (windowsize < 1325) {
+        $('.nav-burger').removeClass('nav-burger_close');
+        $('.header-right-bottom').hide();
+        $('.header__mob').hide();
+        $('.header__socials').hide();
+      }
     });
     // end закрытие мобильного меню при клике на Contact Us
 

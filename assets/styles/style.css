@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* reset */
 *,
 *::after,
@@ -1236,6 +1237,9 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 .tag__item a {
   border: 1px solid rgba(93, 95, 239, 0.3);
@@ -1248,6 +1252,8 @@ main {
   color: #ffffff;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  width: 100%;
+  text-align: center;
 }
 .tag__item a:hover {
   background: #5d5fef;
@@ -1894,4 +1900,18 @@ main {
 .hover {
   background: #5d5fef;
   border-radius: 20px;
+}
+
+body::-webkit-scrollbar {
+  width: 12px; /* ширина scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #221c48; /* цвет дорожки */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #5d5fef; /* цвет плашки */
+  border-radius: 20px; /* закругления плашки */
+  border: 2px solid #140c1f; /* padding вокруг плашки */
 }
