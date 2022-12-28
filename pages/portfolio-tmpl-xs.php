@@ -1,9 +1,9 @@
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
+<?php require_once '../header.php'; ?>
 <div class="section portfolio-tmpl-xs">
     <!-- top-banner -->
     <section>
         <div class="top-banner-info">
-            <img src="<?php __FILE__; ?>/assets/images/default-top-banner.svg" alt="The-snow-fable">
+            <img src="../assets/images/default-top-banner.svg" alt="The-snow-fable">
             <h1 class="wow animate__fadeInLeft" data-wow-duration="500ms">wellore-studio cakes</h1>
             <div class="top-banner-info__wrap">
                 <div class="top-banner-info__item">
@@ -26,7 +26,9 @@
         </div>
     </section>
     <div class="portfolio-banner">
-        <img src="<?php __FILE__; ?>/assets/images/portfolio/banner-portfolio-xs.png" alt="banner-portfolio-xs">
+        <div class="portfolio-banner_img-wrap">
+            <img src="../assets/images/portfolio/banner-portfolio-xs.png" alt="banner-portfolio-xs">
+        </div>
     </div>
 
     <!-- h2-info-two Task & Level design & interface -->
@@ -37,10 +39,10 @@
         $body2 = 'Games of the Match-3 genre are very popular among users because of the simplicity of the gameplay and the fascination of the levels. Players must match tiles of the same type to score points. Additional bonuses encourage users to go further to get access to unique game materials. The interface is intuitive and presented in the form of a fairy tale book.';
     }
     ?>
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/h2-info-two.php'; ?>
+    <?php require_once '../templates/h2-info-two.php'; ?>
     <div class="wrap">
         <div class="bright-spot bright-spot-portfolio-xs-left">
-            <img src="<?php __FILE__; ?>/assets/images/bright-spots/bright-spot-portfolio-xs-left.svg" alt="bright-spot-portfolio-xs-left">
+            <img src="../assets/images/bright-spots/bright-spot-portfolio-xs-left.svg" alt="bright-spot-portfolio-xs-left">
         </div>
     </div>
 
@@ -51,7 +53,7 @@
             <div class="project-preview__item wow animate__fadeInLeft" data-wow-duration="500ms">
                 <a href="#">
                     <div class="project-preview__thumb">
-                        <img src="<?php __FILE__; ?>/assets/images/portfolio/similar-projects-xs-1.png" alt="similar-projects-xs-1">
+                        <img src="../assets/images/portfolio/similar-projects-xs-1.png" alt="similar-projects-xs-1">
                     </div>
                 </a>
                 <div class="project-preview__desc-wrap">
@@ -70,7 +72,7 @@
             <div class="project-preview__item wow animate__fadeInUp" data-wow-duration="500ms">
                 <a href="#">
                     <div class="project-preview__thumb">
-                        <img src="<?php __FILE__; ?>/assets/images/portfolio/project-preview-thumb-7.png" alt="project-preview-thumb-7">
+                        <img src="../assets/images/portfolio/project-preview-thumb-7.png" alt="project-preview-thumb-7">
                     </div>
                 </a>
                 <div class="project-preview__desc-wrap">
@@ -89,7 +91,7 @@
             <div class="project-preview__item wow animate__slideInRight" data-wow-duration="500ms">
                 <a href="#">
                     <div class="project-preview__thumb">
-                        <img src="<?php __FILE__; ?>/assets/images/portfolio/similar-projects-xs-2.png" alt="similar-projects-xs-2">
+                        <img src="../assets/images/portfolio/similar-projects-xs-2.png" alt="similar-projects-xs-2">
                     </div>
                 </a>
                 <div class="project-preview__desc-wrap">
@@ -109,6 +111,6 @@
     </section>
 
     <!--  Feedback form -->
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/feedback-form.php'; ?>
+    <?php require_once '../templates/feedback-form.php'; ?>
 </div>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+<?php require_once '../footer.php'; ?>

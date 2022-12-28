@@ -1,15 +1,16 @@
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
-<div class="section">
+<?php require_once '../header.php'; ?>
+<div class="section about-us_wrap">
     <!-- top-banner -->
     <section>
-        <div class="top-banner">
-            <img src="<?php __FILE__; ?>/assets/images/banner-about-us.png" alt="banner-about-us">
+        <div class="top-banner top-banner_about-us">
+            <img class="desk_img" src="../assets/images/banner-about-us.png" alt="banner-about-us">
+            <img class="mob_img" src="../assets/images/banner-about-us_mob.png" alt="banner-about-us">
             <h1 class="wow animate__fadeInLeft" data-wow-duration="500ms">About us</h1>
         </div>
     </section>
     <!-- Our advantages -->
-    <div class="wrap">
-        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/our-advantages.php'; ?>
+    <div class="wrap our-advantages_about-us">
+        <?php require_once '../templates/our-advantages.php'; ?>
         <!-- h2-info-two -->
         <? {
             $title1 = 'Client orientation';
@@ -19,25 +20,28 @@
         }
         ?>
         <div class="bright-spot bright-spot-about-us-1">
-            <img src="<?php __FILE__; ?>/assets/images/bright-spot-about-us-1.svg" alt="bright-spot-about-us-1">
+            <img src="../assets/images/bright-spot-about-us-1.svg" alt="bright-spot-about-us-1">
         </div>
     </div>
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/h2-info-two.php'; ?>
+    <?php require_once '../templates/h2-info-two.php'; ?>
+
     <!-- banner-our-works -->
     <div class="banner-our-works">
         <div class="banner-our-works__pic wow animate__fadeInUp" data-wow-duration="500ms">
-            <img src="<?php __FILE__; ?>/assets/images/about-us-banner-works.png" alt="about-us-banner-works">
+            <img class="desk_img" src="../assets/images/about-us-banner-works.png" alt="about-us-banner-works">
+            <img class="mob_img" src="../assets/images/about-us-banner-works_mob_img.png" alt="about-us-banner-works">
         </div>
         <span class="see-more-arrow banner-our-works__btn wow animate__headShake" data-wow-duration="500ms">
             <a href="#">
                 <span>See more works</span>
-                <img src="<?php __FILE__; ?>/assets/images/see-more-arrow.svg" alt="see-more-arrow">
+                <img src="../assets/images/see-more-arrow.svg" alt="see-more-arrow">
             </a>
         </span>
     </div>
+
     <!-- team -->
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/team.php'; ?>
+    <?php require_once '../templates/team.php'; ?>
     <!--  Feedback form -->
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/feedback-form.php'; ?>
+    <?php require_once '../templates/feedback-form.php'; ?>
 </div>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+<?php require_once '../footer.php'; ?>

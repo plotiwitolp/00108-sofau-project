@@ -70,27 +70,27 @@
         <div class="feedback-form__right wow animate__fadeInRight" data-wow-duration="500ms">
             <div class="socials feedback-form_socials">
                 <div class="socials-item">
-                    <a href="#">
-                        <img src="<?php __FILE__; ?>/assets/images/socials/mail.svg" alt="mail wellore.com">
+                    <a href="mailto:contact@wellore.com">
+                        <img src="../assets/images/socials/mail.svg" alt="mail wellore.com">
                     </a>
                 </div>
                 <div class="socials-item">
-                    <a href="#">
-                        <img src="<?php __FILE__; ?>/assets/images/socials/facebook.svg" alt="facebook wellore.com">
+                    <a href="https://www.facebook.com/wellore/">
+                        <img src="../assets/images/socials/facebook.svg" alt="facebook wellore.com">
                     </a>
                 </div>
                 <div class="socials-item">
-                    <a href="#">
-                        <img src="<?php __FILE__; ?>/assets/images/socials/instagram.svg" alt="instagram wellore.com">
+                    <a href="https://www.instagram.com/wellore_com/">
+                        <img src="../assets/images/socials/instagram.svg" alt="instagram wellore.com">
                     </a>
                 </div>
                 <div class="socials-item">
-                    <a href="#">
-                        <img src="<?php __FILE__; ?>/assets/images/socials/pinterest.svg" alt="pinterest wellore.com">
+                    <a href="https://ru.pinterest.com/wellore_com/">
+                        <img src="../assets/images/socials/pinterest.svg" alt="pinterest wellore.com">
                     </a>
                 </div>
             </div>
-            <img src="<?php __FILE__; ?>/assets/images/wellorepromoscreen_caschar.png" alt="wellorepromoscreen_caschar">
+            <img src="../assets/images/wellorepromoscreen_caschar.png" alt="wellorepromoscreen_caschar">
         </div>
     </div>
 </section>

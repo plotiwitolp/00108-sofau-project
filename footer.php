@@ -48,22 +48,22 @@
         <div class="footer-bottom__socials">
             <div class="footer-bottom__socials__item">
                 <a href="#">
-                    <img src="<?php __FILE__; ?>/assets/images/socials/youtube.svg" alt="youtube">
+                    <img src="<?php __FILE__ ?>/assets/images/socials/youtube.svg" alt="youtube">
                 </a>
             </div>
             <div class="footer-bottom__socials__item">
                 <a href="#">
-                    <img src="<?php __FILE__; ?>/assets/images/socials/twitter.svg" alt="twitter">
+                    <img src="<?php __FILE__ ?>/assets/images/socials/twitter.svg" alt="twitter">
+                </a>
+            </div>
+            <div class="footer-bottom__socials__item">
+                <a href="https://www.facebook.com/wellore/">
+                    <img src="<?php __FILE__ ?>/assets/images/socials/facebook-footer.svg" alt="facebook">
                 </a>
             </div>
             <div class="footer-bottom__socials__item">
                 <a href="#">
-                    <img src="<?php __FILE__; ?>/assets/images/socials/facebook-footer.svg" alt="facebook">
-                </a>
-            </div>
-            <div class="footer-bottom__socials__item">
-                <a href="#">
-                    <img src="<?php __FILE__; ?>/assets/images/socials/google-plus.svg" alt="google-plus">
+                    <img src="<?php __FILE__ ?>/assets/images/socials/google-plus.svg" alt="google-plus">
                 </a>
             </div>
         </div>
@@ -73,14 +73,14 @@
             All rights reserved @Wellore
         </div>
         <div class="bright-spot bright-spot-4">
-            <img src="<?php __FILE__; ?>/assets/images/bright-spot-4.svg" alt="bright-spot-4">
+            <img src="<?php __FILE__ ?>/assets/images/bright-spot-4.svg" alt="bright-spot-4">
         </div>
     </div>
 </footer>
 </div>
-<script src="<?php __FILE__; ?>/assets/scripts/jquery-3.6.0.min.js"></script>
-<script src="<?php __FILE__; ?>/assets/libs/wow/wow.min.js"></script>
-<script src="<?php __FILE__; ?>/assets/scripts/script.js"></script>
+<script src="<?php __FILE__ ?>/assets/scripts/jquery-3.6.0.min.js"></script>
+<script src="<?php __FILE__ ?>/assets/libs/wow/wow.min.js"></script>
+<script src="<?php __FILE__ ?>/assets/scripts/script.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
+<?php require_once '../header.php'; ?>
 <div class="section">
     <!-- top-banner -->
     <section>
@@ -8,18 +8,19 @@
     </section>
     <section class="portfolio">
         <!-- tags -->
-        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/tags.php'; ?>
+        <?php require_once '../templates/tags.php'; ?>
         <!-- project-preview -->
         <div class="project-preview">
             <div class="project-preview__item wow animate__fadeInLeft" data-wow-duration="500ms">
-                <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-l.php">
+                <a href="../pages/portfolio-tmpl-l.php">
                     <div class="project-preview__thumb">
-                        <img src="<?php __FILE__; ?>/assets/images/portfolio/project-preview-thumb-1.png" alt="project-preview-thumb-1">
+                        <img class="desk_img" src="../assets/images/portfolio/project-preview-thumb-1.png" alt="project-preview-thumb-1">
+                        <img class="mob_img" src="../assets/images/portfolio/project-preview-thumb-1_mob.png" alt="project-preview-thumb-1_mob">
                     </div>
                 </a>
                 <div class="project-preview__desc-wrap">
                     <div class="project-preview__desc">
-                        <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-l.php">
+                        <a href="../pages/portfolio-tmpl-l.php">
                             <h3>Viking - game trailer</h3>
                         </a>
                         <div class="project-preview__tag-wrap">
@@ -31,14 +32,15 @@
                 </div>
             </div>
             <div class="project-preview__item wow animate__fadeInUp" data-wow-duration="500ms">
-                <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-m.php">
+                <a href="../pages/portfolio-tmpl-m.php">
                     <div class="project-preview__thumb">
-                        <img src="<?php __FILE__; ?>/assets/images/portfolio/project-preview-thumb-7.png" alt="project-preview-thumb-7">
+                        <img class="desk_img" src="../assets/images/portfolio/project-preview-thumb-7.png" alt="project-preview-thumb-7">
+                        <img class="mob_img" src="../assets/images/portfolio/project-preview-thumb-2_mob.png" alt="project-preview-thumb-2_mob">
                     </div>
                 </a>
                 <div class="project-preview__desc-wrap">
                     <div class="project-preview__desc">
-                        <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-m.php">
+                        <a href="../pages/portfolio-tmpl-m.php">
                             <h3>Viking - game trailer</h3>
                         </a>
                         <div class="project-preview__tag-wrap">
@@ -50,14 +52,15 @@
                 </div>
             </div>
             <div class="project-preview__item wow animate__slideInRight" data-wow-duration="500ms">
-                <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-s.php">
+                <a href="../pages/portfolio-tmpl-s.php">
                     <div class="project-preview__thumb">
-                        <img src="<?php __FILE__; ?>/assets/images/portfolio/project-preview-thumb-3.png" alt="project-preview-thumb-3">
+                        <img class="desk_img" src="../assets/images/portfolio/project-preview-thumb-3.png" alt="project-preview-thumb-3">
+                        <img class="mob_img" src="../assets/images/portfolio/project-preview-thumb-3_mob.png" alt="project-preview-thumb-3_mob">
                     </div>
                 </a>
                 <div class="project-preview__desc-wrap">
                     <div class="project-preview__desc">
-                        <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-s.php">
+                        <a href="../pages/portfolio-tmpl-s.php">
                             <h3>Viking - game trailer</h3>
                         </a>
                         <div class="project-preview__tag-wrap">
@@ -69,14 +72,15 @@
                 </div>
             </div>
             <div class="project-preview__item wow animate__fadeInLeft" data-wow-duration="500ms">
-                <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-xs.php">
+                <a href="../pages/portfolio-tmpl-xs.php">
                     <div class="project-preview__thumb">
-                        <img src="<?php __FILE__; ?>/assets/images/portfolio/project-preview-thumb-4.png" alt="project-preview-thumb-4">
+                        <img class="desk_img" src="../assets/images/portfolio/project-preview-thumb-4.png" alt="project-preview-thumb-4">
+                        <img class="mob_img" src="../assets/images/portfolio/project-preview-thumb-4_mob.png" alt="project-preview-thumb-4_mob">
                     </div>
                 </a>
                 <div class="project-preview__desc-wrap">
                     <div class="project-preview__desc">
-                        <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-xs.php">
+                        <a href="../pages/portfolio-tmpl-xs.php">
                             <h3>Viking - game trailer</h3>
                         </a>
                         <div class="project-preview__tag-wrap">
@@ -88,14 +92,15 @@
                 </div>
             </div>
             <div class="project-preview__item wow animate__fadeInUp" data-wow-duration="500ms">
-                <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-l.php">
+                <a href="../pages/portfolio-tmpl-l.php">
                     <div class="project-preview__thumb">
-                        <img src="<?php __FILE__; ?>/assets/images/portfolio/project-preview-thumb-5.png" alt="project-preview-thumb-5">
+                        <img class="desk_img" src="../assets/images/portfolio/project-preview-thumb-5.png" alt="project-preview-thumb-5">
+                        <img class="mob_img" src="../assets/images/portfolio/project-preview-thumb-5_mob.png" alt="project-preview-thumb-5_mob">
                     </div>
                 </a>
                 <div class="project-preview__desc-wrap">
                     <div class="project-preview__desc">
-                        <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-l.php">
+                        <a href="../pages/portfolio-tmpl-l.php">
                             <h3>Viking - game trailer</h3>
                         </a>
                         <div class="project-preview__tag-wrap">
@@ -107,14 +112,15 @@
                 </div>
             </div>
             <div class="project-preview__item wow animate__slideInRight" data-wow-duration="500ms">
-                <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-m.php">
+                <a href="../pages/portfolio-tmpl-m.php">
                     <div class="project-preview__thumb">
-                        <img src="<?php __FILE__; ?>/assets/images/portfolio/project-preview-thumb-6.png" alt="project-preview-thumb-6">
+                        <img class="desk_img" src="../assets/images/portfolio/project-preview-thumb-6.png" alt="project-preview-thumb-6">
+                        <img class="mob_img" src="../assets/images/portfolio/project-preview-thumb-6_mob.png" alt="project-preview-thumb-6_mob">
                     </div>
                 </a>
                 <div class="project-preview__desc-wrap">
                     <div class="project-preview__desc">
-                        <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-m.php">
+                        <a href="../pages/portfolio-tmpl-m.php">
                             <h3>Viking - game trailer</h3>
                         </a>
                         <div class="project-preview__tag-wrap">
@@ -126,14 +132,15 @@
                 </div>
             </div>
             <div class="project-preview__item wow animate__fadeInLeft" data-wow-duration="500ms">
-                <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-s.php">
+                <a href="../pages/portfolio-tmpl-s.php">
                     <div class="project-preview__thumb">
-                        <img src="<?php __FILE__; ?>/assets/images/portfolio/project-preview-thumb-7.png" alt="project-preview-thumb-7">
+                        <img class="desk_img" src="../assets/images/portfolio/project-preview-thumb-7.png" alt="project-preview-thumb-7">
+                        <img class="mob_img" src="../assets/images/portfolio/project-preview-thumb-1_mob.png" alt="project-preview-thumb-1_mob">
                     </div>
                 </a>
                 <div class="project-preview__desc-wrap">
                     <div class="project-preview__desc">
-                        <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-s.php">
+                        <a href="../pages/portfolio-tmpl-s.php">
                             <h3>Viking - game trailer</h3>
                         </a>
                         <div class="project-preview__tag-wrap">
@@ -145,14 +152,15 @@
                 </div>
             </div>
             <div class="project-preview__item wow animate__fadeInUp" data-wow-duration="500ms">
-                <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-xs.php">
+                <a href="../pages/portfolio-tmpl-xs.php">
                     <div class="project-preview__thumb">
-                        <img src="<?php __FILE__; ?>/assets/images/portfolio/project-preview-thumb-8.png" alt="project-preview-thumb-8">
+                        <img class="desk_img" src="../assets/images/portfolio/project-preview-thumb-8.png" alt="project-preview-thumb-8">
+                        <img class="mob_img" src="../assets/images/portfolio/project-preview-thumb-2_mob.png" alt="project-preview-thumb-2_mob">
                     </div>
                 </a>
                 <div class="project-preview__desc-wrap">
                     <div class="project-preview__desc">
-                        <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-xs.php">
+                        <a href="../pages/portfolio-tmpl-xs.php">
                             <h3>Viking - game trailer</h3>
                         </a>
                         <div class="project-preview__tag-wrap">
@@ -164,14 +172,15 @@
                 </div>
             </div>
             <div class="project-preview__item wow animate__slideInRight" data-wow-duration="500ms">
-                <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-l.php">
+                <a href="../pages/portfolio-tmpl-l.php">
                     <div class="project-preview__thumb">
-                        <img src="<?php __FILE__; ?>/assets/images/portfolio/project-preview-thumb-9.png" alt="project-preview-thumb-9">
+                        <img class="desk_img" src="../assets/images/portfolio/project-preview-thumb-9.png" alt="project-preview-thumb-9">
+                        <img class="mob_img" src="../assets/images/portfolio/project-preview-thumb-3_mob.png" alt="project-preview-thumb-3_mob">
                     </div>
                 </a>
                 <div class="project-preview__desc-wrap">
                     <div class="project-preview__desc">
-                        <a href="<?php __FILE__; ?>/pages/portfolio-tmpl-l.php">
+                        <a href="../pages/portfolio-tmpl-l.php">
                             <h3>Viking - game trailer</h3>
                         </a>
                         <div class="project-preview__tag-wrap">
@@ -183,20 +192,20 @@
                 </div>
             </div>
             <div class="bright-spot bright-spot-blog-1">
-                <img src="<?php __FILE__; ?>/assets/images/bright-spot-blog-1.svg" alt="bright-spot-blog-1">
+                <img src="../assets/images/bright-spot-blog-1.svg" alt="bright-spot-blog-1">
             </div>
         </div>
         <!-- pagination -->
-        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/pagination.php'; ?>
+        <?php require_once '../templates/pagination.php'; ?>
     </section>
     <div class="feedback-form__portfolio">
         <!--  feedback form -->
-        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/feedback-form.php'; ?>
+        <?php require_once '../templates/feedback-form.php'; ?>
     </div>
     <div class="wrap">
         <div class="bright-spot bright-spot-blog-bottom">
-            <img src="<?php __FILE__; ?>/assets/images/bright-spots/bright-spot-portfolio-top.svg" alt="bright-spot-portfolio-top">
+            <img src="../assets/images/bright-spots/bright-spot-portfolio-top.svg" alt="bright-spot-portfolio-top">
         </div>
     </div>
 </div>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+<?php require_once '../footer.php'; ?>

@@ -9,8 +9,6 @@
     width: 390px;
     margin: 0 auto;
     overflow: hidden;
-    border-left: 1px solid red;
-    border-right: 1px solid red;
     padding: 0px 18px 0 22px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -41,6 +39,7 @@
     height: 100vh;
     background: #140c1f;
     margin-right: -40px;
+    margin-left: -2px;
     padding: 37px 20px 25px 20px;
     border-bottom: 1px solid rgba(93, 95, 239, 0.3);
   }
@@ -158,6 +157,7 @@
   }
   .job-preview__thumb {
     height: 163px;
+    width: 350px;
   }
   .job-preview__desc .see-more-btn {
     margin-bottom: 0px;
@@ -216,11 +216,12 @@
   }
   .our-works {
     margin-top: 88px;
-    margin-bottom: 100px;
+    margin-bottom: 88px;
+    padding-bottom: 100px;
   }
   .see-more-arrow {
     position: absolute;
-    bottom: -100px;
+    bottom: 0;
     margin: 0;
     width: 350px;
   }
@@ -234,17 +235,14 @@
     gap: 21px;
   }
   .works-gallery__item {
-    width: 100%;
+    width: 350px !important;
     height: 240px;
-  }
-  .works-gallery__item:not(:nth-child(-n+4)) {
-    display: none;
   }
   .works-gallery__item img {
     width: 100%;
   }
   .feedback-form {
-    margin-top: 187px;
+    margin-top: 88px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -333,5 +331,204 @@
     height: 456px;
     overflow: hidden;
     border-radius: 20px;
+  }
+  .feedback-form__right {
+    width: 100%;
+  }
+  .services-4-blocks__item {
+    width: 100%;
+  }
+  .services-4-blocks-thumb__item {
+    width: 100%;
+    padding: 26px;
+  }
+  .services-4-blocks-thumb__pic {
+    width: 298px;
+    height: 61px;
+  }
+  .services-4-blocks-thumb__pic img {
+    margin: auto;
+  }
+  .services-4-blocks-thumb {
+    margin-top: 88px;
+    margin-bottom: 88px;
+  }
+  .h2-info__item {
+    padding: 26px;
+  }
+  .h2-info__pic {
+    display: none;
+  }
+  .team {
+    border-top: 0;
+    padding-top: 0;
+    margin-top: 88px;
+    margin-bottom: 88px;
+  }
+  .team__cart {
+    width: 100%;
+    padding: 26px 26px 31px 26px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .team__cart-photo {
+    width: 296px;
+  }
+  .services-4-blocks_row .services-4-blocks__item {
+    width: 100%;
+  }
+  .services-4-blocks__pic {
+    width: 350px;
+  }
+  .services-4-blocks {
+    margin-bottom: 88px;
+  }
+  .h2-info {
+    margin-top: 88px;
+    margin-bottom: 88px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .banner-our-works {
+    margin-top: 88px;
+    margin-bottom: 88px;
+    padding-bottom: 100px;
+  }
+  .services-3-blocks_row .services-4-blocks__item {
+    width: 100%;
+  }
+  .services-3-blocks_row .services-4-blocks__pic {
+    width: 350px;
+    height: 163px;
+  }
+  .portfolio .tag {
+    padding: 0px 0 36px;
+  }
+  .feedback-form__portfolio .feedback-form {
+    margin-top: 38px;
+    margin-bottom: 0;
+  }
+  .project-preview__item {
+    width: 100%;
+  }
+  .project-preview {
+    row-gap: 20px;
+  }
+  .pagination {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+  .top-banner-info {
+    min-height: 449px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 55px;
+  }
+  .top-banner-info h1 {
+    margin-top: 44px;
+    padding: 0 20px;
+    text-align: left;
+  }
+  .top-banner-info__wrap {
+    margin-top: 44px;
+    padding: 0 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 15px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .top-banner-info__item {
+    width: 165px;
+    padding: 16px 5px 15px 15px;
+  }
+  .top-banner-info__title {
+    font-size: 15px;
+  }
+  .top-banner-info__body {
+    font-size: 20px;
+  }
+  .portfolio-banner {
+    width: 350px;
+  }
+  .portfolio-banner_img-wrap img {
+    width: 100%;
+  }
+  .gallery_1,
+.gallery_2,
+.gallery_3,
+.gallery_4,
+.gallery_5 {
+    margin-top: 0;
+  }
+  .project-preview__desc {
+    min-height: 140px;
+  }
+  .portfolio-tmpl-xs .top-banner-info__wrap {
+    margin: 44px 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+  .top-banner_about-us {
+    margin-left: -20px;
+    margin-right: -20px;
+    min-height: 0;
+  }
+  .top-banner_about-us h1 {
+    padding: 0 20px;
+  }
+  .our-advantages_about-us .our-advantages {
+    margin-top: 44px;
+  }
+  .our-advantages_about-us .technic {
+    display: none;
+  }
+  .about-us_wrap .banner-our-works__pic {
+    height: 623px;
+  }
+  .about-us_wrap .h2-info {
+    gap: 44px;
+    margin-bottom: 44px;
+  }
+  .about-us_wrap .banner-our-works {
+    margin-top: 44px;
+  }
+  .post-preview {
+    margin-top: 44px;
+    border-top: 0;
+    padding-top: 0;
+  }
+  .post-preview__item {
+    width: 100%;
+  }
+  .post h1,
+.contacts h1 {
+    margin: 44px 0 44px;
+    text-align: left;
+  }
+  .post_body img,
+.contacts_body img {
+    width: 100%;
+    margin-top: 22px;
+    margin-bottom: 22px;
+  }
+  .lizard404 {
+    padding-left: 0;
+    padding-top: 73px;
+    padding-bottom: 88px;
+    height: 743px;
+  }
+  .lizard404 img {
+    width: 100%;
+  }
+  .lizard404 .lizard404__hint {
+    width: 350px;
+    top: 220px;
+    left: 0;
+  }
+  .bright-spot-404-2 {
+    left: -20px;
+    bottom: 160px;
   }
 }

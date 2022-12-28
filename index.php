@@ -1,11 +1,11 @@
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
+<?php require_once './header.php'; ?>
 
 <div class="section">
     <!-- MAIN TOP -->
     <section class="main-top">
         <div class="main-pic ">
-            <img src="<?php __FILE__; ?>/assets/images/baner-1.png" alt="baner-1">
-            <img class="main-pic__bg " src="<?php __FILE__; ?>/assets/images/baner-1-bg.png" alt="baner-1-bg">
+            <img src="./assets/images/baner-1.png" alt="baner-1">
+            <img class="main-pic__bg " src="./assets/images/baner-1-bg.png" alt="baner-1-bg">
         </div>
         <div class="main-title">
             <h1>
@@ -27,12 +27,13 @@
     <!-- OUR SERVIСES -->
     <section class="our-services">
         <div class="our-services__h2">
-            <h2>OUR SERVIСES</h2>
+            <h2>OUR SERVICES</h2>
         </div>
         <div class="job-preview">
             <div class="job-preview__item wow animate__fadeInLeft" data-wow-duration="500ms">
                 <div class="job-preview__thumb">
-                    <img src="<?php __FILE__; ?>/assets/images/our_services-3d_art.png" alt="our_services-3d_art">
+                    <img class="desk_img" src="./assets/images/our_services-3d_art.png" alt="our_services-3d_art">
+                    <img class="mob_img" src="./assets/images/mob_img/home/our_services-3d_art_mob.png" alt="our_services-3d_art_mob">
                 </div>
                 <div class="job-preview__desc-wrap">
                     <div class="job-preview__desc">
@@ -46,7 +47,8 @@
             </div>
             <div class="job-preview__item wow animate__fadeInUp" data-wow-duration="500ms">
                 <div class="job-preview__thumb">
-                    <img src="<?php __FILE__; ?>/assets/images/our_services-2d_art.png" alt="our_services-2d_art">
+                    <img class="desk_img" src="./assets/images/our_services-2d_art.png" alt="our_services-2d_art">
+                    <img class="mob_img" src="./assets/images/mob_img/home/our_services-2d_art_mob.png" alt="our_services-2d_art_mob">
                 </div>
                 <div class="job-preview__desc-wrap">
                     <div class="job-preview__desc">
@@ -60,7 +62,8 @@
             </div>
             <div class="job-preview__item wow animate__slideInRight" data-wow-duration="500ms">
                 <div class="job-preview__thumb">
-                    <img src="<?php __FILE__; ?>/assets/images/animation.png" alt="animation">
+                    <img class="desk_img" src="./assets/images/animation.png" alt="animation">
+                    <img class="mob_img" src="./assets/images/mob_img/home/animation_mob.png" alt="animation_mob">
                 </div>
                 <div class="job-preview__desc-wrap">
                     <div class="job-preview__desc">
@@ -74,7 +77,8 @@
             </div>
             <div class="job-preview__item wow animate__fadeInLeft" data-wow-duration="500ms">
                 <div class="job-preview__thumb">
-                    <img src="<?php __FILE__; ?>/assets/images/game_development.png" alt="game_development">
+                    <img class="desk_img" src="./assets/images/game_development.png" alt="game_development">
+                    <img class="mob_img" src="./assets/images/mob_img/home/game_development_mob.png" alt="game_development_mob">
                 </div>
                 <div class="job-preview__desc-wrap">
                     <div class="job-preview__desc">
@@ -88,7 +92,8 @@
             </div>
             <div class="job-preview__item wow animate__fadeInUp" data-wow-duration="500ms">
                 <div class="job-preview__thumb">
-                    <img src="<?php __FILE__; ?>/assets/images/marketing.png" alt="marketing">
+                    <img class="desk_img" src="./assets/images/marketing.png" alt="marketing">
+                    <img class="mob_img" src="./assets/images/mob_img/home/marketing_mob.png" alt="marketing_mob">
                 </div>
                 <div class="job-preview__desc-wrap">
                     <div class="job-preview__desc">
@@ -102,7 +107,8 @@
             </div>
             <div class="job-preview__item wow animate__slideInRight" data-wow-duration="500ms">
                 <div class="job-preview__thumb">
-                    <img src="<?php __FILE__; ?>/assets/images/cinematics.png" alt="cinematics">
+                    <img class="desk_img" src="./assets/images/cinematics.png" alt="cinematics">
+                    <img class="mob_img" src="./assets/images/mob_img/home/cinematics_mob.png" alt="cinematics_mob">
                 </div>
                 <div class="job-preview__desc-wrap">
                     <div class="job-preview__desc">
@@ -116,14 +122,14 @@
             </div>
         </div>
         <div class="bright-spot bright-spot-1">
-            <img src="<?php __FILE__; ?>/assets/images/bright-spot-1.svg" alt="bright-spot-1">
+            <img src="./assets/images/bright-spot-1.svg" alt="bright-spot-1">
         </div>
         <div class="bright-spot bright-spot-2">
-            <img src="<?php __FILE__; ?>/assets/images/bright-spot-2.svg" alt="bright-spot-2">
+            <img src="./assets/images/bright-spot-2.svg" alt="bright-spot-2">
         </div>
     </section>
     <!-- Our advantages -->
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/our-advantages.php'; ?>
+    <?php require_once './templates/our-advantages.php'; ?>
     <!-- OUR WORKS -->
     <section class="our-works">
         <div class="works-title">
@@ -131,52 +137,59 @@
             <span class="see-more-arrow ">
                 <a href="#">
                     <span>See more works</span>
-                    <img src="<?php __FILE__; ?>/assets/images/see-more-arrow.svg" alt="see-more-arrow">
+                    <img src="./assets/images/see-more-arrow.svg" alt="see-more-arrow">
                 </a>
             </span>
         </div>
         <div class="works-gallery">
             <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
                 <a href="#">
-                    <img src="<?php __FILE__; ?>/assets/images/our_works-1.png" alt="our_works-1">
+                    <img class="desk_img" src="./assets/images/our_works-1.png" alt="our_works-1">
+                    <img class="mob_img" src="./assets/images/mob_img/home/our_works-1_mob.png" alt="our_works-1">
                 </a>
             </div>
             <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
                 <a href="#">
-                    <img src="<?php __FILE__; ?>/assets/images/our_works-2.png" alt="our_works-2">
+                    <img class="desk_img" src="./assets/images/our_works-2.png" alt="our_works-2">
+                    <img class="mob_img" src="./assets/images/mob_img/home/our_works-2_mob.png" alt="our_works-2">
                 </a>
             </div>
             <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
                 <a href="#">
-                    <img src="<?php __FILE__; ?>/assets/images/our_works-3.png" alt="our_works-3">
+                    <img class="desk_img" src="./assets/images/our_works-3.png" alt="our_works-3">
+                    <img class="mob_img" src="./assets/images/mob_img/home/our_works-3_mob.png" alt="our_works-3">
                 </a>
             </div>
             <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
                 <a href="#">
-                    <img src="<?php __FILE__; ?>/assets/images/our_works-4.png" alt="our_works-4">
+                    <img class="desk_img" src="./assets/images/our_works-4.png" alt="our_works-4">
+                    <img class="mob_img" src="./assets/images/mob_img/home/our_works-4_mob.png" alt="our_works-4">
                 </a>
             </div>
             <div class="works-gallery__item wow animate__fadeInBottomLeft" data-wow-duration="500ms">
                 <a href="#">
-                    <img src="<?php __FILE__; ?>/assets/images/our_works-5.png" alt="our_works-5">
+                    <img class="desk_img" src="./assets/images/our_works-5.png" alt="our_works-5">
+                    <img class="mob_img" src="./assets/images/mob_img/home/our_works-1_mob.png" alt="our_works-1_mob">
                 </a>
             </div>
             <div class="works-gallery__item wow animate__fadeInUp" data-wow-duration="500ms">
                 <a href="#">
-                    <img src="<?php __FILE__; ?>/assets/images/our_works-6.png" alt="our_works-6">
+                    <img class="desk_img" src="./assets/images/our_works-6.png" alt="our_works-6">
+                    <img class="mob_img" src="./assets/images/mob_img/home/our_works-2_mob.png" alt="our_works-2_mob">
                 </a>
             </div>
             <div class="works-gallery__item wow animate__fadeInBottomRight" data-wow-duration="500ms">
                 <a href="#">
-                    <img src="<?php __FILE__; ?>/assets/images/our_works-7.png" alt="our_works-7">
+                    <img class="desk_img" src="./assets/images/our_works-7.png" alt="our_works-7">
+                    <img class="mob_img" src="./assets/images/mob_img/home/our_works-3_mob.png" alt="our_works-3_mob">
                 </a>
             </div>
         </div>
         <div class="bright-spot bright-spot-3">
-            <img src="<?php __FILE__; ?>/assets/images/bright-spot-3.svg" alt="bright-spot-3">
+            <img src="./assets/images/bright-spot-3.svg" alt="bright-spot-3">
         </div>
     </section>
     <!--  Feedback form -->
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/feedback-form.php'; ?>
+    <?php require_once './templates/feedback-form.php'; ?>
 </div>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+<?php require_once './footer.php'; ?>

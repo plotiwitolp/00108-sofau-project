@@ -14,7 +14,9 @@ $img;
             </div>
         </div>
         <div class="h2-info__pic">
-            <img src="<?= $img ?>" alt="h2-info__pic">
+            <div class="h2-info__pic_wrap">
+                <img src="<?= $img ?>" alt="h2-info__pic">
+            </div>
         </div>
     </div>
 </section>

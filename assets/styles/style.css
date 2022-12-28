@@ -403,7 +403,6 @@ h2 {
 }
 
 .job-preview__thumb {
-  height: 240px;
   overflow: hidden;
   position: relative;
 }
@@ -601,7 +600,6 @@ h2 {
 
 .works-gallery__item {
   border-radius: 20px;
-  overflow: hidden;
 }
 
 .feedback-form {
@@ -1065,6 +1063,7 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 96px;
+  position: relative;
 }
 
 .banner-our-works__pic {
@@ -1105,7 +1104,6 @@ main {
 }
 
 .team__cart-photo {
-  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -1180,7 +1178,11 @@ main {
 }
 
 .post-preview__item-pic {
-  min-height: 260px;
+  height: 260px;
+}
+.post-preview__item-pic a {
+  display: block;
+  overflow: hidden;
 }
 
 .post-preview__item-h2 {
@@ -1414,7 +1416,7 @@ main {
 
 .feedback-form__portfolio .feedback-form {
   margin-top: 50px;
-  margin-bottom: -100px;
+  margin-bottom: 0;
 }
 
 .portfolio .bright-spot-blog-2 {
@@ -1672,15 +1674,17 @@ main {
   margin: 56px 0 56px;
   text-align: center;
 }
-.post p,
-.contacts p {
+
+.post_body p,
+.contacts_body p {
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
+  margin: 22px 0 22px;
 }
-.post img,
-.contacts img {
-  margin: 45px 0 0;
+.post_body img,
+.contacts_body img {
+  margin: 45px 0 45px;
 }
 
 .bright-spot-blog-bottom {
@@ -1704,6 +1708,187 @@ main {
 .bright-spot-portfolio-xs-left {
   left: -95px;
   bottom: -550px;
+}
+
+.contacts_body img {
+  border-radius: 20px;
+}
+
+.header__logo,
+.job-preview__thumb,
+.feedback-form__right,
+.works-gallery__item,
+.services-banner,
+.services-4-blocks__pic,
+.h2-info__pic_wrap,
+.portfolio-banner_img-wrap,
+.test {
+  overflow: hidden;
+}
+
+.header__logo {
+  width: 115px;
+  height: 38px;
+}
+
+.main-pic {
+  height: 576px;
+  width: 752px;
+}
+
+.job-preview__thumb {
+  height: 240px;
+  width: 427px;
+}
+
+.works-gallery__item {
+  height: 240px;
+}
+
+.works-gallery__item:nth-child(1) {
+  width: 426px;
+}
+
+.works-gallery__item:nth-child(2) {
+  width: 202px;
+}
+
+.works-gallery__item:nth-child(3) {
+  width: 314px;
+}
+
+.works-gallery__item:nth-child(4) {
+  width: 315px;
+}
+
+.works-gallery__item:nth-child(5) {
+  width: 314px;
+}
+
+.works-gallery__item:nth-child(6) {
+  width: 426px;
+}
+
+.works-gallery__item:nth-child(7) {
+  width: 538px;
+}
+
+.gallery_1 .works-gallery__item:nth-child(1) {
+  width: 314px;
+}
+.gallery_1 .works-gallery__item:nth-child(2) {
+  width: 538px;
+}
+.gallery_1 .works-gallery__item:nth-child(3) {
+  width: 426px;
+}
+.gallery_1 .works-gallery__item:nth-child(4) {
+  width: 202px;
+}
+.gallery_1 .works-gallery__item:nth-child(5) {
+  width: 426px;
+}
+.gallery_1 .works-gallery__item:nth-child(6) {
+  width: 314px;
+}
+.gallery_1 .works-gallery__item:nth-child(7) {
+  width: 314px;
+}
+
+.gallery_2 .works-gallery__item:nth-child(1) {
+  width: 202px;
+}
+.gallery_2 .works-gallery__item:nth-child(2) {
+  width: 426px;
+}
+.gallery_2 .works-gallery__item:nth-child(3) {
+  width: 314px;
+}
+.gallery_2 .works-gallery__item:nth-child(4) {
+  width: 314px;
+}
+.gallery_2 .works-gallery__item:nth-child(5) {
+  width: 314px;
+}
+.gallery_2 .works-gallery__item:nth-child(6) {
+  width: 538px;
+}
+.gallery_2 .works-gallery__item:nth-child(7) {
+  width: 426px;
+}
+
+.gallery_3 .works-gallery__item:nth-child(1) {
+  width: 314px;
+}
+.gallery_3 .works-gallery__item:nth-child(2) {
+  width: 538px;
+}
+.gallery_3 .works-gallery__item:nth-child(3) {
+  width: 426px;
+}
+
+.gallery_4 .works-gallery__item:nth-child(1) {
+  width: 202px;
+}
+.gallery_4 .works-gallery__item:nth-child(2) {
+  width: 426px;
+}
+.gallery_4 .works-gallery__item:nth-child(3) {
+  width: 314px;
+}
+.gallery_4 .works-gallery__item:nth-child(4) {
+  width: 314px;
+}
+
+.gallery_5 .works-gallery__item:nth-child(1) {
+  width: 314px;
+}
+.gallery_5 .works-gallery__item:nth-child(2) {
+  width: 538px;
+}
+.gallery_5 .works-gallery__item:nth-child(3) {
+  width: 426px;
+}
+
+.feedback-form__right {
+  width: 552px;
+}
+
+.services-banner {
+  height: 237px;
+  width: 1320px;
+  border-radius: 20px;
+}
+
+.services-4-blocks__pic {
+  width: 650px;
+  height: 97px;
+}
+
+.services-4-blocks-thumb__pic {
+  width: 245px;
+  height: 61px;
+}
+
+.h2-info__pic_wrap {
+  width: 385px;
+  height: 169px;
+  border-radius: 20px;
+}
+
+.team__cart-photo {
+  width: 246px;
+  height: 160px;
+  border-radius: 10px;
+}
+
+.banner-our-works__pic {
+  height: 472px;
+}
+
+.project-preview__thumb {
+  width: 427px;
+  overflow: hidden;
 }
 
 .hover {

@@ -79,22 +79,23 @@
     // end временная пагинация для демонстрации
 
     // start временное переключение по меткам для демонстрации
-    /* portfolio */
+    /* services & portfolio при переходе по страницам*/
+    let link = window.location.href;
+    let linkId = link.split('id')[1];
+    let linkIdEl = $('.services .tag__item')[+linkId];
+    let linkIdElPrtf = $('.portfolio .tag__item')[+linkId];
+    $(linkIdEl).addClass('hover');
+    $(linkIdElPrtf).addClass('hover');
+    /* portfolio & services  при клике на самой странийце по меткам*/
+    $('.portfolio .tag__item').on('click', function () {
+      $('.portfolio .tag__item').removeClass('hover');
+      $(this).addClass('hover');
+    });
     $('.header__desk-sub_test a').on('click', function () {
       let id = $(this).attr('href').split('id')[1];
       let elTag = $('.tag .tag__item')[id];
       $('.tag .tag__item').removeClass('hover');
       $(elTag).addClass('hover');
-    });
-    /* services */
-    let link = window.location.href;
-    let linkId = link.split('id')[1];
-    let linkIdEl = $('.services .tag__item')[+linkId];
-    $(linkIdEl).addClass('hover');
-    /* portfolio & services  при клике на самой странийце по меткам*/
-    $('.portfolio .tag__item').on('click', function () {
-      $('.portfolio .tag__item').removeClass('hover');
-      $(this).addClass('hover');
     });
     // end временное переключение по меткам для демонстрации
 
@@ -119,6 +120,15 @@
       $(this).toggleClass('nav-burger_close', '');
     });
     // end верхнее меню для моб версии
+
+    // start закрытие мобильного меню при клике на Contact Us
+    $('.feedback-form-link').on('click', function () {
+      $('.nav-burger').removeClass('nav-burger_close');
+      $('.header-right-bottom').hide();
+      $('.header__mob').hide();
+      $('.header__socials').hide();
+    });
+    // end закрытие мобильного меню при клике на Contact Us
 
     // start security
     // document.onkeydown = function (e) {
