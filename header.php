@@ -1,68 +1,65 @@
-<?php
-// v6
-$subDomen = '/wellore-com-v6';
-$domenName = 'http://' . $_SERVER['SERVER_NAME'] . "$subDomen";
-?>
-
 <!DOCTYPE html>
-<html xml:lang="en-gb" lang="en-gb">
+<html <?php language_attributes(); ?>>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wellore: Game art and development outsourcing studio | 2D and 3D art for games</title>
-    <link href="<?= $domenName ?>/assets/images/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
-    <meta name="keywords" content="gamedev, game art, game design, 2d art, 3d art, character design, environment design, props, vfx, animation, game development, illustration">
-    <meta name="description" content="Game art and Development outsourcing studio. We have been creating 2D and 3D art for more than 12 years. We turn your ideas into reality!">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="<?= $domenName ?>/assets/fonts/Lato/stylesheet.css">
-    <link rel="stylesheet" href="<?= $domenName ?>/assets/libs/animate/animate.min.css">
-    <link rel="stylesheet" href="<?= $domenName ?>/assets/styles/style.css?v=6.1">
-    <link rel="stylesheet" href="<?= $domenName ?>/assets/styles/responsive.css?v=6.1">
+
+    <title><?php bloginfo('name'); ?>: <?php bloginfo('description'); ?></title>
+    <!-- Wellore: Game art and development outsourcing studio | 2D and 3D art for games -->
+
+    <meta name="keywords" content="<?php bloginfo('keywords'); ?>">
+    <!-- gamedev, game art, game design, 2d art, 3d art, character design, environment design, props, vfx, animation, game development, illustration -->
+
+    <meta name="description" content="<?php bloginfo('description'); ?>">
+    <!-- Game art and Development outsourcing studio. We have been creating 2D and 3D art for more than 12 years. We turn your ideas into reality! -->
+
+    <?php wp_head(); ?>
+
 </head>
 
-<body oncontextmenu="return false;">
+<body oncontextmenu="return true;">
     <div class="page-wrap">
         <header>
             <div class="section">
                 <div class="header">
                     <div class="header-left-top">
                         <div class="header__logo">
-                            <a href="<?= $domenName ?>">
-                                <img src="<?= $domenName ?>/assets/images/logo.svg" alt="wellore.com">
+                            <a href=".">
+                                <img src="<?php bloginfo('template_url'); ?>/assets/images/logo.svg" alt="wellore.com">
                             </a>
                         </div>
                         <nav class="header__desk-wrap">
                             <ul class="header__desk">
-                                <li><a href="<?= $domenName ?>">Home</a></li>
+                                <li><a href=".">Home</a></li>
                                 <li><a href="#">Services</a>
                                     <div class="header__desk-sub-wrap">
                                         <ul class="header__desk-sub services_sub_test">
-                                            <li><a href="<?= $domenName ?>/pages/services-tmpl-l.php?id0">3D Art</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/services-tmpl-m.php?id1">2D Art</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/services-tmpl-s.php?id2">Animation</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/services-tmpl-l.php?id3">Game development</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/services-tmpl-m.php?id4">Marketing</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/services-tmpl-s.php?id5">Cinematics</a></li>
+                                            <li><a href="./pages/services-tmpl-l.php?id0">3D Art</a></li>
+                                            <li><a href="./pages/services-tmpl-m.php?id1">2D Art</a></li>
+                                            <li><a href="./pages/services-tmpl-s.php?id2">Animation</a></li>
+                                            <li><a href="./pages/services-tmpl-l.php?id3">Game development</a></li>
+                                            <li><a href="./pages/services-tmpl-m.php?id4">Marketing</a></li>
+                                            <li><a href="./pages/services-tmpl-s.php?id5">Cinematics</a></li>
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="<?= $domenName ?>/pages/portfolio.php">Portfolio</a>
+                                <li><a href="./pages/portfolio.php">Portfolio</a>
                                     <div class="header__desk-sub-wrap">
                                         <ul class="header__desk-sub header__desk-sub_test">
-                                            <li><a href="<?= $domenName ?>/pages/portfolio.php?id0">3D Art</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/portfolio.php?id1">2D Art</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/portfolio.php?id2">Animation</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/portfolio.php?id3">Game development</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/portfolio.php?id4">Marketing</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/portfolio.php?id5">Cinematics</a></li>
+                                            <li><a href="./pages/portfolio.php?id0">3D Art</a></li>
+                                            <li><a href="./pages/portfolio.php?id1">2D Art</a></li>
+                                            <li><a href="./pages/portfolio.php?id2">Animation</a></li>
+                                            <li><a href="./pages/portfolio.php?id3">Game development</a></li>
+                                            <li><a href="./pages/portfolio.php?id4">Marketing</a></li>
+                                            <li><a href="./pages/portfolio.php?id5">Cinematics</a></li>
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="<?= $domenName ?>/pages/about-us.php">About us</a></li>
-                                <li><a href="<?= $domenName ?>/pages/blog.php">Blog</a></li>
-                                <li><a href="<?= $domenName ?>/pages/contacts.php">Contacts</a></li>
+                                <li><a href="./pages/about-us.php">About us</a></li>
+                                <li><a href="./pages/blog.php">Blog</a></li>
+                                <li><a href="./pages/contacts.php">Contacts</a></li>
                             </ul>
                         </nav>
                         <div class="nav-burger">
@@ -75,30 +72,30 @@ $domenName = 'http://' . $_SERVER['SERVER_NAME'] . "$subDomen";
                         <div class="header-right-bottom-wrap">
                             <nav class="header__mob-wrap">
                                 <ul class="header__mob">
-                                    <li><a href="/">Home</a></li>
+                                    <li><a href=".">Home</a></li>
                                     <li><a href="#">Services</a>
                                         <ul class="header__mob-sub">
-                                            <li><a href="<?= $domenName ?>/pages/services-tmpl-l.php?id0">3D Art</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/services-tmpl-m.php?id1">2D Art</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/services-tmpl-s.php?id2">Animation</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/services-tmpl-l.php?id3">Game development</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/services-tmpl-m.php?id4">Marketing</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/services-tmpl-s.php?id5">Cinematics</a></li>
+                                            <li><a href="./pages/services-tmpl-l.php?id0">3D Art</a></li>
+                                            <li><a href="./pages/services-tmpl-m.php?id1">2D Art</a></li>
+                                            <li><a href="./pages/services-tmpl-s.php?id2">Animation</a></li>
+                                            <li><a href="./pages/services-tmpl-l.php?id3">Game development</a></li>
+                                            <li><a href="./pages/services-tmpl-m.php?id4">Marketing</a></li>
+                                            <li><a href="./pages/services-tmpl-s.php?id5">Cinematics</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Portfolio</a>
                                         <ul class="header__mob-sub header__desk-sub_test">
-                                            <li><a href="<?= $domenName ?>/pages/portfolio.php?id0">3D Art</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/portfolio.php?id1">2D Art</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/portfolio.php?id2">Animation</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/portfolio.php?id3">Game development</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/portfolio.php?id4">Marketing</a></li>
-                                            <li><a href="<?= $domenName ?>/pages/portfolio.php?id5">Cinematics</a></li>
+                                            <li><a href="./pages/portfolio.php?id0">3D Art</a></li>
+                                            <li><a href="./pages/portfolio.php?id1">2D Art</a></li>
+                                            <li><a href="./pages/portfolio.php?id2">Animation</a></li>
+                                            <li><a href="./pages/portfolio.php?id3">Game development</a></li>
+                                            <li><a href="./pages/portfolio.php?id4">Marketing</a></li>
+                                            <li><a href="./pages/portfolio.php?id5">Cinematics</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="<?= $domenName ?>/pages/about-us.php">About us</a></li>
-                                    <li><a href="<?= $domenName ?>/pages/blog.php">Blog</a></li>
-                                    <li><a href="<?= $domenName ?>/pages/contacts.php">Contacts</a></li>
+                                    <li><a href="./pages/about-us.php">About us</a></li>
+                                    <li><a href="./pages/blog.php">Blog</a></li>
+                                    <li><a href="./pages/contacts.php">Contacts</a></li>
                                 </ul>
                             </nav>
                             <div class="button-wrapper">
@@ -110,22 +107,22 @@ $domenName = 'http://' . $_SERVER['SERVER_NAME'] . "$subDomen";
                                 <div class="socials">
                                     <div class="socials-item">
                                         <a href="mailto:contact@wellore.com">
-                                            <img src="<?= $domenName ?>/assets/images/socials/mail.svg" alt="mail wellore.com">
+                                            <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/mail.svg" alt="mail wellore.com">
                                         </a>
                                     </div>
                                     <div class="socials-item">
                                         <a href="https://www.facebook.com/wellore/">
-                                            <img src="<?= $domenName ?>/assets/images/socials/facebook.svg" alt="facebook wellore.com">
+                                            <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/facebook.svg" alt="facebook wellore.com">
                                         </a>
                                     </div>
                                     <div class="socials-item">
                                         <a href="https://www.instagram.com/wellore_com/">
-                                            <img src="<?= $domenName ?>/assets/images/socials/instagram.svg" alt="instagram wellore.com">
+                                            <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/instagram.svg" alt="instagram wellore.com">
                                         </a>
                                     </div>
                                     <div class="socials-item">
                                         <a href="https://ru.pinterest.com/wellore_com/">
-                                            <img src="<?= $domenName ?>/assets/images/socials/pinterest.svg" alt="pinterest wellore.com">
+                                            <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/pinterest.svg" alt="pinterest wellore.com">
                                         </a>
                                     </div>
                                 </div>

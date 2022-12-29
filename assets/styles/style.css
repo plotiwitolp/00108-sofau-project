@@ -66,6 +66,10 @@ body {
 }
 
 /*----------------*/
+.page-wrap {
+  position: relative;
+}
+
 body {
   font-family: "Lato";
   margin: 0;

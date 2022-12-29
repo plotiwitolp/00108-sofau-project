@@ -48,22 +48,22 @@
         <div class="footer-bottom__socials">
             <div class="footer-bottom__socials__item">
                 <a href="#">
-                    <img src="<?= $domenName ?>/assets/images/socials/youtube.svg" alt="youtube">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/youtube.svg" alt="youtube">
                 </a>
             </div>
             <div class="footer-bottom__socials__item">
                 <a href="#">
-                    <img src="<?= $domenName ?>/assets/images/socials/twitter.svg" alt="twitter">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/twitter.svg" alt="twitter">
                 </a>
             </div>
             <div class="footer-bottom__socials__item">
                 <a href="https://www.facebook.com/wellore/">
-                    <img src="<?= $domenName ?>/assets/images/socials/facebook-footer.svg" alt="facebook">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/facebook-footer.svg" alt="facebook">
                 </a>
             </div>
             <div class="footer-bottom__socials__item">
                 <a href="#">
-                    <img src="<?= $domenName ?>/assets/images/socials/google-plus.svg" alt="google-plus">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/google-plus.svg" alt="google-plus">
                 </a>
             </div>
         </div>
@@ -73,14 +73,12 @@
             All rights reserved @Wellore
         </div>
         <div class="bright-spot bright-spot-4">
-            <img src="<?= $domenName ?>/assets/images/bright-spot-4.svg" alt="bright-spot-4">
+            <img src="<?php bloginfo('template_url'); ?>/assets/images/bright-spot-4.svg" alt="bright-spot-4">
         </div>
     </div>
 </footer>
 </div>
-<script src="<?= $domenName ?>/assets/scripts/jquery-3.6.0.min.js"></script>
-<script src="<?= $domenName ?>/assets/libs/wow/wow.min.js"></script>
-<script src="<?= $domenName ?>/assets/scripts/script.js"></script>
+<?php wp_footer(); ?>
 </body>
 
 </html>
