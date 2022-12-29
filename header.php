@@ -1,6 +1,6 @@
 <?php
-$subDomen = '/';
-
+// v6
+$subDomen = '/wellore-com-v6';
 $domenName = 'http://' . $_SERVER['SERVER_NAME'] . "$subDomen";
 ?>
 
@@ -18,11 +18,11 @@ $domenName = 'http://' . $_SERVER['SERVER_NAME'] . "$subDomen";
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="<?= $domenName ?>/assets/fonts/Lato/stylesheet.css">
     <link rel="stylesheet" href="<?= $domenName ?>/assets/libs/animate/animate.min.css">
-    <link rel="stylesheet" href="<?= $domenName ?>/assets/styles/style.css?v=4.1">
-    <link rel="stylesheet" href="<?= $domenName ?>/assets/styles/responsive.css?v=4.1">
+    <link rel="stylesheet" href="<?= $domenName ?>/assets/styles/style.css?v=6.1">
+    <link rel="stylesheet" href="<?= $domenName ?>/assets/styles/responsive.css?v=6.1">
 </head>
 
-<body oncontextmenu="return true;">
+<body oncontextmenu="return false;">
     <div class="page-wrap">
         <header>
             <div class="section">

@@ -118,6 +118,7 @@
   .main-top {
     margin-top: 34px;
     gap: 0;
+    padding-bottom: 0;
   }
   .main-pic {
     height: 377px;
@@ -417,6 +418,7 @@
   .pagination {
     border-bottom: 0;
     padding-bottom: 0;
+    margin-bottom: 88px;
   }
   .top-banner-info {
     min-height: 449px;
@@ -530,5 +532,8 @@
   .bright-spot-404-2 {
     left: -20px;
     bottom: 160px;
+  }
+  .banner-our-works_s_m {
+    padding-bottom: 0;
   }
 }

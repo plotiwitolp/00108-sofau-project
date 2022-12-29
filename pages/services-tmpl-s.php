@@ -21,7 +21,7 @@
             <h2 class="wow animate__fadeInLeft" data-wow-duration="500ms">Animation OUTSOURCING SERVICES</h2>
             <div class="services-4-blocks__wrap">
                 <div class="services-4-blocks__item wow animate__fadeInLeft" data-wow-duration="500ms">
-                    <div class="services-4-blocks__pic">
+                    <div class="services-4-blocks__pic services-4-blocks__pic_s">
                         <img class="desk_img" src="../assets/images/services/services-4-anim-1.png" alt="services-4-anim-1">
                         <img class="mob_img" src="../assets/images/services/services-4-anim-1.png" alt="services-4-anim-1">
                     </div>
@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="services-4-blocks__item wow animate__fadeInUp" data-wow-duration="500ms">
-                    <div class="services-4-blocks__pic">
+                    <div class="services-4-blocks__pic services-4-blocks__pic_s">
                         <img class="desk_img" src="../assets/images/services/services-4-anim-2.png" alt="services-4-anim-2">
                         <img class="mob_img" src="../assets/images/services/services-4-anim-2.png" alt="services-4-anim-2">
                     </div>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="services-4-blocks__item wow animate__fadeInRight" data-wow-duration="500ms">
-                    <div class="services-4-blocks__pic">
+                    <div class="services-4-blocks__pic services-4-blocks__pic_s">
                         <img class="desk_img" src="../assets/images/services/services-4-anim-3.png" alt="services-4-anim-3">
                         <img class="mob_img" src="../assets/images/services/services-4-anim-3.png" alt="services-4-anim-3">
                     </div>
@@ -118,7 +118,7 @@
         </div>
 
         <!-- banner-our-works -->
-        <div class="banner-our-works">
+        <div class="banner-our-works banner-our-works_s_m">
             <div class="banner-our-works__pic wow animate__fadeInUp" data-wow-duration="500ms">
                 <img class="desk_img" src="../assets/images/about-us-banner-works.png" alt="about-us-banner-works">
                 <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/about-us-banner-works_mob.png" alt="about-us-banner-works">

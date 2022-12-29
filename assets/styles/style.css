@@ -299,6 +299,7 @@ span.nav-arr_down {
   display: -ms-flexbox;
   display: flex;
   gap: 144px;
+  padding-bottom: 135px;
 }
 
 .main-title {
@@ -458,6 +459,7 @@ h2 {
   display: flex;
   padding: 15px 112px;
   white-space: nowrap;
+  color: #fff;
 }
 
 .job-preview__item__active {
@@ -1869,6 +1871,11 @@ main {
 .services-4-blocks__pic {
   width: 650px;
   height: 97px;
+}
+
+.services-4-blocks__pic_s {
+  width: 427px;
+  height: 240px;
 }
 
 .services-4-blocks-thumb__pic {

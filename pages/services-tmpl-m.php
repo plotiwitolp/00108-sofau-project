@@ -187,7 +187,7 @@
         </div>
 
         <!-- banner-our-works -->
-        <div class="banner-our-works">
+        <div class="banner-our-works banner-our-works_s_m">
             <div class="banner-our-works__pic wow animate__fadeInUp" data-wow-duration="500ms">
                 <img class="desk_img" src="../assets/images/about-us-banner-works.png" alt="about-us-banner-works">
                 <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/about-us-banner-works_mob.png" alt="about-us-banner-works">
