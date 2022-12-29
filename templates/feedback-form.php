@@ -11,7 +11,7 @@
                         Leave your contact details. We will get back to you soon.
                     </div>
                 </div>
-                <form class="feedback-form__form" action="/">
+                <form class="feedback-form__form" action="../">
                     <div class="feedback-form__middle">
                         <div class="feedback-form__middle-item">
                             <div class="feedback-form__label">

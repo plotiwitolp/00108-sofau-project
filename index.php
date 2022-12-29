@@ -1,4 +1,6 @@
-<?php require_once './header.php'; ?>
+<?php
+
+require_once './header.php'; ?>
 
 <div class="section">
     <!-- MAIN TOP -->
@@ -129,7 +131,87 @@
         </div>
     </section>
     <!-- Our advantages -->
-    <?php require_once './templates/our-advantages.php'; ?>
+    <section class="our-advantages">
+        <div class="our-advantages-wrap">
+            <div class="our-advantages__h2-wrap wow animate__fadeInLeft" data-wow-duration="500ms">
+                <h2 class="our-advantages__h2 ">Our advantages</h2>
+            </div>
+            <div class="advantages wow animate__slideInRight" data-wow-duration="500ms">
+                <div class="advantages__item">
+                    <div class="advantages__icon">
+                        <img src="./assets/images/dawn.svg" alt="dawn">
+                    </div>
+                    <div class="advantages__body">
+                        <span>Individual approach</span>
+                        <p>
+                            We will take into account all your wishes when creating a project.
+                        </p>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__icon">
+                        <img src="./assets/images/dawn.svg" alt="dawn">
+                    </div>
+                    <div class="advantages__body">
+                        <span>Professionalism and quality</span>
+                        <p>
+                            Our team of artists, developers, designers and managers has a wealth of experience and will help to implement all your ideas.
+                        </p>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__icon">
+                        <img src="./assets/images/dawn.svg" alt="dawn">
+                    </div>
+                    <div class="advantages__body">
+                        <span>Complete Solutions</span>
+                        <p>
+                            We offer complex solutions that allow us to solve several problems at once or we can create a full-fledged project from scratch.
+                        </p>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__icon">
+                        <img src="./assets/images/dawn.svg" alt="dawn">
+                    </div>
+                    <div class="advantages__body">
+                        <span>High security</span>
+                        <p>
+                            Your data is safe: we strictly adhere to the privacy policy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="technic wow animate__fadeInUp" data-wow-duration="500ms">
+            <div class="technic-wrap">
+                <div class="technic__item">
+                    <img src="./assets/images/technic-1.svg" alt="technic-1">
+                </div>
+                <div class="technic__item">
+                    <img src="./assets/images/technic-2.svg" alt="technic-2">
+                </div>
+                <div class="technic__item">
+                    <img src="./assets/images/technic-3.svg" alt="technic-3">
+                </div>
+                <div class="technic__item">
+                    <img src="./assets/images/technic-4.svg" alt="technic-4">
+                </div>
+                <div class="technic__item">
+                    <img src="./assets/images/technic-5.svg" alt="technic-5">
+                </div>
+                <div class="technic__item">
+                    <img src="./assets/images/technic-6.svg" alt="technic-6">
+                </div>
+                <div class="technic__item">
+                    <img src="./assets/images/technic-7.svg" alt="technic-7">
+                </div>
+                <div class="technic__item">
+                    <img src="./assets/images/technic-8.svg" alt="technic-8">
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- OUR WORKS -->
     <section class="our-works">
         <div class="works-title">
@@ -190,6 +272,98 @@
         </div>
     </section>
     <!--  Feedback form -->
-    <?php require_once './templates/feedback-form.php'; ?>
+    <section>
+        <div class="feedback-form" id="feedback-form">
+            <div class="feedback-form__left wow animate__fadeInLeft" data-wow-duration="500ms">
+                <div class="feedback-form__left-wrapper">
+                    <div class="feedback-form__top">
+                        <h2>READY TO START YOUR PROJECT?</h2>
+                        <div class="feedback-form__hint">
+                            Leave your contact details. We will get back to you soon.
+                        </div>
+                    </div>
+                    <form class="feedback-form__form" action="<?= $domenName ?>">
+                        <div class="feedback-form__middle">
+                            <div class="feedback-form__middle-item">
+                                <div class="feedback-form__label">
+                                    <span class="feedback-form__title">Name</span>
+                                    <span class="feedback-form__asterix">*</span>
+                                </div>
+                                <div class="feedback-form__input">
+                                    <input type="text" maxlength="20">
+                                </div>
+                            </div>
+                            <div class="feedback-form__middle-item">
+                                <div class="feedback-form__label">
+                                    <span class="feedback-form__title">Email</span>
+                                    <span class="feedback-form__asterix">*</span>
+                                </div>
+                                <div class="feedback-form__input">
+                                    <input type="email">
+                                </div>
+                            </div>
+                            <div class="feedback-form__middle-item">
+                                <div class="feedback-form__label">
+                                    <span class="feedback-form__title">Project</span>
+                                    <span class="feedback-form__asterix">*</span>
+                                </div>
+                                <div class="feedback-form__input">
+                                    <input type="text" maxlength="20">
+                                </div>
+                            </div>
+                            <div class="feedback-form__middle-item">
+                                <div class="feedback-form__label">
+                                    <span class="feedback-form__title">Project description</span>
+                                    <span class="feedback-form__asterix">*</span>
+                                </div>
+                                <div class="feedback-form__input">
+                                    <textarea></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feedback-form__bottom">
+                            <div class="feedback-form__send">
+                                <button class="button feedback-form__send-btn" type="submit">Send</button>
+                            </div>
+                            <div class="feedback-form-pers-data">
+                                <label for="pers-data" class="feedback-form-pers-data__check">
+                                    <input id="pers-data" name="pers-data" type="checkbox">
+                                    <span class="feedback-form-pers-data__check-span"></span>
+                                </label>
+                                <span class="feedback-form-pers-data__text">
+                                    I agree with <a href="#">processing of my personal data</a>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="feedback-form__right wow animate__fadeInRight" data-wow-duration="500ms">
+                <div class="socials feedback-form_socials">
+                    <div class="socials-item">
+                        <a href="mailto:contact@wellore.com">
+                            <img src="./assets/images/socials/mail.svg" alt="mail wellore.com">
+                        </a>
+                    </div>
+                    <div class="socials-item">
+                        <a href="https://www.facebook.com/wellore/">
+                            <img src="./assets/images/socials/facebook.svg" alt="facebook wellore.com">
+                        </a>
+                    </div>
+                    <div class="socials-item">
+                        <a href="https://www.instagram.com/wellore_com/">
+                            <img src="./assets/images/socials/instagram.svg" alt="instagram wellore.com">
+                        </a>
+                    </div>
+                    <div class="socials-item">
+                        <a href="https://ru.pinterest.com/wellore_com/">
+                            <img src="./assets/images/socials/pinterest.svg" alt="pinterest wellore.com">
+                        </a>
+                    </div>
+                </div>
+                <img src="./assets/images/wellorepromoscreen_caschar.png" alt="wellorepromoscreen_caschar">
+            </div>
+        </div>
+    </section>
 </div>
 <?php require_once './footer.php'; ?>
