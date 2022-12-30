@@ -1,8 +1,8 @@
-<?php require_once '../header.php'; ?>
+<?php get_header(); ?>
 <div class="section">
     <div class="lizard404">
-        <img src="../assets/images/lizard_404.png" alt="lizard_404">
-        <img class="bright-spot-404-1" src="../assets/images/bright-spot-404-1.svg" alt="bright-spot-404-1">
+        <img src="<?php bloginfo('template_url'); ?>/assets/images/lizard_404.png" alt="lizard_404">
+        <img class="bright-spot-404-1" src="<?php bloginfo('template_url'); ?>/assets/images/bright-spot-404-1.svg" alt="bright-spot-404-1">
         <div class="lizard404__hint">
             <span class="lizard404__hint__title">Opss...</span>
             <span class="lizard404__hint__desc">Page not found</span>
@@ -11,7 +11,7 @@
                 <span class="button lizard404__hint__btn">Go back</span>
             </span>
         </div>
-        <img class="bright-spot-404-2" src="../assets/images/bright-spot-404-2.svg" alt="bright-spot-404-2">
+        <img class="bright-spot-404-2" src="<?php bloginfo('template_url'); ?>/assets/images/bright-spot-404-2.svg" alt="bright-spot-404-2">
     </div>
 </div>
-<?php require_once '../footer.php'; ?>
+<?php get_footer(); ?>

@@ -20,89 +20,100 @@
 </head>
 
 <body oncontextmenu="return true;">
+
     <div class="page-wrap">
         <header>
             <div class="section">
                 <div class="header">
+
                     <div class="header-left-top">
+
                         <div class="header__logo">
-                            <a href=".">
+                            <a href="<?= get_site_url(); ?>">
                                 <img src="<?php bloginfo('template_url'); ?>/assets/images/logo.svg" alt="wellore.com">
                             </a>
                         </div>
+
                         <nav class="header__desk-wrap">
                             <ul class="header__desk">
-                                <li><a href=".">Home</a></li>
+                                <li><a href="<?= get_site_url(); ?>">Home</a></li>
                                 <li><a href="#">Services</a>
                                     <div class="header__desk-sub-wrap">
                                         <ul class="header__desk-sub services_sub_test">
-                                            <li><a href="./pages/services-tmpl-l.php?id0">3D Art</a></li>
-                                            <li><a href="./pages/services-tmpl-m.php?id1">2D Art</a></li>
-                                            <li><a href="./pages/services-tmpl-s.php?id2">Animation</a></li>
-                                            <li><a href="./pages/services-tmpl-l.php?id3">Game development</a></li>
-                                            <li><a href="./pages/services-tmpl-m.php?id4">Marketing</a></li>
-                                            <li><a href="./pages/services-tmpl-s.php?id5">Cinematics</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-l.php?id0">3D Art</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-m.php?id1">2D Art</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-s.php?id2">Animation</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-l.php?id3">Game development</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-m.php?id4">Marketing</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-s.php?id5">Cinematics</a></li>
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="./pages/portfolio.php">Portfolio</a>
+                                <li><a href="<?= get_site_url(); ?>/portfolio">Portfolio</a>
                                     <div class="header__desk-sub-wrap">
                                         <ul class="header__desk-sub header__desk-sub_test">
-                                            <li><a href="./pages/portfolio.php?id0">3D Art</a></li>
-                                            <li><a href="./pages/portfolio.php?id1">2D Art</a></li>
-                                            <li><a href="./pages/portfolio.php?id2">Animation</a></li>
-                                            <li><a href="./pages/portfolio.php?id3">Game development</a></li>
-                                            <li><a href="./pages/portfolio.php?id4">Marketing</a></li>
-                                            <li><a href="./pages/portfolio.php?id5">Cinematics</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id0">3D Art</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id1">2D Art</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id2">Animation</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id3">Game development</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id4">Marketing</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id5">Cinematics</a></li>
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="./pages/about-us.php">About us</a></li>
-                                <li><a href="./pages/blog.php">Blog</a></li>
-                                <li><a href="./pages/contacts.php">Contacts</a></li>
+                                <li><a href="<?= get_site_url(); ?>/about-us">About us</a></li>
+                                <li><a href="<?= get_site_url(); ?>/blog">Blog</a></li>
+                                <li><a href="<?= get_site_url(); ?>/contacts">Contacts</a></li>
                             </ul>
                         </nav>
+
                         <div class="nav-burger">
                             <span></span>
                             <span></span>
                             <span></span>
                         </div>
+
                     </div>
+
                     <div class="header-right-bottom">
+
                         <div class="header-right-bottom-wrap">
+
                             <nav class="header__mob-wrap">
                                 <ul class="header__mob">
-                                    <li><a href=".">Home</a></li>
+                                    <li><a href="<?= get_site_url(); ?>">Home</a></li>
                                     <li><a href="#">Services</a>
                                         <ul class="header__mob-sub">
-                                            <li><a href="./pages/services-tmpl-l.php?id0">3D Art</a></li>
-                                            <li><a href="./pages/services-tmpl-m.php?id1">2D Art</a></li>
-                                            <li><a href="./pages/services-tmpl-s.php?id2">Animation</a></li>
-                                            <li><a href="./pages/services-tmpl-l.php?id3">Game development</a></li>
-                                            <li><a href="./pages/services-tmpl-m.php?id4">Marketing</a></li>
-                                            <li><a href="./pages/services-tmpl-s.php?id5">Cinematics</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-l.php?id0">3D Art</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-m.php?id1">2D Art</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-s.php?id2">Animation</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-l.php?id3">Game development</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-m.php?id4">Marketing</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-s.php?id5">Cinematics</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Portfolio</a>
                                         <ul class="header__mob-sub header__desk-sub_test">
-                                            <li><a href="./pages/portfolio.php?id0">3D Art</a></li>
-                                            <li><a href="./pages/portfolio.php?id1">2D Art</a></li>
-                                            <li><a href="./pages/portfolio.php?id2">Animation</a></li>
-                                            <li><a href="./pages/portfolio.php?id3">Game development</a></li>
-                                            <li><a href="./pages/portfolio.php?id4">Marketing</a></li>
-                                            <li><a href="./pages/portfolio.php?id5">Cinematics</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id0">3D Art</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id1">2D Art</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id2">Animation</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id3">Game development</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id4">Marketing</a></li>
+                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id5">Cinematics</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./pages/about-us.php">About us</a></li>
-                                    <li><a href="./pages/blog.php">Blog</a></li>
-                                    <li><a href="./pages/contacts.php">Contacts</a></li>
+                                    <li><a href="<?= get_site_url(); ?>/about-us">About us</a></li>
+                                    <li><a href="<?= get_site_url(); ?>/blog">Blog</a></li>
+                                    <li><a href="<?= get_site_url(); ?>/contacts">Contacts</a></li>
                                 </ul>
                             </nav>
+
                             <div class="button-wrapper">
                                 <div class="button header__contact-us">
                                     <a class="feedback-form-link" href="#feedback-form">Contact Us</a>
                                 </div>
                             </div>
+
                             <div class="header__socials">
                                 <div class="socials">
                                     <div class="socials-item">
@@ -127,8 +138,11 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
+
                     </div>
+
                 </div>
             </div>
         </header>

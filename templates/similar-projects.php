@@ -4,7 +4,7 @@
         <div class="project-preview__item wow animate__fadeInLeft" data-wow-duration="500ms">
             <a href="#">
                 <div class="project-preview__thumb">
-                    <img src="../assets/images/portfolio/project-preview-thumb-1.png" alt="project-preview-thumb-1">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/project-preview-thumb-1.png" alt="project-preview-thumb-1">
                 </div>
             </a>
             <div class="project-preview__desc-wrap">
@@ -23,7 +23,7 @@
         <div class="project-preview__item wow animate__fadeInUp" data-wow-duration="500ms">
             <a href="#">
                 <div class="project-preview__thumb">
-                    <img src="../assets/images/portfolio/project-preview-thumb-7.png" alt="project-preview-thumb-7">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/project-preview-thumb-7.png" alt="project-preview-thumb-7">
                 </div>
             </a>
             <div class="project-preview__desc-wrap">
@@ -42,7 +42,7 @@
         <div class="project-preview__item wow animate__slideInRight" data-wow-duration="500ms">
             <a href="#">
                 <div class="project-preview__thumb">
-                    <img src="../assets/images/portfolio/project-preview-thumb-3.png" alt="project-preview-thumb-3">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/project-preview-thumb-3.png" alt="project-preview-thumb-3">
                 </div>
             </a>
             <div class="project-preview__desc-wrap">

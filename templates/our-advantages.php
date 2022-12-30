@@ -6,7 +6,7 @@
         <div class="advantages wow animate__slideInRight" data-wow-duration="500ms">
             <div class="advantages__item">
                 <div class="advantages__icon">
-                    <img src="../assets/images/dawn.svg" alt="dawn">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/dawn.svg" alt="dawn">
                 </div>
                 <div class="advantages__body">
                     <span>Individual approach</span>
@@ -17,7 +17,7 @@
             </div>
             <div class="advantages__item">
                 <div class="advantages__icon">
-                    <img src="../assets/images/dawn.svg" alt="dawn">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/dawn.svg" alt="dawn">
                 </div>
                 <div class="advantages__body">
                     <span>Professionalism and quality</span>
@@ -28,7 +28,7 @@
             </div>
             <div class="advantages__item">
                 <div class="advantages__icon">
-                    <img src="../assets/images/dawn.svg" alt="dawn">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/dawn.svg" alt="dawn">
                 </div>
                 <div class="advantages__body">
                     <span>Complete Solutions</span>
@@ -39,7 +39,7 @@
             </div>
             <div class="advantages__item">
                 <div class="advantages__icon">
-                    <img src="../assets/images/dawn.svg" alt="dawn">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/dawn.svg" alt="dawn">
                 </div>
                 <div class="advantages__body">
                     <span>High security</span>
@@ -53,28 +53,28 @@
     <div class="technic wow animate__fadeInUp" data-wow-duration="500ms">
         <div class="technic-wrap">
             <div class="technic__item">
-                <img src="../assets/images/technic-1.svg" alt="technic-1">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/technic-1.svg" alt="technic-1">
             </div>
             <div class="technic__item">
-                <img src="../assets/images/technic-2.svg" alt="technic-2">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/technic-2.svg" alt="technic-2">
             </div>
             <div class="technic__item">
-                <img src="../assets/images/technic-3.svg" alt="technic-3">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/technic-3.svg" alt="technic-3">
             </div>
             <div class="technic__item">
-                <img src="../assets/images/technic-4.svg" alt="technic-4">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/technic-4.svg" alt="technic-4">
             </div>
             <div class="technic__item">
-                <img src="../assets/images/technic-5.svg" alt="technic-5">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/technic-5.svg" alt="technic-5">
             </div>
             <div class="technic__item">
-                <img src="../assets/images/technic-6.svg" alt="technic-6">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/technic-6.svg" alt="technic-6">
             </div>
             <div class="technic__item">
-                <img src="../assets/images/technic-7.svg" alt="technic-7">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/technic-7.svg" alt="technic-7">
             </div>
             <div class="technic__item">
-                <img src="../assets/images/technic-8.svg" alt="technic-8">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/technic-8.svg" alt="technic-8">
             </div>
         </div>
     </div>

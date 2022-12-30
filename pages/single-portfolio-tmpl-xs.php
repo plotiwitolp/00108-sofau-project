@@ -1,5 +1,13 @@
-<?php require_once '../header.php'; ?>
+<?php
+/*
+ * Template Name: Шаблон Portfolio XS
+ * Template Post Type: post
+ */
+
+get_header();
+?>
 <div class="section portfolio-tmpl-xs">
+
     <!-- top-banner -->
     <section>
         <div class="top-banner-info">
@@ -25,26 +33,44 @@
             </div>
         </div>
     </section>
+
+
+    <!-- portfolio-banner -->
     <div class="portfolio-banner">
         <div class="portfolio-banner_img-wrap">
             <img src="../assets/images/portfolio/banner-portfolio-xs.png" alt="banner-portfolio-xs">
         </div>
     </div>
 
+
     <!-- h2-info-two Task & Level design & interface -->
-    <?php {
-        $title1 = 'Task';
-        $title2 = 'Level design & interface';
-        $body1 = 'Our studio has completed the full development cycle of the Match-3 genre game “The snow fable". The project was carried out jointly with the publisher Alawar. This is a fairy tale about a little girl who has a big journey ahead of her to save her best friend. The process of creating the game consisted of concept development, game design, 2D graphics and animation.';
-        $body2 = 'Games of the Match-3 genre are very popular among users because of the simplicity of the gameplay and the fascination of the levels. Players must match tiles of the same type to score points. Additional bonuses encourage users to go further to get access to unique game materials. The interface is intuitive and presented in the form of a fairy tale book.';
-    }
-    ?>
-    <?php require_once '../templates/h2-info-two.php'; ?>
+    <section class="h2-info">
+        <div class="h2-info__item wow animate__fadeInLeft" data-wow-duration="500ms">
+            <h2>Task</h2>
+            <div class="h2-info__body">
+                <p>
+                    Our studio has completed the full development cycle of the Match-3 genre game “The snow fable". The project was carried out jointly with the publisher Alawar. This is a fairy tale about a little girl who has a big journey ahead of her to save her best friend. The process of creating the game consisted of concept development, game design, 2D graphics and animation.
+                </p>
+            </div>
+        </div>
+        <div class="h2-info__item wow animate__fadeInRight" data-wow-duration="500ms">
+            <h2>Level design & interface</h2>
+            <div class="h2-info__body">
+                <p>
+                    Games of the Match-3 genre are very popular among users because of the simplicity of the gameplay and the fascination of the levels. Players must match tiles of the same type to score points. Additional bonuses encourage users to go further to get access to unique game materials. The interface is intuitive and presented in the form of a fairy tale book.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- bright-spot -->
     <div class="wrap">
         <div class="bright-spot bright-spot-portfolio-xs-left">
             <img src="../assets/images/bright-spots/bright-spot-portfolio-xs-left.svg" alt="bright-spot-portfolio-xs-left">
         </div>
     </div>
+
 
     <!-- Similar projects -->
     <section class="similar-projects">
@@ -111,6 +137,8 @@
     </section>
 
     <!--  Feedback form -->
-    <?php require_once '../templates/feedback-form.php'; ?>
+    <?php get_template_part('templates/feedback-form'); ?>
+
 </div>
-<?php require_once '../footer.php'; ?>
+
+<?php get_footer(); ?>

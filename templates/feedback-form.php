@@ -71,26 +71,26 @@
             <div class="socials feedback-form_socials">
                 <div class="socials-item">
                     <a href="mailto:contact@wellore.com">
-                        <img src="../assets/images/socials/mail.svg" alt="mail wellore.com">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/mail.svg" alt="mail wellore.com">
                     </a>
                 </div>
                 <div class="socials-item">
                     <a href="https://www.facebook.com/wellore/">
-                        <img src="../assets/images/socials/facebook.svg" alt="facebook wellore.com">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/facebook.svg" alt="facebook wellore.com">
                     </a>
                 </div>
                 <div class="socials-item">
                     <a href="https://www.instagram.com/wellore_com/">
-                        <img src="../assets/images/socials/instagram.svg" alt="instagram wellore.com">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/instagram.svg" alt="instagram wellore.com">
                     </a>
                 </div>
                 <div class="socials-item">
                     <a href="https://ru.pinterest.com/wellore_com/">
-                        <img src="../assets/images/socials/pinterest.svg" alt="pinterest wellore.com">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/pinterest.svg" alt="pinterest wellore.com">
                     </a>
                 </div>
             </div>
-            <img src="../assets/images/wellorepromoscreen_caschar.png" alt="wellorepromoscreen_caschar">
+            <img src="<?php bloginfo('template_url'); ?>/assets/images/wellorepromoscreen_caschar.png" alt="wellorepromoscreen_caschar">
         </div>
     </div>
 </section>

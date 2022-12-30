@@ -1,22 +1,35 @@
-<?php require_once '../header.php'; ?>
+<?php
+/*
+ * Template Name: Шаблон Services M
+ * Template Post Type: post
+ */
+
+get_header();
+?>
 <div class="section">
+
     <!-- top-banner -->
     <section>
         <div class="top-banner">
             <h1 class="wow animate__fadeInLeft" data-wow-duration="500ms">Game Art Design Services</h1>
         </div>
     </section>
-    <div class="services">
-        <!-- tags -->
-        <?php require_once '../templates/tags-services.php'; ?>
 
+    <div class="services">
+
+        <!-- tags -->
+        <?php get_template_part('templates/tags-services'); ?>
+
+
+        <!-- services-banner -->
         <div class="services-banner">
-            <img class="desk_img" src="../assets/images/services/services-top-banner-1.png" alt="services-top-banner-1">
+            <img class="desk_img" src="../assets/images/services/services-top-banner-2.png" alt="services-top-banner-2">
             <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/services-top-banner_mob.svg" alt="services-top-banner_mob">
         </div>
 
-        <!-- 2D art OUTSOURCING SERVICES -->
-        <div class="services-4-blocks">
+
+        <!-- Game development services -->
+        <div class="services-4-blocks services-4-blocks_row">
             <h2 class="wow animate__fadeInLeft" data-wow-duration="500ms">2D art OUTSOURCING SERVICES</h2>
             <div class="services-4-blocks__wrap">
                 <div class="services-4-blocks__item wow animate__fadeInLeft" data-wow-duration="500ms">
@@ -25,10 +38,10 @@
                         <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/services-4-blocks-1_mob.png" alt="services-4-blocks-1_mob">
                     </div>
                     <div class="services-4-blocks__title">
-                        Game art development
+                        Complete design and development cycle
                     </div>
                     <div class="services-4-blocks__text">
-                        We know how and we love to create original and memorable game graphics. Our studio can prepare a project team led by an experienced project manager to implement your idea. All our work goes through internal quality control (QA), thanks to which you can greatly relieve your management. We have created many successful projects and have great expertise in development in a variety of styles and genres.
+                        Tell us your idea for the game and we will handle the rest. Specifications, visual design, prototyping, game design, development, and testing will be done by our specialists with speed and efficiency. You can watch your game become a reality and be in control on every stage with our transparent pipeline.
                     </div>
                 </div>
                 <div class="services-4-blocks__item wow animate__fadeInRight" data-wow-duration="500ms">
@@ -37,10 +50,10 @@
                         <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/services-4-blocks-2_mob.png" alt="services-4-blocks-2_mob">
                     </div>
                     <div class="services-4-blocks__title">
-                        Work in your style
+                        Game design
                     </div>
                     <div class="services-4-blocks__text">
-                        Our studio has rich experience in supporting and developing ready-made game projects. We are ready to adapt to your style and choose the right specialists for your project. Our team takes into account the importance of deadlines, so the team can scale to your needs at any time. You will be able to free your team from monotonous and tedious work, which will allow your employees to focus on creating new unique products.
+                        We use our vast experience and follow the latest trends to create exciting gameplay, balanced levels, clever puzzles, and monetization schemes to keep players engaged.
                     </div>
                 </div>
                 <div class="services-4-blocks__item wow animate__fadeInLeft" data-wow-duration="500ms">
@@ -49,10 +62,10 @@
                         <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/services-4-blocks-3_mob.png" alt="services-4-blocks-3_mob">
                     </div>
                     <div class="services-4-blocks__title">
-                        Promo art
+                        Game development
                     </div>
                     <div class="services-4-blocks__text">
-                        Promotion and advertising are important components for the development and expansion of a game project. Our artists, together with the marketing department, will prepare promotional materials: banners, posters and illustrations. They will comply with the rules of the advertising platforms and social networks you use.
+                        Our development team is full of talented people who can solve every problem and deliver a high-quality product.
                     </div>
                 </div>
                 <div class="services-4-blocks__item wow animate__fadeInRight" data-wow-duration="500ms">
@@ -61,23 +74,80 @@
                         <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/services-4-blocks-4_mob.png" alt="services-4-blocks-4_mob">
                     </div>
                     <div class="services-4-blocks__title">
-                        Reskin games
+                        QA and testing
                     </div>
                     <div class="services-4-blocks__text">
-                        Do you want to transform your project and open up new markets? Our experts will help you adapt your gaming universe to a new audience. We understand the genres of slot and match-3
-                    </div>
-                </div>
-                <div class="wrap">
-                    <div class="bright-spot bright-spot-services-left">
-                        <img class="desk_img" src="../assets/images/services/bright-spot-services-left.svg" alt="bright-spot-services-left">
-                        <img class="mob_img" src="../assets/images/services/bright-spot-services-left.svg" alt="bright-spot-services-left">
+                        The QA team will make sure that the user experience is as smooth and robust as possible.
                     </div>
                 </div>
             </div>
         </div>
 
+
+        <!-- bright-spot -->
+        <div class="wrap">
+            <div class="bright-spot bright-spot-services-left">
+                <img src="../assets/images/services/bright-spot-services-left.svg" alt="bright-spot-services-left">
+            </div>
+        </div>
+
+
         <!-- TECHNICAL EXPERTISE -->
         <?php require_once '../templates/technical-exp.php'; ?>
+
+
+        <!-- OUR WORKS -->
+        <section class="our-works our-works_services">
+            <div class="works-title">
+                <h2 class="wow animate__fadeInLeft" data-wow-duration="500ms">OUR WORKS</h2>
+            </div>
+            <div class="works-gallery">
+                <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
+                    <a href="#">
+                        <img class="desk_img" src="../assets/images/our_works-1.png" alt="our_works-1">
+                        <img class="mob_img" src="../assets/images/mob_img/home/our_works-1_mob.png" alt="our_works-1">
+                    </a>
+                </div>
+                <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
+                    <a href="#">
+                        <img class="desk_img" src="../assets/images/our_works-2.png" alt="our_works-2">
+                        <img class="mob_img" src="../assets/images/mob_img/home/our_works-2_mob.png" alt="our_works-2">
+                    </a>
+                </div>
+                <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
+                    <a href="#">
+                        <img class="desk_img" src="../assets/images/our_works-3.png" alt="our_works-3">
+                        <img class="mob_img" src="../assets/images/mob_img/home/our_works-3_mob.png" alt="our_works-3">
+                    </a>
+                </div>
+                <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
+                    <a href="#">
+                        <img class="desk_img" src="../assets/images/our_works-4.png" alt="our_works-4">
+                        <img class="mob_img" src="../assets/images/mob_img/home/our_works-4_mob.png" alt="our_works-4">
+                    </a>
+                </div>
+            </div>
+            <span class="see-more-arrow our-works_services-arrow">
+                <a href="#">
+                    <span>See more works</span>
+                    <img src="../assets/images/see-more-arrow.svg" alt="see-more-arrow">
+                </a>
+            </span>
+        </section>
+
+
+        <!-- Unity development -->
+        <section class="h2-info">
+            <div class="h2-info__item wow animate__fadeInLeft" data-wow-duration="500ms">
+                <h2>Unity development</h2>
+                <div class="h2-info__body">
+                    <p>
+                        Our engine of choice is Unity, as it provides the right mix of features, performance, and stability. If necessary, our development team has enough skills and experience to work with any other major engine.
+                    </p>
+                </div>
+            </div>
+        </section>
+
 
         <!-- services-4-blocks-thumb -->
         <div class="services-4-blocks-thumb">
@@ -134,69 +204,26 @@
                     it on various advertising platforms.
                 </div>
             </div>
+        </div>
+
+
+        <!-- bright-spot -->
+        <div class="wrap">
             <div class="bright-spot bright-spot-services-center">
                 <img src="../assets/images/services/bright-spot-services-center.svg" alt="bright-spot-services-center">
                 <img class="mob_img" src="../assets/images/services/services-4-blocks-thumb-1.png" alt="services-4-blocks-thumb-1">
             </div>
         </div>
 
-        <!-- Character design -->
-        <?php {
-            $title = 'Character design';
-            $body = 'Characters are the basis of any game project. Thanks to the characters the user can fully immerse himself in the plot of the game and experience a vivid emotional. This is a key moment for your project! Our team of experienced artists successfully creates attractive 2D characters in various styles depending on your wishes.';
-            $img = '../assets/images/services/character-design-1.png';
-        }
-        ?>
-        <?php require '../templates/h2-info-single-thumb.php'; ?>
 
-        <!-- Game objects and icons -->
-        <?php {
-            $title = 'Game objects and icons';
-            $body = 'Our team will create colorful and elaborate objects and icons for your project. We create any objects in any style taking into account your needs. We focus on all the details to make it easier for your players to navigate the game space.';
-            $img = '../assets/images/services/Game-objects-and-icons.png';
-        }
-        ?>
-        <?php require '../templates/h2-info-single-thumb.php'; ?>
-
-
-        <!-- OUR WORKS -->
-        <section class="our-works our-works_services">
-            <div class="works-title">
-                <h2 class="wow animate__fadeInLeft" data-wow-duration="500ms">OUR WORKS</h2>
+        <!-- banner-our-works -->
+        <div class="banner-our-works banner-our-works_s_m">
+            <div class="banner-our-works__pic wow animate__fadeInUp" data-wow-duration="500ms">
+                <img class="desk_img" src="../assets/images/about-us-banner-works.png" alt="about-us-banner-works">
+                <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/about-us-banner-works_mob.png" alt="about-us-banner-works">
             </div>
-            <div class="works-gallery">
-                <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
-                    <a href="#">
-                        <img class="desk_img" src="../assets/images/our_works-1.png" alt="our_works-1">
-                        <img class="mob_img" src="../assets/images/mob_img/home/our_works-1_mob.png" alt="our_works-1">
-                    </a>
-                </div>
-                <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
-                    <a href="#">
-                        <img class="desk_img" src="../assets/images/our_works-2.png" alt="our_works-2">
-                        <img class="mob_img" src="../assets/images/mob_img/home/our_works-2_mob.png" alt="our_works-2">
-                    </a>
-                </div>
-                <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
-                    <a href="#">
-                        <img class="desk_img" src="../assets/images/our_works-3.png" alt="our_works-3">
-                        <img class="mob_img" src="../assets/images/mob_img/home/our_works-3_mob.png" alt="our_works-3">
-                    </a>
-                </div>
-                <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
-                    <a href="#">
-                        <img class="desk_img" src="../assets/images/our_works-4.png" alt="our_works-4">
-                        <img class="mob_img" src="../assets/images/mob_img/home/our_works-4_mob.png" alt="our_works-4">
-                    </a>
-                </div>
-            </div>
-            <span class="see-more-arrow our-works_services-arrow">
-                <a href="#">
-                    <span>See more works</span>
-                    <img src="../assets/images/see-more-arrow.svg" alt="see-more-arrow">
-                </a>
-            </span>
-        </section>
+        </div>
+
 
         <!--  team -->
         <?php require_once '../templates/team.php'; ?>
@@ -204,7 +231,8 @@
     </div>
 
     <!--  feedback form -->
-    <?php require_once '../templates/feedback-form.php'; ?>
+    <?php get_template_part('templates/feedback-form'); ?>
 
 </div>
-<?php require_once '../footer.php'; ?>
+
+<?php get_footer(); ?>

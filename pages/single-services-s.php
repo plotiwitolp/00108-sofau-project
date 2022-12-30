@@ -1,20 +1,32 @@
-<?php require_once '../header.php'; ?>
+<?php
+/*
+ * Template Name: Шаблон Services S
+ * Template Post Type: post
+ */
+
+get_header();
+?>
 <div class="section">
+
     <!-- top-banner -->
     <section>
         <div class="top-banner">
             <h1 class="wow animate__fadeInLeft" data-wow-duration="500ms">Game Art Design Services</h1>
         </div>
     </section>
+
     <div class="services">
+
         <!-- tags -->
-        <?php require_once '../templates/tags-services.php'; ?>
+        <?php get_template_part('templates/tags-services'); ?>
+
 
         <!-- services-banner -->
         <div class="services-banner">
             <img class="desk_img" src="../assets/images/services/services-top-banner-2.png" alt="services-top-banner-2">
             <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/services-top-banner_mob.svg" alt="services-top-banner_mob">
         </div>
+
 
         <!-- Animation OUTSOURCING SERVICES-->
         <div class="services-4-blocks services-3-blocks_row">
@@ -56,16 +68,21 @@
                         Our development team is full of talented people who can solve every problem and deliver a high-quality product.
                     </div>
                 </div>
-                <div class="wrap">
-                    <div class="bright-spot bright-spot-services-left">
-                        <img src="../assets/images/services/bright-spot-services-left.svg" alt="bright-spot-services-left">
-                    </div>
-                </div>
             </div>
         </div>
 
+
+        <!-- bright-spot -->
+        <div class="wrap">
+            <div class="bright-spot bright-spot-services-left">
+                <img src="../assets/images/services/bright-spot-services-left.svg" alt="bright-spot-services-left">
+            </div>
+        </div>
+
+
         <!-- TECHNICAL EXPERTISE -->
         <?php require_once '../templates/technical-exp.php'; ?>
+
 
         <!-- OUR WORKS -->
         <section class="our-works our-works_services">
@@ -106,6 +123,7 @@
             </span>
         </section>
 
+
         <!-- Our animators are ready -->
         <div class="h2-info">
             <div class="h2-info__item h2-info__pdn wow animate__fadeInLeft" data-wow-duration="500ms">
@@ -116,6 +134,7 @@
                 </div>
             </div>
         </div>
+
 
         <!-- banner-our-works -->
         <div class="banner-our-works banner-our-works_s_m">
@@ -132,7 +151,7 @@
     </div>
 
     <!--  feedback form -->
-    <?php require_once '../templates/feedback-form.php'; ?>
+    <?php get_template_part('templates/feedback-form'); ?>
 
 </div>
-<?php require_once '../footer.php'; ?>
+<?php get_footer(); ?>
