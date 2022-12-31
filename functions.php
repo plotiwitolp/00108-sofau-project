@@ -31,3 +31,33 @@ add_action('wp_enqueue_scripts', function () {
 // add_theme_support('post-thumbnails');
 add_theme_support('title-tag');
 add_theme_support('custom-logo');
+
+
+// регистрация меню
+add_action('after_setup_theme', function () {
+    register_nav_menus(array(
+        'main_desk_menu' => __('Primary desktop menu', 'area'),
+        'main_mob_menu' => __('Primary mobile menu', 'area'),
+        'footer_menu' => __('Footer menu', 'area'),
+    ));
+});
+
+
+// расширение класса Меню
+class My_Walker_Nav_Menu extends Walker_Nav_Menu
+{
+    function start_lvl(&$output, $depth = 0, $args = array())
+    {
+        $indent = str_repeat("\t", $depth);
+        $output .= "\n$indent<div class=\"header__desk-sub-wrap\"><ul class=\"header__desk-sub\">\n";
+    }
+}
+
+
+// Добавление SVG в список разрешенных для загрузки файлов.
+function cc_mime_types($mimes)
+{
+    $mimes['svg'] = 'image/svg+xml';
+    return $mimes;
+}
+add_filter('upload_mimes', 'cc_mime_types');

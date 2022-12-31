@@ -11,6 +11,8 @@ get_header();
         <h1 class="wow animate__fadeInLeft" data-wow-duration="500ms">GAME ART OUTSOURCING STUDIO BLOG</h1>
     </div>
     <div class="post-preview">
+
+        <!-- ПРОВЕРКА ЯВЛЯЕТСЯ ЛИ ЭТО ПОСТОМ КАТЕГОРИИ BLOG ЕСЛИ ДА ТО ВЫВОДИ ВСЕ ПОСТЫ ЭТОЙ КАТЕГОРИИ ПО 6 ШТ -->
         <div class="post-preview__item wow animate__fadeInLeft" data-wow-duration="500ms">
             <div class="post-preview__item-pic">
                 <a href="../pages/post.php">
@@ -22,6 +24,9 @@ get_header();
             </a>
             <div class="post-preview__item-date">June 28, 2022</div>
         </div>
+
+
+
         <div class="post-preview__item wow animate__fadeInUp" data-wow-duration="500ms">
             <div class="post-preview__item-pic">
                 <a href="../pages/post.php">

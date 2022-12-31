@@ -11,7 +11,7 @@ get_header();
     <!-- top-banner -->
     <section>
         <div class="top-banner-info">
-            <img src="../assets/images/default-top-banner.svg" alt="The-snow-fable">
+            <img src="<?php bloginfo('template_url'); ?>/assets/images/default-top-banner.svg" alt="The-snow-fable">
             <h1 class="wow animate__fadeInLeft" data-wow-duration="500ms">wellore-studio cakes</h1>
             <div class="top-banner-info__wrap">
                 <div class="top-banner-info__item">
@@ -38,7 +38,7 @@ get_header();
     <!-- portfolio-banner -->
     <div class="portfolio-banner">
         <div class="portfolio-banner_img-wrap">
-            <img src="../assets/images/portfolio/banner-portfolio-xs.png" alt="banner-portfolio-xs">
+            <img src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/banner-portfolio-xs.png" alt="banner-portfolio-xs">
         </div>
     </div>
 
@@ -67,7 +67,7 @@ get_header();
     <!-- bright-spot -->
     <div class="wrap">
         <div class="bright-spot bright-spot-portfolio-xs-left">
-            <img src="../assets/images/bright-spots/bright-spot-portfolio-xs-left.svg" alt="bright-spot-portfolio-xs-left">
+            <img src="<?php bloginfo('template_url'); ?>/assets/images/bright-spots/bright-spot-portfolio-xs-left.svg" alt="bright-spot-portfolio-xs-left">
         </div>
     </div>
 
@@ -79,7 +79,7 @@ get_header();
             <div class="project-preview__item wow animate__fadeInLeft" data-wow-duration="500ms">
                 <a href="#">
                     <div class="project-preview__thumb">
-                        <img src="../assets/images/portfolio/similar-projects-xs-1.png" alt="similar-projects-xs-1">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/similar-projects-xs-1.png" alt="similar-projects-xs-1">
                     </div>
                 </a>
                 <div class="project-preview__desc-wrap">
@@ -98,7 +98,7 @@ get_header();
             <div class="project-preview__item wow animate__fadeInUp" data-wow-duration="500ms">
                 <a href="#">
                     <div class="project-preview__thumb">
-                        <img src="../assets/images/portfolio/project-preview-thumb-7.png" alt="project-preview-thumb-7">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/project-preview-thumb-7.png" alt="project-preview-thumb-7">
                     </div>
                 </a>
                 <div class="project-preview__desc-wrap">
@@ -117,7 +117,7 @@ get_header();
             <div class="project-preview__item wow animate__slideInRight" data-wow-duration="500ms">
                 <a href="#">
                     <div class="project-preview__thumb">
-                        <img src="../assets/images/portfolio/similar-projects-xs-2.png" alt="similar-projects-xs-2">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/similar-projects-xs-2.png" alt="similar-projects-xs-2">
                     </div>
                 </a>
                 <div class="project-preview__desc-wrap">

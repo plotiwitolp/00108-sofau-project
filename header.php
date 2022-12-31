@@ -35,36 +35,12 @@
                         </div>
 
                         <nav class="header__desk-wrap">
-                            <ul class="header__desk">
-                                <li><a href="<?= get_site_url(); ?>">Home</a></li>
-                                <li><a href="#">Services</a>
-                                    <div class="header__desk-sub-wrap">
-                                        <ul class="header__desk-sub services_sub_test">
-                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-l.php?id0">3D Art</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-m.php?id1">2D Art</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-s.php?id2">Animation</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-l.php?id3">Game development</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-m.php?id4">Marketing</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-s.php?id5">Cinematics</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li><a href="<?= get_site_url(); ?>/portfolio">Portfolio</a>
-                                    <div class="header__desk-sub-wrap">
-                                        <ul class="header__desk-sub header__desk-sub_test">
-                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id0">3D Art</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id1">2D Art</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id2">Animation</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id3">Game development</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id4">Marketing</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id5">Cinematics</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li><a href="<?= get_site_url(); ?>/about-us">About us</a></li>
-                                <li><a href="<?= get_site_url(); ?>/blog">Blog</a></li>
-                                <li><a href="<?= get_site_url(); ?>/contacts">Contacts</a></li>
-                            </ul>
+                            <?php wp_nav_menu(array(
+                                'theme_location' => 'main_desk_menu',
+                                'container'       => 'ul',
+                                'menu_class'      => 'header__desk',
+                                'walker' => new My_Walker_Nav_Menu()
+                            )); ?>
                         </nav>
 
                         <div class="nav-burger">
@@ -80,32 +56,14 @@
                         <div class="header-right-bottom-wrap">
 
                             <nav class="header__mob-wrap">
-                                <ul class="header__mob">
-                                    <li><a href="<?= get_site_url(); ?>">Home</a></li>
-                                    <li><a href="#">Services</a>
-                                        <ul class="header__mob-sub">
-                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-l.php?id0">3D Art</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-m.php?id1">2D Art</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-s.php?id2">Animation</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-l.php?id3">Game development</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-m.php?id4">Marketing</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/services-tmpl-s.php?id5">Cinematics</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Portfolio</a>
-                                        <ul class="header__mob-sub header__desk-sub_test">
-                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id0">3D Art</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id1">2D Art</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id2">Animation</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id3">Game development</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id4">Marketing</a></li>
-                                            <li><a href="<?= get_site_url(); ?>/portfolio.php?id5">Cinematics</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="<?= get_site_url(); ?>/about-us">About us</a></li>
-                                    <li><a href="<?= get_site_url(); ?>/blog">Blog</a></li>
-                                    <li><a href="<?= get_site_url(); ?>/contacts">Contacts</a></li>
-                                </ul>
+
+                                <?php wp_nav_menu(array(
+                                    'theme_location' => 'main_mob_menu',
+                                    'container'       => 'ul',
+                                    'menu_class'      => 'header__mob',
+
+                                )); ?>
+
                             </nav>
 
                             <div class="button-wrapper">

@@ -23,8 +23,8 @@ get_header();
 
         <!-- services-banner -->
         <div class="services-banner">
-            <img class="desk_img" src="../assets/images/services/services-top-banner-2.png" alt="services-top-banner-2">
-            <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/services-top-banner_mob.svg" alt="services-top-banner_mob">
+            <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-top-banner-2.png" alt="services-top-banner-2">
+            <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-top-banner_mob.svg" alt="services-top-banner_mob">
         </div>
 
 
@@ -34,8 +34,8 @@ get_header();
             <div class="services-4-blocks__wrap">
                 <div class="services-4-blocks__item wow animate__fadeInLeft" data-wow-duration="500ms">
                     <div class="services-4-blocks__pic">
-                        <img class="desk_img" src="../assets/images/services/services-4-blocks-1.png" alt="services-4-blocks-1">
-                        <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/services-4-blocks-1_mob.png" alt="services-4-blocks-1_mob">
+                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-1.png" alt="services-4-blocks-1">
+                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-1_mob.png" alt="services-4-blocks-1_mob">
                     </div>
                     <div class="services-4-blocks__title">
                         Complete design and development cycle
@@ -46,8 +46,8 @@ get_header();
                 </div>
                 <div class="services-4-blocks__item wow animate__fadeInRight" data-wow-duration="500ms">
                     <div class="services-4-blocks__pic">
-                        <img class="desk_img" src="../assets/images/services/services-4-blocks-2.png" alt="services-4-blocks-2">
-                        <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/services-4-blocks-2_mob.png" alt="services-4-blocks-2_mob">
+                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-2.png" alt="services-4-blocks-2">
+                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-2_mob.png" alt="services-4-blocks-2_mob">
                     </div>
                     <div class="services-4-blocks__title">
                         Game design
@@ -58,8 +58,8 @@ get_header();
                 </div>
                 <div class="services-4-blocks__item wow animate__fadeInLeft" data-wow-duration="500ms">
                     <div class="services-4-blocks__pic">
-                        <img class="desk_img" src="../assets/images/services/services-4-blocks-3.png" alt="services-4-blocks-3">
-                        <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/services-4-blocks-3_mob.png" alt="services-4-blocks-3_mob">
+                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-3.png" alt="services-4-blocks-3">
+                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-3_mob.png" alt="services-4-blocks-3_mob">
                     </div>
                     <div class="services-4-blocks__title">
                         Game development
@@ -70,8 +70,8 @@ get_header();
                 </div>
                 <div class="services-4-blocks__item wow animate__fadeInRight" data-wow-duration="500ms">
                     <div class="services-4-blocks__pic">
-                        <img class="desk_img" src="../assets/images/services/services-4-blocks-4.png" alt="services-4-blocks-4">
-                        <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/services-4-blocks-4_mob.png" alt="services-4-blocks-4_mob">
+                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-4.png" alt="services-4-blocks-4">
+                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-4_mob.png" alt="services-4-blocks-4_mob">
                     </div>
                     <div class="services-4-blocks__title">
                         QA and testing
@@ -87,13 +87,13 @@ get_header();
         <!-- bright-spot -->
         <div class="wrap">
             <div class="bright-spot bright-spot-services-left">
-                <img src="../assets/images/services/bright-spot-services-left.svg" alt="bright-spot-services-left">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/services/bright-spot-services-left.svg" alt="bright-spot-services-left">
             </div>
         </div>
 
 
         <!-- TECHNICAL EXPERTISE -->
-        <?php require_once '../templates/technical-exp.php'; ?>
+        <?php get_template_part('templates/technical-exp'); ?>
 
 
         <!-- OUR WORKS -->
@@ -104,33 +104,33 @@ get_header();
             <div class="works-gallery">
                 <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
                     <a href="#">
-                        <img class="desk_img" src="../assets/images/our_works-1.png" alt="our_works-1">
-                        <img class="mob_img" src="../assets/images/mob_img/home/our_works-1_mob.png" alt="our_works-1">
+                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/our_works-1.png" alt="our_works-1">
+                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/home/our_works-1_mob.png" alt="our_works-1">
                     </a>
                 </div>
                 <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
                     <a href="#">
-                        <img class="desk_img" src="../assets/images/our_works-2.png" alt="our_works-2">
-                        <img class="mob_img" src="../assets/images/mob_img/home/our_works-2_mob.png" alt="our_works-2">
+                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/our_works-2.png" alt="our_works-2">
+                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/home/our_works-2_mob.png" alt="our_works-2">
                     </a>
                 </div>
                 <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
                     <a href="#">
-                        <img class="desk_img" src="../assets/images/our_works-3.png" alt="our_works-3">
-                        <img class="mob_img" src="../assets/images/mob_img/home/our_works-3_mob.png" alt="our_works-3">
+                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/our_works-3.png" alt="our_works-3">
+                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/home/our_works-3_mob.png" alt="our_works-3">
                     </a>
                 </div>
                 <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
                     <a href="#">
-                        <img class="desk_img" src="../assets/images/our_works-4.png" alt="our_works-4">
-                        <img class="mob_img" src="../assets/images/mob_img/home/our_works-4_mob.png" alt="our_works-4">
+                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/our_works-4.png" alt="our_works-4">
+                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/home/our_works-4_mob.png" alt="our_works-4">
                     </a>
                 </div>
             </div>
             <span class="see-more-arrow our-works_services-arrow">
                 <a href="#">
                     <span>See more works</span>
-                    <img src="../assets/images/see-more-arrow.svg" alt="see-more-arrow">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/see-more-arrow.svg" alt="see-more-arrow">
                 </a>
             </span>
         </section>
@@ -153,8 +153,8 @@ get_header();
         <div class="services-4-blocks-thumb">
             <div class="services-4-blocks-thumb__item  wow animate__fadeInLeft" data-wow-duration="500ms">
                 <div class="services-4-blocks-thumb__pic">
-                    <img class="desk_img" src="../assets/images/services/services-4-blocks-thumb-1.png" alt="services-4-blocks-thumb-1">
-                    <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/services-4-blocks-thumb-1_mob.png" alt="services-4-blocks-thumb-1_mob">
+                    <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-thumb-1.png" alt="services-4-blocks-thumb-1">
+                    <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-thumb-1_mob.png" alt="services-4-blocks-thumb-1_mob">
                 </div>
                 <div class="services-4-blocks-thumb__title">
                     Casual Art
@@ -167,8 +167,8 @@ get_header();
             </div>
             <div class="services-4-blocks-thumb__item  wow animate__fadeInLeft" data-wow-duration="500ms">
                 <div class="services-4-blocks-thumb__pic">
-                    <img class="desk_img" src="../assets/images/services/services-4-blocks-thumb-2.png" alt="services-4-blocks-thumb-2">
-                    <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/services-4-blocks-thumb-2_mob.png" alt="services-4-blocks-thumb-1">
+                    <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-thumb-2.png" alt="services-4-blocks-thumb-2">
+                    <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-thumb-2_mob.png" alt="services-4-blocks-thumb-1">
                 </div>
                 <div class="services-4-blocks-thumb__title">
                     Concept Art
@@ -180,8 +180,8 @@ get_header();
             </div>
             <div class="services-4-blocks-thumb__item  wow animate__fadeInRight" data-wow-duration="500ms">
                 <div class="services-4-blocks-thumb__pic">
-                    <img class="desk_img" src="../assets/images/services/services-4-blocks-thumb-3.png" alt="services-4-blocks-thumb-3">
-                    <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/services-4-blocks-thumb-3_mob.png" alt="services-4-blocks-thumb-1">
+                    <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-thumb-3.png" alt="services-4-blocks-thumb-3">
+                    <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-thumb-3_mob.png" alt="services-4-blocks-thumb-1">
                 </div>
                 <div class="services-4-blocks-thumb__title">
                     Environment design
@@ -193,8 +193,8 @@ get_header();
             </div>
             <div class="services-4-blocks-thumb__item  wow animate__fadeInRight" data-wow-duration="500ms">
                 <div class="services-4-blocks-thumb__pic">
-                    <img class="desk_img" src="../assets/images/services/services-4-blocks-thumb-4.png" alt="services-4-blocks-thumb-4">
-                    <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/services-4-blocks-thumb-4_mob.png" alt="services-4-blocks-thumb-1">
+                    <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-thumb-4.png" alt="services-4-blocks-thumb-4">
+                    <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-thumb-4_mob.png" alt="services-4-blocks-thumb-1">
                 </div>
                 <div class="services-4-blocks-thumb__title">
                     Illustrations
@@ -210,8 +210,8 @@ get_header();
         <!-- bright-spot -->
         <div class="wrap">
             <div class="bright-spot bright-spot-services-center">
-                <img src="../assets/images/services/bright-spot-services-center.svg" alt="bright-spot-services-center">
-                <img class="mob_img" src="../assets/images/services/services-4-blocks-thumb-1.png" alt="services-4-blocks-thumb-1">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/services/bright-spot-services-center.svg" alt="bright-spot-services-center">
+                <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-thumb-1.png" alt="services-4-blocks-thumb-1">
             </div>
         </div>
 
@@ -219,14 +219,14 @@ get_header();
         <!-- banner-our-works -->
         <div class="banner-our-works banner-our-works_s_m">
             <div class="banner-our-works__pic wow animate__fadeInUp" data-wow-duration="500ms">
-                <img class="desk_img" src="../assets/images/about-us-banner-works.png" alt="about-us-banner-works">
-                <img class="mob_img" src="../assets/images/mob_img/services-tmpl-l/about-us-banner-works_mob.png" alt="about-us-banner-works">
+                <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/about-us-banner-works.png" alt="about-us-banner-works">
+                <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/about-us-banner-works_mob.png" alt="about-us-banner-works">
             </div>
         </div>
 
 
         <!--  team -->
-        <?php require_once '../templates/team.php'; ?>
+        <?php get_template_part('templates/team'); ?>
 
     </div>
 

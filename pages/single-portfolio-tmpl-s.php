@@ -11,8 +11,8 @@ get_header();
     <!-- top-banner -->
     <section>
         <div class="top-banner-info">
-            <img class="desk_img" src="../assets/images/The-snow-fable.png" alt="The-snow-fable">
-            <img class="mob_img" src="../assets/images/The-snow-fable_mob.png" alt="The-snow-fable_mob">
+            <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/The-snow-fable.png" alt="The-snow-fable">
+            <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/The-snow-fable_mob.png" alt="The-snow-fable_mob">
             <h1 class="wow animate__fadeInLeft" data-wow-duration="500ms">Chronicles of the Withes and Warlocks</h1>
             <div class="top-banner-info__wrap">
                 <div class="top-banner-info__item">
@@ -39,11 +39,11 @@ get_header();
     <!-- portfolio-banner -->
     <div class="portfolio-banner">
         <div class="portfolio-banner_img-wrap">
-            <img src="../assets/images/banner-car.png" alt="banner-car">
+            <img src="<?php bloginfo('template_url'); ?>/assets/images/banner-car.png" alt="banner-car">
         </div>
         <div class="wrap">
             <div class="bright-spot bright-spot-portfolio-top">
-                <img src="../assets/images/portfolio/bright-spot-portfolio-top.svg" alt="bright-spot-portfolio-top">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/bright-spot-portfolio-top.svg" alt="bright-spot-portfolio-top">
             </div>
         </div>
     </div>
@@ -74,51 +74,51 @@ get_header();
     <div class="works-gallery gallery_1">
         <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
             <a href="#">
-                <img class="desk_img" src="../assets/images/portfolio/portfolio-our-works-1.png" alt="portfolio-our-works-1">
-                <img class="mob_img" src="../assets/images/portfolio/portfolio-our-works-1_mob.png" alt="portfolio-our-works-1_mob">
+                <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/portfolio-our-works-1.png" alt="portfolio-our-works-1">
+                <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/portfolio-our-works-1_mob.png" alt="portfolio-our-works-1_mob">
             </a>
         </div>
         <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
             <a href="#">
-                <img class="desk_img" src="../assets/images/portfolio/portfolio-our-works-2.png" alt="portfolio-our-works-2">
-                <img class="mob_img" src="../assets/images/portfolio/portfolio-our-works-2_mob.png" alt="portfolio-our-works-2_mob">
+                <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/portfolio-our-works-2.png" alt="portfolio-our-works-2">
+                <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/portfolio-our-works-2_mob.png" alt="portfolio-our-works-2_mob">
             </a>
         </div>
         <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
             <a href="#">
-                <img class="desk_img" src="../assets/images/portfolio/portfolio-our-works-3.png" alt="portfolio-our-works-3">
-                <img class="mob_img" src="../assets/images/portfolio/portfolio-our-works-3_mob.png" alt="portfolio-our-works-3_mob">
+                <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/portfolio-our-works-3.png" alt="portfolio-our-works-3">
+                <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/portfolio-our-works-3_mob.png" alt="portfolio-our-works-3_mob">
             </a>
         </div>
         <div class="works-gallery__item wow animate__fadeInBottomLeft" data-wow-duration="500ms">
             <a href="#">
-                <img class="desk_img" src="../assets/images/portfolio/portfolio-our-works-4.png" alt="portfolio-our-works-4">
-                <img class="mob_img" src="../assets/images/portfolio/portfolio-our-works-4_mob.png" alt="portfolio-our-works-4_mob">
+                <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/portfolio-our-works-4.png" alt="portfolio-our-works-4">
+                <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/portfolio-our-works-4_mob.png" alt="portfolio-our-works-4_mob">
             </a>
         </div>
         <div class="works-gallery__item wow animate__fadeInBottomLeft" data-wow-duration="500ms">
             <a href="#">
-                <img class="desk_img" src="../assets/images/portfolio/portfolio-our-works-5.png" alt="portfolio-our-works-5">
-                <img class="mob_img" src="../assets/images/portfolio/portfolio-our-works-1_mob.png" alt="portfolio-our-works-1_mob">
+                <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/portfolio-our-works-5.png" alt="portfolio-our-works-5">
+                <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/portfolio-our-works-1_mob.png" alt="portfolio-our-works-1_mob">
             </a>
         </div>
         <div class="works-gallery__item wow animate__fadeInUp" data-wow-duration="500ms">
             <a href="#">
-                <img class="desk_img" src="../assets/images/portfolio/portfolio-our-works-6.png" alt="portfolio-our-works-6">
-                <img class="mob_img" src="../assets/images/portfolio/portfolio-our-works-2_mob.png" alt="portfolio-our-works-2_mob">
+                <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/portfolio-our-works-6.png" alt="portfolio-our-works-6">
+                <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/portfolio-our-works-2_mob.png" alt="portfolio-our-works-2_mob">
             </a>
         </div>
         <div class="works-gallery__item wow animate__fadeInBottomRight" data-wow-duration="500ms">
             <a href="#">
-                <img class="desk_img" src="../assets/images/portfolio/portfolio-our-works-7.png" alt="portfolio-our-works-7">
-                <img class="mob_img" src="../assets/images/portfolio/portfolio-our-works-3_mob.png" alt="portfolio-our-works-3_mob">
+                <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/portfolio-our-works-7.png" alt="portfolio-our-works-7">
+                <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/portfolio-our-works-3_mob.png" alt="portfolio-our-works-3_mob">
             </a>
         </div>
     </div>
 
 
     <!-- Similar projects -->
-    <?php require '../templates/similar-projects.php'; ?>
+    <?php get_template_part('templates/similar-projects'); ?>
 
 
     <!--  Feedback form -->

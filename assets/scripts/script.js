@@ -13,6 +13,10 @@
     });
     // end header fixed
 
+    // start  доавление класса в мобильное подменю
+    $('.header__mob-wrap').find('.sub-menu').addClass('header__mob-sub');
+    // end  доавление класса в мобильное подменю
+
     // start top-nav
     $('.header__desk-sub-wrap').prev().append("<span class='nav-arr'>");
     $('.header__desk li').mouseover(function () {

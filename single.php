@@ -1,8 +1,5 @@
-<?php
+<?php get_header(); ?>
 
-get_header();
-?>
+<h1 style="color: white;"> SINGLE </h1>
 
-
-<? get_footer();
-?>
+<?php get_footer();   ?>
