@@ -11,7 +11,7 @@ get_header();
     <!-- top-banner -->
     <section>
         <div class="top-banner">
-            <h1 class="wow animate__fadeInLeft" data-wow-duration="500ms">Game Art Design Services</h1>
+            <h1 class="wow animate__fadeInLeft" data-wow-duration="500ms"><?php the_field('services_m_title_h1'); ?></h1>
         </div>
     </section>
 
@@ -23,61 +23,61 @@ get_header();
 
         <!-- services-banner -->
         <div class="services-banner">
-            <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-top-banner-2.png" alt="services-top-banner-2">
-            <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-top-banner_mob.svg" alt="services-top-banner_mob">
+            <img class="desk_img" src="<?php the_field('services_m_top_banner_desk'); ?>" alt="services-top-banner-1">
+            <img class="mob_img" src="<?php the_field('services_m_top_banner_mob'); ?>" alt="services-top-banner_mob">
         </div>
 
 
         <!-- Game development services -->
         <div class="services-4-blocks services-4-blocks_row">
-            <h2 class="wow animate__fadeInLeft" data-wow-duration="500ms">2D art OUTSOURCING SERVICES</h2>
+            <h2 class="wow animate__fadeInLeft" data-wow-duration="500ms"><?php the_field('services_m_title_after_top_banner_h2'); ?></h2>
             <div class="services-4-blocks__wrap">
                 <div class="services-4-blocks__item wow animate__fadeInLeft" data-wow-duration="500ms">
                     <div class="services-4-blocks__pic">
-                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-1.png" alt="services-4-blocks-1">
-                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-1_mob.png" alt="services-4-blocks-1_mob">
+                        <img class="desk_img" src="<?php the_field('services_m_block_of_4_parts_desk_pic_1'); ?>" alt="services-4-blocks-1">
+                        <img class="mob_img" src="<?php the_field('services_m_block_of_4_parts_mob_pic_1'); ?>" alt="services-4-blocks-1_mob">
                     </div>
                     <div class="services-4-blocks__title">
-                        Complete design and development cycle
+                        <?php the_field('services_m_block_of_4_parts_title_1'); ?>
                     </div>
                     <div class="services-4-blocks__text">
-                        Tell us your idea for the game and we will handle the rest. Specifications, visual design, prototyping, game design, development, and testing will be done by our specialists with speed and efficiency. You can watch your game become a reality and be in control on every stage with our transparent pipeline.
+                        <?php the_field('services_m_block_of_4_parts_text_1'); ?>
                     </div>
                 </div>
                 <div class="services-4-blocks__item wow animate__fadeInRight" data-wow-duration="500ms">
                     <div class="services-4-blocks__pic">
-                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-2.png" alt="services-4-blocks-2">
-                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-2_mob.png" alt="services-4-blocks-2_mob">
+                        <img class="desk_img" src="<?php the_field('services_m_block_of_4_parts_desk_pic_2'); ?>" alt="services-4-blocks-2">
+                        <img class="mob_img" src="<?php the_field('services_m_block_of_4_parts_mob_pic_2'); ?>" alt="services-4-blocks-2_mob">
                     </div>
                     <div class="services-4-blocks__title">
-                        Game design
+                        <?php the_field('services_m_block_of_4_parts_title_2'); ?>
                     </div>
                     <div class="services-4-blocks__text">
-                        We use our vast experience and follow the latest trends to create exciting gameplay, balanced levels, clever puzzles, and monetization schemes to keep players engaged.
+                        <?php the_field('services_m_block_of_4_parts_text_2'); ?>
                     </div>
                 </div>
                 <div class="services-4-blocks__item wow animate__fadeInLeft" data-wow-duration="500ms">
                     <div class="services-4-blocks__pic">
-                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-3.png" alt="services-4-blocks-3">
-                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-3_mob.png" alt="services-4-blocks-3_mob">
+                        <img class="desk_img" src="<?php the_field('services_m_block_of_4_parts_desk_pic_3'); ?>" alt="services-4-blocks-3">
+                        <img class="mob_img" src="<?php the_field('services_m_block_of_4_parts_mob_pic_3'); ?>" alt="services-4-blocks-3_mob">
                     </div>
                     <div class="services-4-blocks__title">
-                        Game development
+                        <?php the_field('services_m_block_of_4_parts_title_3'); ?>
                     </div>
                     <div class="services-4-blocks__text">
-                        Our development team is full of talented people who can solve every problem and deliver a high-quality product.
+                        <?php the_field('services_m_block_of_4_parts_text_3'); ?>
                     </div>
                 </div>
                 <div class="services-4-blocks__item wow animate__fadeInRight" data-wow-duration="500ms">
                     <div class="services-4-blocks__pic">
-                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-4.png" alt="services-4-blocks-4">
-                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-4_mob.png" alt="services-4-blocks-4_mob">
+                        <img class="desk_img" src="<?php the_field('services_m_block_of_4_parts_desk_pic_4'); ?>" alt="services-4-blocks-4">
+                        <img class="mob_img" src="<?php the_field('services_m_block_of_4_parts_mob_pic_4'); ?>" alt="services-4-blocks-4_mob">
                     </div>
                     <div class="services-4-blocks__title">
-                        QA and testing
+                        <?php the_field('services_m_block_of_4_parts_title_4'); ?>
                     </div>
                     <div class="services-4-blocks__text">
-                        The QA team will make sure that the user experience is as smooth and robust as possible.
+                        <?php the_field('services_m_block_of_4_parts_text_4'); ?>
                     </div>
                 </div>
             </div>
@@ -99,31 +99,33 @@ get_header();
         <!-- OUR WORKS -->
         <section class="our-works our-works_services">
             <div class="works-title">
-                <h2 class="wow animate__fadeInLeft" data-wow-duration="500ms">OUR WORKS</h2>
+                <h2 class="wow animate__fadeInLeft" data-wow-duration="500ms">
+                    <?php the_field('services_m_title_h2'); ?>
+                </h2>
             </div>
             <div class="works-gallery">
                 <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
                     <a href="#">
-                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/our_works-1.png" alt="our_works-1">
-                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/home/our_works-1_mob.png" alt="our_works-1">
+                        <img class="desk_img" src="<?php the_field('services_m_block_of_4_img_pic_desk_1'); ?>" alt="our_works-1">
+                        <img class="mob_img" src="<?php the_field('services_m_block_of_4_img_pic_mob_1'); ?>" alt="our_works-1">
                     </a>
                 </div>
                 <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
                     <a href="#">
-                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/our_works-2.png" alt="our_works-2">
-                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/home/our_works-2_mob.png" alt="our_works-2">
+                        <img class="desk_img" src="<?php the_field('services_m_block_of_4_img_pic_desk_2'); ?>" alt="our_works-2">
+                        <img class="mob_img" src="<?php the_field('services_m_block_of_4_img_pic_mob_2'); ?>" alt="our_works-2">
                     </a>
                 </div>
                 <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
                     <a href="#">
-                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/our_works-3.png" alt="our_works-3">
-                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/home/our_works-3_mob.png" alt="our_works-3">
+                        <img class="desk_img" src="<?php the_field('services_m_block_of_4_img_pic_desk_3'); ?>" alt="our_works-3">
+                        <img class="mob_img" src="<?php the_field('services_m_block_of_4_img_pic_mob_3'); ?>" alt="our_works-3">
                     </a>
                 </div>
                 <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
                     <a href="#">
-                        <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/our_works-4.png" alt="our_works-4">
-                        <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/home/our_works-4_mob.png" alt="our_works-4">
+                        <img class="desk_img" src="<?php the_field('services_m_block_of_4_img_pic_desk_4'); ?>" alt="our_works-4">
+                        <img class="mob_img" src="<?php the_field('services_m_block_of_4_img_pic_mob_4'); ?>" alt="our_works-4">
                     </a>
                 </div>
             </div>
@@ -139,10 +141,10 @@ get_header();
         <!-- Unity development -->
         <section class="h2-info">
             <div class="h2-info__item wow animate__fadeInLeft" data-wow-duration="500ms">
-                <h2>Unity development</h2>
+                <h2><?php the_field('services_m_block_of_1_parts_title'); ?></h2>
                 <div class="h2-info__body">
                     <p>
-                        Our engine of choice is Unity, as it provides the right mix of features, performance, and stability. If necessary, our development team has enough skills and experience to work with any other major engine.
+                        <?php the_field('services_m_block_of_1_parts_text'); ?>
                     </p>
                 </div>
             </div>
@@ -153,55 +155,50 @@ get_header();
         <div class="services-4-blocks-thumb">
             <div class="services-4-blocks-thumb__item  wow animate__fadeInLeft" data-wow-duration="500ms">
                 <div class="services-4-blocks-thumb__pic">
-                    <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-thumb-1.png" alt="services-4-blocks-thumb-1">
-                    <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-thumb-1_mob.png" alt="services-4-blocks-thumb-1_mob">
+                    <img class="desk_img" src="<?php the_field('services_m_block_of_4_2_parts_row_desk_pic_1'); ?>" alt="services-4-blocks-thumb-1">
+                    <img class="mob_img" src="<?php the_field('services_m_block_of_4_2_parts_row_mob_pic_1'); ?>" alt="services-4-blocks-thumb-1_mob">
                 </div>
                 <div class="services-4-blocks-thumb__title">
-                    Casual Art
+                    <?php the_field('services_m_block_of_4_2_parts_row_title_1'); ?>
                 </div>
                 <div class="services-4-blocks-thumb__body">
-                    Our bright characters and colorful locations will become a calling
-                    card for your casual game. A well-designed environment serves
-                    as a good tool to attract the attention of players in the game.
+                    <?php the_field('services_m_block_of_4_2_parts_row_text_1'); ?>
                 </div>
             </div>
             <div class="services-4-blocks-thumb__item  wow animate__fadeInLeft" data-wow-duration="500ms">
                 <div class="services-4-blocks-thumb__pic">
-                    <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-thumb-2.png" alt="services-4-blocks-thumb-2">
-                    <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-thumb-2_mob.png" alt="services-4-blocks-thumb-1">
+                    <img class="desk_img" src="<?php the_field('services_m_block_of_4_2_parts_row_desk_pic_2'); ?>" alt="services-4-blocks-thumb-2">
+                    <img class="mob_img" src="<?php the_field('services_m_block_of_4_2_parts_row_mob_pic_2'); ?>" alt="services-4-blocks-thumb-1">
                 </div>
                 <div class="services-4-blocks-thumb__title">
-                    Concept Art
+                    <?php the_field('services_m_block_of_4_2_parts_row_title_2'); ?>
                 </div>
                 <div class="services-4-blocks-thumb__body">
-                    We are responsible for the creation and elaboration of elements of the game world, so we create concept art. Our artists will create several concept art and you will definitely find
-                    a solution for your project!
+                    <?php the_field('services_m_block_of_4_2_parts_row_text_2'); ?>
                 </div>
             </div>
             <div class="services-4-blocks-thumb__item  wow animate__fadeInRight" data-wow-duration="500ms">
                 <div class="services-4-blocks-thumb__pic">
-                    <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-thumb-3.png" alt="services-4-blocks-thumb-3">
-                    <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-thumb-3_mob.png" alt="services-4-blocks-thumb-1">
+                    <img class="desk_img" src="<?php the_field('services_m_block_of_4_2_parts_row_desk_pic_3'); ?>" alt="services-4-blocks-thumb-3">
+                    <img class="mob_img" src="<?php the_field('services_m_block_of_4_2_parts_row_mob_pic_3'); ?>" alt="services-4-blocks-thumb-1">
                 </div>
                 <div class="services-4-blocks-thumb__title">
-                    Environment design
+                    <?php the_field('services_m_block_of_4_2_parts_row_title_3'); ?>
                 </div>
                 <div class="services-4-blocks-thumb__body">
-                    We provide a complex method to creating a game illustration. Our team is ready to create any worlds, dimensions and landscapes according to your needs. Our artists know how to create spectacular landscapes, urban architecture and other
-                    locations for your project.
+                    <?php the_field('services_m_block_of_4_2_parts_row_text_3'); ?>
                 </div>
             </div>
             <div class="services-4-blocks-thumb__item  wow animate__fadeInRight" data-wow-duration="500ms">
                 <div class="services-4-blocks-thumb__pic">
-                    <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-thumb-4.png" alt="services-4-blocks-thumb-4">
-                    <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/services-4-blocks-thumb-4_mob.png" alt="services-4-blocks-thumb-1">
+                    <img class="desk_img" src="<?php the_field('services_m_block_of_4_2_parts_row_desk_pic_4'); ?>" alt="services-4-blocks-thumb-4">
+                    <img class="mob_img" src="<?php the_field('services_m_block_of_4_2_parts_row_mob_pic_4'); ?>" alt="services-4-blocks-thumb-1">
                 </div>
                 <div class="services-4-blocks-thumb__title">
-                    Illustrations
+                    <?php the_field('services_m_block_of_4_2_parts_row_title_4'); ?>
                 </div>
                 <div class="services-4-blocks-thumb__body">
-                    Our designers have extensive experience in creating 2D illustrations, promos and fake shots. Our art will help make your product more attractive to potential players, you can implement
-                    it on various advertising platforms.
+                    <?php the_field('services_m_block_of_4_2_parts_row_text_4'); ?>
                 </div>
             </div>
         </div>
@@ -219,8 +216,8 @@ get_header();
         <!-- banner-our-works -->
         <div class="banner-our-works banner-our-works_s_m">
             <div class="banner-our-works__pic wow animate__fadeInUp" data-wow-duration="500ms">
-                <img class="desk_img" src="<?php bloginfo('template_url'); ?>/assets/images/about-us-banner-works.png" alt="about-us-banner-works">
-                <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/mob_img/services-tmpl-l/about-us-banner-works_mob.png" alt="about-us-banner-works">
+                <img class="desk_img" src="<?php the_field('services_m_bottom_banner_desk'); ?>" alt="about-us-banner-works">
+                <img class="mob_img" src="<?php the_field('services_m_bottom_banner_mob'); ?>" alt="about-us-banner-works">
             </div>
         </div>
 
