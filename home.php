@@ -48,7 +48,7 @@ get_header();
             foreach ($posts as $post) {
                 setup_postdata($post);
             ?>
-                <div class="job-preview__item wow animate__fadeInLeft" data-wow-duration="500ms">
+                <div class="job-preview__item wow animate__fadeInUp" data-wow-duration="500ms">
                     <div class="job-preview__thumb">
                         <img class="desk_img" src="<?php the_field('our_services_thumb_img_desc'); ?>" alt="our_services-3d_art">
                         <img class="mob_img" src="<?php the_field('our_services_thumb_img_mob'); ?>" alt="our_services-3d_art_mob">
