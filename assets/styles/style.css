@@ -1023,6 +1023,8 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 208px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .top-banner h1 {
   text-align: center;

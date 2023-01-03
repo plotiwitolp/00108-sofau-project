@@ -130,8 +130,8 @@ get_header();
                 </div>
             </div>
             <span class="see-more-arrow our-works_services-arrow">
-                <a href="#">
-                    <span>See more works</span>
+                <a href="<?php the_field('services_m_block_of_4_link_btn'); ?>">
+                    <span><?php the_field('services_m_block_of_4_text_btn'); ?></span>
                     <img src="<?php bloginfo('template_url'); ?>/assets/images/see-more-arrow.svg" alt="see-more-arrow">
                 </a>
             </span>

@@ -33,6 +33,8 @@ add_theme_support('title-tag');
 add_theme_support('custom-logo');
 
 
+
+
 // регистрация меню
 add_action('after_setup_theme', function () {
     register_nav_menus(array(

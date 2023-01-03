@@ -29,9 +29,7 @@
                     <div class="header-left-top">
 
                         <div class="header__logo">
-                            <a href="<?= get_site_url(); ?>">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/images/logo.svg" alt="wellore.com">
-                            </a>
+                            <?php the_custom_logo($blog_id); ?>
                         </div>
 
                         <nav class="header__desk-wrap">

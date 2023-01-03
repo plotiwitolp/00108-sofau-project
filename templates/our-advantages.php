@@ -1,7 +1,7 @@
 <section class="our-advantages">
     <div class="our-advantages-wrap">
         <div class="our-advantages__h2-wrap wow animate__fadeInLeft" data-wow-duration="500ms">
-            <h2 class="our-advantages__h2 ">Our advantages</h2>
+            <h2 class="our-advantages__h2 "><?php the_field('our_advantages_title_h2'); ?></h2>
         </div>
         <div class="advantages wow animate__slideInRight" data-wow-duration="500ms">
             <div class="advantages__item">
@@ -9,9 +9,9 @@
                     <img src="<?php bloginfo('template_url'); ?>/assets/images/dawn.svg" alt="dawn">
                 </div>
                 <div class="advantages__body">
-                    <span>Individual approach</span>
+                    <span><?php the_field('our_advantages_title_1'); ?></span>
                     <p>
-                        We will take into account all your wishes when creating a project.
+                        <?php the_field('our_advantages_text_1'); ?>
                     </p>
                 </div>
             </div>
@@ -20,9 +20,9 @@
                     <img src="<?php bloginfo('template_url'); ?>/assets/images/dawn.svg" alt="dawn">
                 </div>
                 <div class="advantages__body">
-                    <span>Professionalism and quality</span>
+                    <span><?php the_field('our_advantages_title_2'); ?></span>
                     <p>
-                        Our team of artists, developers, designers and managers has a wealth of experience and will help to implement all your ideas.
+                        <?php the_field('our_advantages_text_2'); ?>
                     </p>
                 </div>
             </div>
@@ -31,9 +31,9 @@
                     <img src="<?php bloginfo('template_url'); ?>/assets/images/dawn.svg" alt="dawn">
                 </div>
                 <div class="advantages__body">
-                    <span>Complete Solutions</span>
+                    <span><?php the_field('our_advantages_title_3'); ?></span>
                     <p>
-                        We offer complex solutions that allow us to solve several problems at once or we can create a full-fledged project from scratch.
+                        <?php the_field('our_advantages_text_3'); ?>
                     </p>
                 </div>
             </div>
@@ -42,9 +42,9 @@
                     <img src="<?php bloginfo('template_url'); ?>/assets/images/dawn.svg" alt="dawn">
                 </div>
                 <div class="advantages__body">
-                    <span>High security</span>
+                    <span><?php the_field('our_advantages_title_4'); ?></span>
                     <p>
-                        Your data is safe: we strictly adhere to the privacy policy.
+                        <?php the_field('our_advantages_text_4'); ?>
                     </p>
                 </div>
             </div>
