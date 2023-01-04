@@ -1,9 +1,18 @@
 <?php
-/*
-Template Name: Шаблон страницы Portfolio
-*/
-
 get_header();
+
+?>
+<pre>
+    <?php
+    // global $post;
+    // $post_slug = $post->post_name;
+    echo get_page_by_path('tag');
+    // wp_reset_postdata();
+    ?>
+</pre>
+<?php
+
+
 ?>
 <div class="section">
     <!-- top-banner -->
@@ -45,7 +54,6 @@ get_header();
         <div class="project-preview">
             <?php
             global $post;
-
             $current_page = !empty($_GET['w_page']) ? $_GET['w_page'] : 1;
             $query = new WP_Query(array(
                 'posts_per_page' => 9,
@@ -54,12 +62,7 @@ get_header();
                 'tag' => $_GET['slug'],
                 'order' => 'ASC'
             ));
-
-            // $args = array('numberposts' => -1, 'posts_per_page' => 9, 'category' => 5,  'tag' => $_GET['slug'], 'order' => 'ASC');
-
             $portfolio = get_posts($query);
-
-
             if ($portfolio) {
                 while ($query->have_posts()) : $query->the_post();
                     setup_postdata($post); ?>

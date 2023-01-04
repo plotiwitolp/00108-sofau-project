@@ -105,28 +105,24 @@ get_header();
             </div>
             <div class="works-gallery">
                 <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
-                    <a href="#">
-                        <img class="desk_img" src="<?php the_field('services_m_block_of_4_img_pic_desk_1'); ?>" alt="our_works-1">
-                        <img class="mob_img" src="<?php the_field('services_m_block_of_4_img_pic_mob_1'); ?>" alt="our_works-1">
-                    </a>
+                    <img class="desk_img full_for_img" src="<?php the_field('services_m_block_of_4_img_pic_desk_1'); ?>" alt="our_works-1">
+                    <img class="full_img" src="<?php the_field('services_m_full_img_1'); ?>" alt="our_works-full">
+                    <img class="mob_img" src="<?php the_field('services_m_block_of_4_img_pic_mob_1'); ?>" alt="our_works-1">
                 </div>
                 <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
-                    <a href="#">
-                        <img class="desk_img" src="<?php the_field('services_m_block_of_4_img_pic_desk_2'); ?>" alt="our_works-2">
-                        <img class="mob_img" src="<?php the_field('services_m_block_of_4_img_pic_mob_2'); ?>" alt="our_works-2">
-                    </a>
+                    <img class="desk_img full_for_img" src="<?php the_field('services_m_block_of_4_img_pic_desk_2'); ?>" alt="our_works-2">
+                    <img class="full_img" src="<?php the_field('services_m_full_img_1'); ?>" alt="our_works-full">
+                    <img class="mob_img" src="<?php the_field('services_m_block_of_4_img_pic_mob_2'); ?>" alt="our_works-2">
                 </div>
                 <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
-                    <a href="#">
-                        <img class="desk_img" src="<?php the_field('services_m_block_of_4_img_pic_desk_3'); ?>" alt="our_works-3">
-                        <img class="mob_img" src="<?php the_field('services_m_block_of_4_img_pic_mob_3'); ?>" alt="our_works-3">
-                    </a>
+                    <img class="desk_img full_for_img" src="<?php the_field('services_m_block_of_4_img_pic_desk_3'); ?>" alt="our_works-3">
+                    <img class="full_img" src="<?php the_field('services_m_full_img_1'); ?>" alt="our_works-full">
+                    <img class="mob_img" src="<?php the_field('services_m_block_of_4_img_pic_mob_3'); ?>" alt="our_works-3">
                 </div>
                 <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
-                    <a href="#">
-                        <img class="desk_img" src="<?php the_field('services_m_block_of_4_img_pic_desk_4'); ?>" alt="our_works-4">
-                        <img class="mob_img" src="<?php the_field('services_m_block_of_4_img_pic_mob_4'); ?>" alt="our_works-4">
-                    </a>
+                    <img class="desk_img full_for_img" src="<?php the_field('services_m_block_of_4_img_pic_desk_4'); ?>" alt="our_works-4">
+                    <img class="full_img" src="<?php the_field('services_m_full_img_1'); ?>" alt="our_works-full">
+                    <img class="mob_img" src="<?php the_field('services_m_block_of_4_img_pic_mob_4'); ?>" alt="our_works-4">
                 </div>
             </div>
             <span class="see-more-arrow our-works_services-arrow">

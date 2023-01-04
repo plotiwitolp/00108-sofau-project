@@ -57,13 +57,27 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border-top: 1px solid rgba(93, 95, 239, 0.3);
     color: #fff;
   }
-  .header__mob > li > a:last-child {
+  .header__mob > li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-top: 1px solid rgba(93, 95, 239, 0.3);
+  }
+  .header__mob > li:last-child {
     border-bottom: 1px solid rgba(93, 95, 239, 0.3);
   }
   .header__mob-sub {
+    width: 100%;
     display: none;
     padding: 14px;
     background: linear-gradient(89.5deg, rgba(20, 12, 31, 0) 0.33%, rgba(93, 95, 239, 0.2) 99.14%);
@@ -78,6 +92,11 @@
     font-size: 15px;
     line-height: 140%;
     color: #fff;
+  }
+  .header__mob-wrap .nav-arr {
+    margin: 0 10px 0 10px;
+    padding: 20px;
+    cursor: pointer;
   }
   .header__contact-us {
     margin: 55px 0 44px;
@@ -535,5 +554,8 @@
   }
   .banner-our-works_s_m {
     padding-bottom: 0;
+  }
+  .single-post h1 {
+    text-align: left;
   }
 }

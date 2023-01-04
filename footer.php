@@ -77,6 +77,9 @@
         </div>
     </div>
 </footer>
+<div class="full_background">
+    <span class="full_background-close">x</span>
+</div>
 </div>
 <?php wp_footer(); ?>
 </body>
