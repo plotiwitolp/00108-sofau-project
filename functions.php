@@ -131,3 +131,11 @@ function true_duplicate_post_link($actions, $post)
     }
     return $actions;
 }
+
+
+// стили к админке
+add_action('admin_enqueue_scripts', 'load_admin_style');
+function load_admin_style()
+{
+    wp_enqueue_style('admin_css', get_template_directory_uri() . '/assets/styles/admin.css', array(), '7.0');
+}

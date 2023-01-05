@@ -1,0 +1,10 @@
+div#submitdiv {
+  position: fixed !important;
+  z-index: 999 !important;
+  top: 80px;
+  width: 278px;
+}
+
+div#categorydiv {
+  margin-top: 300px;
+}

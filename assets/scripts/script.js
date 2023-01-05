@@ -203,9 +203,11 @@
 
     // start popUp
     $('.full_for_img').on('click', function () {
-      $('.full_background').addClass('animate__animated animate__fadeIn').show();
-      $(this).next().addClass('animate__animated animate__fadeIn').show();
-      $('body').css('overflow', 'hidden');
+      if ($(this).next().attr('src') !== '') {
+        $('.full_background').addClass('animate__animated animate__fadeIn').show();
+        $(this).next().addClass('animate__animated animate__fadeIn').show();
+        $('body').css('overflow', 'hidden');
+      }
     });
     $('.full_background').on('click', function () {
       $('.full_background').hide();
@@ -236,7 +238,14 @@
     }
     // blockInspector();
     // end blockInspector
-    console.log($.get());
+
+    // start переход назад в 404 странице
+    $('.lizard404__hint__btn').on('click', function () {
+      parent.history.back();
+      return false;
+    });
+    // end переход назад в 404 странице
+
     // END ALL
   });
 })(jQuery);
