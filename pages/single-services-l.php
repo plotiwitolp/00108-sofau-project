@@ -20,14 +20,11 @@ get_header();
         <!-- tags -->
         <?php get_template_part('templates/tags-services'); ?>
 
-
-
         <!-- services-banner -->
         <div class="services-banner">
             <img class="desk_img" src="<?php the_field('services_l_top_banner_desk'); ?>" alt="services-top-banner-1">
             <img class="mob_img" src="<?php the_field('services_l_top_banner_mob'); ?>" alt="services-top-banner_mob">
         </div>
-
 
         <!-- 2D art OUTSOURCING SERVICES -->
         <div class="services-4-blocks">
@@ -88,7 +85,6 @@ get_header();
             </div>
         </div>
 
-
         <!-- bright-spot -->
         <div class="wrap">
             <div class="bright-spot bright-spot-services-left">
@@ -97,10 +93,8 @@ get_header();
             </div>
         </div>
 
-
         <!-- TECHNICAL EXPERTISE -->
         <?php get_template_part('templates/technical-exp'); ?>
-
 
         <!-- services-4-blocks-thumb -->
         <div class="services-4-blocks-thumb">
@@ -154,7 +148,6 @@ get_header();
             </div>
         </div>
 
-
         <!-- bright-spot -->
         <div class="wrap">
             <div class="bright-spot bright-spot-services-center">
@@ -162,7 +155,6 @@ get_header();
                 <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-thumb-1.png" alt="services-4-blocks-thumb-1">
             </div>
         </div>
-
 
         <!-- Character design -->
         <section class="h2-info h2-info__marg">
@@ -183,7 +175,6 @@ get_header();
             </div>
         </section>
 
-
         <!-- Game objects and icons -->
         <section class="h2-info h2-info__marg">
             <div class="h2-info__item h2-info__wrap wow animate__fadeInLeft" data-wow-duration="500ms">
@@ -202,8 +193,6 @@ get_header();
                 </div>
             </div>
         </section>
-
-
 
         <!-- OUR WORKS -->
         <section class="our-works our-works_services">
@@ -242,12 +231,10 @@ get_header();
             </span>
         </section>
 
-
         <!--  team -->
         <?php get_template_part('templates/team'); ?>
 
     </div>
-
 
     <!--  feedback form -->
     <?php get_template_part('templates/feedback-form'); ?>

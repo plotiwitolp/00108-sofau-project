@@ -9,56 +9,30 @@ get_header();
     <!-- top-banner -->
     <section>
         <div class="top-banner">
-            <h1 class="wow animate__fadeInLeft" data-wow-duration="500ms">Design Portfolio</h1>
+            <h1 class="wow animate__fadeInLeft" data-wow-duration="500ms"><?php the_field('portfolio_tittle_h1'); ?></h1>
         </div>
     </section>
 
 
     <section class="portfolio">
         <!-- tags -->
-        <div method="get" class="tag wow animate__fadeInRight" data-wow-duration="500ms">
-            <?php
-            $args = array(
-                'taxonomy' => 'post_tag',
-            );
-            $tags = get_tags($args);
-            foreach ($tags as $tag) {
-                setup_postdata($tag);
-            ?>
-                <div class="tag__item">
-                    <a href="<?php echo '?' . 'slug=' . $tag->slug ?>" class="<?php
-                                                                                if ($_GET['slug'] ==  $tag->slug) {
-                                                                                    echo 'hover';
-                                                                                }
-                                                                                ?>">
-                        <?= $tag->name; ?>
-                    </a>
-                </div>
-            <?php
-            }
-            wp_reset_postdata();
-            ?>
-        </div>
-
+        <?php get_template_part('templates/tags-portfolio'); ?>
 
         <!-- project-preview -->
         <div class="project-preview">
             <?php
             global $post;
-
+            $porfolio_post_per_page = get_field('porfolio_post_per_page');
             $current_page = !empty($_GET['w_page']) ? $_GET['w_page'] : 1;
             $query = new WP_Query(array(
-                'posts_per_page' => 9,
+                'posts_per_page' => $porfolio_post_per_page,
                 'cat' => 5,
                 'paged' => $current_page,
                 'tag' => $_GET['slug'],
                 'order' => 'ASC'
             ));
 
-            // $args = array('numberposts' => -1, 'posts_per_page' => 9, 'category' => 5,  'tag' => $_GET['slug'], 'order' => 'ASC');
-
             $portfolio = get_posts($query);
-
 
             if ($portfolio) {
                 while ($query->have_posts()) : $query->the_post();
@@ -94,6 +68,8 @@ get_header();
             }
             ?>
         </div>
+
+        <!-- pagination -->
         <div class="pagination">
             <div class="pagination-wrap">
                 <?
@@ -108,12 +84,9 @@ get_header();
                     'after_page_number' => __('</span></div>'),
                 ));
                 ?>
+                <?php wp_reset_postdata(); ?>
             </div>
         </div>
-        <?php
-        wp_reset_postdata();
-        ?>
-
 
         <!-- bright-spot -->
         <div class="wrap">
@@ -121,23 +94,19 @@ get_header();
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/bright-spot-blog-1.svg" alt="bright-spot-blog-1">
             </div>
         </div>
-
-
-
-        <!-- pagination -->
-        <?php // get_template_part('templates/pagination'); 
-        ?>
-
     </section>
-    <div class="feedback-form__portfolio">
-        <!--  feedback form -->
-        <?php get_template_part('templates/feedback-form'); ?>
 
+    <!--  feedback form -->
+    <div class="feedback-form__portfolio">
+        <?php get_template_part('templates/feedback-form'); ?>
     </div>
+
+    <!-- bright-spot -->
     <div class="wrap">
         <div class="bright-spot bright-spot-blog-bottom">
             <img src="<?php bloginfo('template_url'); ?>/assets/images/bright-spots/bright-spot-portfolio-top.svg" alt="bright-spot-portfolio-top">
         </div>
     </div>
+
 </div>
 <?php get_footer(); ?>

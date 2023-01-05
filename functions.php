@@ -13,7 +13,6 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('primary', get_template_directory_uri() . '/assets/styles/style.css', array(), '7.0');
     wp_enqueue_style('responsive', get_template_directory_uri() . '/assets/styles/responsive.css', array(), '7.0');
 
-
     // отключение стандартного jquery
     wp_dequeue_script('jquery');
     wp_deregister_script('jquery');
@@ -26,14 +25,9 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_script('primary', get_template_directory_uri() . '/assets/scripts/script.js', array('jquery-3.6.0'), '7.0', true);
 });
 
-
-
 // add_theme_support('post-thumbnails');
 add_theme_support('title-tag');
 add_theme_support('custom-logo');
-
-
-
 
 // регистрация меню
 add_action('after_setup_theme', function () {
@@ -43,7 +37,6 @@ add_action('after_setup_theme', function () {
         'footer_menu' => __('Footer menu', 'area'),
     ));
 });
-
 
 // расширение класса Меню
 class My_Walker_Nav_Menu extends Walker_Nav_Menu
@@ -55,7 +48,6 @@ class My_Walker_Nav_Menu extends Walker_Nav_Menu
     }
 }
 
-
 // Добавление SVG в список разрешенных для загрузки файлов.
 function cc_mime_types($mimes)
 {
@@ -64,12 +56,9 @@ function cc_mime_types($mimes)
 }
 add_filter('upload_mimes', 'cc_mime_types');
 
-
-
 /**
  * Добавляет ссылку на дублирование поста в админку
  */
-// Функция создает дубликат поста в виде черновика и редиректит на его страницу редактирования
 function true_duplicate_post_as_draft()
 {
     if (empty($_GET['post'])) {
@@ -131,7 +120,6 @@ function true_duplicate_post_link($actions, $post)
     }
     return $actions;
 }
-
 
 // стили к админке
 add_action('admin_enqueue_scripts', 'load_admin_style');

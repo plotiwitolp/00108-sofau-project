@@ -20,13 +20,11 @@ get_header();
         <!-- tags -->
         <?php get_template_part('templates/tags-services'); ?>
 
-
         <!-- services-banner -->
         <div class="services-banner">
             <img class="desk_img" src="<?php the_field('services_s_top_banner_desk'); ?>" alt="services-top-banner-2">
             <img class="mob_img" src="<?php the_field('services_s_top_banner_mob'); ?>" alt="services-top-banner_mob">
         </div>
-
 
         <!-- Animation OUTSOURCING SERVICES-->
         <div class="services-4-blocks services-3-blocks_row">
@@ -71,7 +69,6 @@ get_header();
             </div>
         </div>
 
-
         <!-- bright-spot -->
         <div class="wrap">
             <div class="bright-spot bright-spot-services-left">
@@ -79,10 +76,8 @@ get_header();
             </div>
         </div>
 
-
         <!-- TECHNICAL EXPERTISE -->
         <?php get_template_part('templates/technical-exp'); ?>
-
 
         <!-- OUR WORKS -->
         <section class="our-works our-works_services">
@@ -97,17 +92,17 @@ get_header();
                 </div>
                 <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
                     <img class="desk_img full_for_img" src="<?php the_field('services_s_block_of_4_img_pic_desk_2'); ?>" alt="our_works-2">
-                    <img class="full_img" src="<?php the_field('services_s_full_img_1'); ?>" alt="our_works-full">
+                    <img class="full_img" src="<?php the_field('services_s_full_img_2'); ?>" alt="our_works-full">
                     <img class="mob_img" src="<?php the_field('services_s_block_of_4_img_pic_mob_2'); ?>" alt="our_works-2">
                 </div>
                 <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
                     <img class="desk_img full_for_img" src="<?php the_field('services_s_block_of_4_img_pic_desk_3'); ?>" alt="our_works-3">
-                    <img class="full_img" src="<?php the_field('services_s_full_img_1'); ?>" alt="our_works-full">
+                    <img class="full_img" src="<?php the_field('services_s_full_img_3'); ?>" alt="our_works-full">
                     <img class="mob_img" src="<?php the_field('services_s_block_of_4_img_pic_mob_3'); ?>" alt="our_works-3">
                 </div>
                 <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
                     <img class="desk_img full_for_img" src="<?php the_field('services_s_block_of_4_img_pic_desk_4'); ?>" alt="our_works-4">
-                    <img class="full_img" src="<?php the_field('services_s_full_img_1'); ?>" alt="our_works-full">
+                    <img class="full_img" src="<?php the_field('services_s_full_img_4'); ?>" alt="our_works-full">
                     <img class="mob_img" src="<?php the_field('services_s_block_of_4_img_pic_mob_4'); ?>" alt="our_works-4">
                 </div>
             </div>
@@ -118,7 +113,6 @@ get_header();
                 </a>
             </span>
         </section>
-
 
         <!-- Our animators are ready -->
         <div class="h2-info">
@@ -131,7 +125,6 @@ get_header();
             </div>
         </div>
 
-
         <!-- banner-our-works -->
         <div class="banner-our-works banner-our-works_s_m">
             <div class="banner-our-works__pic wow animate__fadeInUp" data-wow-duration="500ms">
@@ -140,7 +133,6 @@ get_header();
             </div>
         </div>
 
-
         <!--  team -->
         <?php get_template_part('templates/team'); ?>
 
@@ -148,6 +140,6 @@ get_header();
 
     <!--  feedback form -->
     <?php get_template_part('templates/feedback-form'); ?>
-
 </div>
+
 <?php get_footer(); ?>

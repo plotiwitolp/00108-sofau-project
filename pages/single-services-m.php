@@ -20,13 +20,11 @@ get_header();
         <!-- tags -->
         <?php get_template_part('templates/tags-services'); ?>
 
-
         <!-- services-banner -->
         <div class="services-banner">
             <img class="desk_img" src="<?php the_field('services_m_top_banner_desk'); ?>" alt="services-top-banner-1">
             <img class="mob_img" src="<?php the_field('services_m_top_banner_mob'); ?>" alt="services-top-banner_mob">
         </div>
-
 
         <!-- Game development services -->
         <div class="services-4-blocks services-4-blocks_row">
@@ -83,7 +81,6 @@ get_header();
             </div>
         </div>
 
-
         <!-- bright-spot -->
         <div class="wrap">
             <div class="bright-spot bright-spot-services-left">
@@ -91,10 +88,8 @@ get_header();
             </div>
         </div>
 
-
         <!-- TECHNICAL EXPERTISE -->
         <?php get_template_part('templates/technical-exp'); ?>
-
 
         <!-- OUR WORKS -->
         <section class="our-works our-works_services">
@@ -111,17 +106,17 @@ get_header();
                 </div>
                 <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
                     <img class="desk_img full_for_img" src="<?php the_field('services_m_block_of_4_img_pic_desk_2'); ?>" alt="our_works-2">
-                    <img class="full_img" src="<?php the_field('services_m_full_img_1'); ?>" alt="our_works-full">
+                    <img class="full_img" src="<?php the_field('services_m_full_img_2'); ?>" alt="our_works-full">
                     <img class="mob_img" src="<?php the_field('services_m_block_of_4_img_pic_mob_2'); ?>" alt="our_works-2">
                 </div>
                 <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
                     <img class="desk_img full_for_img" src="<?php the_field('services_m_block_of_4_img_pic_desk_3'); ?>" alt="our_works-3">
-                    <img class="full_img" src="<?php the_field('services_m_full_img_1'); ?>" alt="our_works-full">
+                    <img class="full_img" src="<?php the_field('services_m_full_img_3'); ?>" alt="our_works-full">
                     <img class="mob_img" src="<?php the_field('services_m_block_of_4_img_pic_mob_3'); ?>" alt="our_works-3">
                 </div>
                 <div class="works-gallery__item wow animate__fadeInTopRight" data-wow-duration="500ms">
                     <img class="desk_img full_for_img" src="<?php the_field('services_m_block_of_4_img_pic_desk_4'); ?>" alt="our_works-4">
-                    <img class="full_img" src="<?php the_field('services_m_full_img_1'); ?>" alt="our_works-full">
+                    <img class="full_img" src="<?php the_field('services_m_full_img_4'); ?>" alt="our_works-full">
                     <img class="mob_img" src="<?php the_field('services_m_block_of_4_img_pic_mob_4'); ?>" alt="our_works-4">
                 </div>
             </div>
@@ -132,7 +127,6 @@ get_header();
                 </a>
             </span>
         </section>
-
 
         <!-- Unity development -->
         <section class="h2-info">
@@ -145,7 +139,6 @@ get_header();
                 </div>
             </div>
         </section>
-
 
         <!-- services-4-blocks-thumb -->
         <div class="services-4-blocks-thumb">
@@ -199,7 +192,6 @@ get_header();
             </div>
         </div>
 
-
         <!-- bright-spot -->
         <div class="wrap">
             <div class="bright-spot bright-spot-services-center">
@@ -207,7 +199,6 @@ get_header();
                 <img class="mob_img" src="<?php bloginfo('template_url'); ?>/assets/images/services/services-4-blocks-thumb-1.png" alt="services-4-blocks-thumb-1">
             </div>
         </div>
-
 
         <!-- banner-our-works -->
         <div class="banner-our-works banner-our-works_s_m">
@@ -217,7 +208,6 @@ get_header();
             </div>
         </div>
 
-
         <!--  team -->
         <?php get_template_part('templates/team'); ?>
 
@@ -225,7 +215,6 @@ get_header();
 
     <!--  feedback form -->
     <?php get_template_part('templates/feedback-form'); ?>
-
 </div>
 
 <?php get_footer(); ?>
