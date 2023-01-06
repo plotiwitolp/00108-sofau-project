@@ -11,8 +11,8 @@ get_header();
     <section>
         <div class="top-banner top-banner_about-us">
             <img class="desk_img" src="<?php the_field('about_us_top_banner_desk'); ?>" alt="banner-about-us">
-            <img class="mob_img" src="<?php the_field('about_us_top_banner_mob'); ?>g" alt="banner-about-us">
-            <h1 class="wow animate__fadeInLeft" data-wow-duration="500ms"><?php the_field('about_us_top_title'); ?></h1>
+            <img class="mob_img" src="<?php the_field('about_us_top_banner_mob'); ?>" alt="banner-about-us">
+            <h1 class="wow animate__fadeInLeft" data-wow-duration="500ms"><?php single_post_title(); ?></h1>
         </div>
     </section>
 

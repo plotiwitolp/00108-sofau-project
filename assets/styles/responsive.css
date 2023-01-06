@@ -330,7 +330,7 @@
     min-height: 220px;
   }
   .top-banner h1 {
-    top: 44px;
+    margin-top: 44px;
     padding: 0;
     text-align: left;
   }

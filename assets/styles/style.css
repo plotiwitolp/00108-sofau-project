@@ -629,6 +629,7 @@ h2 {
 
 .feedback-form__left-wrapper {
   padding: 50px 88px 60px 50px;
+  width: 738px;
 }
 
 .feedback-form__left,
@@ -729,13 +730,15 @@ h2 {
   cursor: pointer;
 }
 
-.feedback-form-pers-data {
+.feedback-form-pers-data p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #pers-data {
@@ -743,7 +746,6 @@ h2 {
 }
 
 .feedback-form-pers-data__check-span {
-  display: block;
   width: 24px;
   height: 24px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1023,8 +1025,6 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 208px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 .top-banner h1 {
   text-align: center;
@@ -1033,11 +1033,14 @@ main {
 
 .top-banner_about-us h1,
 .blog h1 {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: calc(50% - 50px);
+  margin-top: 56px;
   padding: 0 215px;
+}
+
+.top-banner_about-us img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
 
 .h2-info {
@@ -1157,13 +1160,6 @@ main {
 .wrap {
   position: relative;
   width: 100%;
-}
-
-.blog {
-  margin-top: 56px;
-}
-.blog h1 {
-  top: calc(50% - 100px);
 }
 
 .post-preview {
@@ -1685,7 +1681,8 @@ main {
 }
 
 .post h1,
-.contacts h1 {
+.contacts h1,
+.index h1 {
   margin: 56px 0 56px;
   text-align: center;
 }
@@ -1867,6 +1864,12 @@ main {
 
 .feedback-form__right {
   width: 552px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
 }
 
 .services-banner {
@@ -1971,6 +1974,7 @@ body::-webkit-scrollbar-thumb {
 
 .single-post h1 {
   margin-top: 56px;
+  margin-bottom: 56px;
   text-align: center;
 }
 .single-post img {
@@ -1983,4 +1987,78 @@ body::-webkit-scrollbar-thumb {
 .single-post .alignleft {
   float: left;
   margin-right: 20px !important;
+}
+
+.feedback-form__form .feedback-form__middle p,
+.feedback-form__form .feedback-form__middle .wpcf7-form-control-wrap {
+  width: 100%;
+}
+
+.feedback-form__send p {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.feedback-form-pers-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.feedback-form__send p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wpcf7-spinner {
+  position: absolute;
+}
+
+.wpcf7-not-valid {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid #dc4a3e;
+  color: #dc4a3e !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  -webkit-transition: background-color 600000s 0s, color 600000s 0s;
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+.wpcf7-form input,
+.wpcf7-form textarea {
+  font-family: "Lato";
+}
+
+.wpcf7-response-output {
+  padding: 10px 25px !important;
+  border-radius: 10px !important;
+  font-size: 14px;
+}
+
+.wpcf7-not-valid-tip {
+  margin-top: 8px;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required:focus {
+  border: 1px solid #5d5fef;
 }
