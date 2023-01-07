@@ -220,7 +220,6 @@
     $('.feedback-form__form br').remove();
     $('.feedback-form-pers-data__check input[type="checkbox"]').attr('id', 'pers-data').prependTo($('.feedback-form-pers-data__check'));
     $('.wpcf7-form-control-wrap[data-name="checkbox-826"]').appendTo($('.feedback-form-pers-data p'));
-    // $('.wpcf7-form-control-wrap[data-name="checkbox-826"] span').attr('id', '');
     // end  коррекция CF7
 
     // start blockInspector

@@ -73,22 +73,22 @@
                             <div class="header__socials">
                                 <div class="socials">
                                     <div class="socials-item">
-                                        <a href="mailto:contact@wellore.com">
+                                        <a href="mailto:<?php the_field('socials_mail', 1226); ?>">
                                             <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/mail.svg" alt="mail wellore.com">
                                         </a>
                                     </div>
                                     <div class="socials-item">
-                                        <a href="https://www.facebook.com/wellore/">
+                                        <a href="<?php the_field('socials_facebook', 1226); ?>">
                                             <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/facebook.svg" alt="facebook wellore.com">
                                         </a>
                                     </div>
                                     <div class="socials-item">
-                                        <a href="https://www.instagram.com/wellore_com/">
+                                        <a href="<?php the_field('socials_instagram', 1226); ?>">
                                             <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/instagram.svg" alt="instagram wellore.com">
                                         </a>
                                     </div>
                                     <div class="socials-item">
-                                        <a href="https://ru.pinterest.com/wellore_com/">
+                                        <a href="<?php the_field('socials_pinterest', 1226); ?>">
                                             <img src="<?php bloginfo('template_url'); ?>/assets/images/socials/pinterest.svg" alt="pinterest wellore.com">
                                         </a>
                                     </div>
