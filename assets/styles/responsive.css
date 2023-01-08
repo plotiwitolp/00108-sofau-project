@@ -284,6 +284,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    width: 100%;
   }
   .feedback-form__top {
     margin-right: -12px;
@@ -293,6 +294,7 @@
   }
   .feedback-form__left-wrapper {
     padding: 25px 25px 35px 25px;
+    width: 100%;
   }
   .feedback-form__middle-item {
     width: 100%;
@@ -484,7 +486,7 @@
     margin-top: 0;
   }
   .project-preview__desc {
-    min-height: 140px;
+    display: none;
   }
   .portfolio-tmpl-xs .top-banner-info__wrap {
     margin: 44px 0;
@@ -494,7 +496,7 @@
   .top-banner_about-us {
     margin-left: -20px;
     margin-right: -20px;
-    min-height: 0;
+    min-height: 157px;
   }
   .top-banner_about-us h1 {
     padding: 0 20px;
@@ -557,5 +559,11 @@
   }
   .single-post h1 {
     text-align: left;
+  }
+  .feedback-form__send p {
+    width: 100%;
+  }
+  .technical-exp_icons {
+    margin-bottom: 0;
   }
 }

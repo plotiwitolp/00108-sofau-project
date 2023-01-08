@@ -870,7 +870,7 @@ footer .section:last-child {
 
 .bright-spot-3 {
   left: -95px;
-  top: -90%;
+  top: -1230px;
 }
 
 .bright-spot-4 {
@@ -1153,7 +1153,7 @@ main {
 
 .bright-spot-about-us-1 {
   left: -95px;
-  top: 0;
+  top: -550px;
 }
 
 .bright-spot-about-us-2 {
@@ -1221,7 +1221,8 @@ main {
 }
 
 .bright-spot-blog-1 {
-  top: -30%;
+  top: -1100px;
+  left: -95px;
 }
 
 .bright-spot-blog-2 {
@@ -1503,7 +1504,7 @@ main {
 
 .bright-spot-portfolio-1 {
   left: -95px;
-  top: -230%;
+  top: -900px;
 }
 
 .similar-projects {
@@ -1514,7 +1515,7 @@ main {
 }
 
 .bright-spot-portfolio-top {
-  top: -1054px;
+  top: -1143px;
   right: -95px;
 }
 
@@ -1523,8 +1524,11 @@ main {
   right: -95px;
 }
 
+.portfolio-tmpl-s .top-banner-info {
+  min-height: 456px;
+}
 .portfolio-tmpl-s .top-banner-info h1 {
-  margin-top: 20px;
+  margin-top: 64px;
 }
 
 .services-banner {
@@ -1624,7 +1628,7 @@ main {
 }
 
 .bright-spot-services-center {
-  top: -1350px;
+  top: -1080px;
   left: -95px;
 }
 
@@ -2063,6 +2067,6 @@ input:-webkit-autofill:focus {
   margin-top: 8px;
 }
 
-input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required:focus {
+.wpcf7-form-control.wpcf7-validates-as-required:focus {
   border: 1px solid #5d5fef;
 }

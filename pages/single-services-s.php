@@ -116,6 +116,13 @@ get_header();
             </span>
         </section>
 
+        <!-- bright-spot -->
+        <div class="wrap">
+            <div class="bright-spot bright-spot-services-center">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/services/bright-spot-services-center.svg" alt="bright-spot-services-center">
+            </div>
+        </div>
+
         <!-- Our animators are ready -->
         <div class="h2-info">
             <div class="h2-info__item h2-info__pdn wow animate__fadeInLeft" data-wow-duration="500ms">
