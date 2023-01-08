@@ -2,11 +2,9 @@
 /*
 Template Name: Шаблон страницы About Us
 */
-
 get_header();
 ?>
 <div class="section about-us_wrap">
-
     <!-- top-banner -->
     <section>
         <div class="top-banner top-banner_about-us">
@@ -48,7 +46,6 @@ get_header();
         </div>
     </section>
 
-
     <!-- banner-our-works -->
     <div class="banner-our-works">
         <div class="banner-our-works__pic wow animate__fadeInUp" data-wow-duration="500ms">
@@ -66,9 +63,7 @@ get_header();
     <!-- team -->
     <?php get_template_part('templates/team'); ?>
 
-
     <!--  Feedback form -->
     <?php get_template_part('templates/feedback-form'); ?>
-
 </div>
 <?php get_footer(); ?>

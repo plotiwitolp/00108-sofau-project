@@ -6,7 +6,6 @@
     $posts = get_posts([
         'numberposts' => -1,
         'category' => 6,
-        // 'orderby' => 'title',
         'order' => 'ASC',
         'post_type' => 'post',
         'suppress_filter' => true,

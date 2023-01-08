@@ -3,7 +3,6 @@
  * Template Name: Шаблон Portfolio M
  * Template Post Type: post
  */
-
 get_header();
 ?>
 <div class="section portfolio-tmpl-m">
@@ -35,7 +34,6 @@ get_header();
         </div>
     </section>
 
-
     <!-- portfolio-banner -->
     <div class="portfolio-banner">
         <div class="portfolio-banner_img-wrap">
@@ -43,14 +41,12 @@ get_header();
         </div>
     </div>
 
-
     <!-- bright-spot -->
     <div class="wrap">
         <div class="bright-spot bright-spot-portfolio-top">
             <img src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/bright-spot-portfolio-top.svg" alt="bright-spot-portfolio-top">
         </div>
     </div>
-
 
     <!-- h2-info-two Task & Level design & interface -->
     <section class="h2-info">
@@ -71,7 +67,6 @@ get_header();
             </div>
         </div>
     </section>
-
 
     <!-- works-gallery Task & Level design & interface -->
     <div class="works-gallery gallery_1">
@@ -112,7 +107,6 @@ get_header();
         </div>
     </div>
 
-
     <!-- h2-info-two Style & Backgrounds-->
     <section class="h2-info">
         <div class="h2-info__item wow animate__fadeInLeft" data-wow-duration="500ms">
@@ -133,14 +127,12 @@ get_header();
         </div>
     </section>
 
-
     <!-- bright-spot -->
     <div class="wrap">
         <div class="bright-spot bright-spot-portfolio-1">
             <img src="<?php bloginfo('template_url'); ?>/assets/images/bright-spot-about-us-1.svg" alt="bright-spot-about-us-1">
         </div>
     </div>
-
 
     <!-- works-gallery Style & Backgrounds -->
     <div class="works-gallery gallery_2">
@@ -181,7 +173,6 @@ get_header();
         </div>
     </div>
 
-
     <!-- h2-info-two Character design & Outsourcing of game development and game graphics -->
     <section class="h2-info">
         <div class="h2-info__item wow animate__fadeInLeft" data-wow-duration="500ms">
@@ -202,7 +193,6 @@ get_header();
         </div>
     </section>
 
-
     <!-- works-gallery Character design & Outsourcing of game development and game graphics -->
     <div class="works-gallery gallery_3">
         <div class="works-gallery__item wow animate__fadeInTopLeft" data-wow-duration="500ms">
@@ -222,7 +212,6 @@ get_header();
         </div>
     </div>
 
-
     <!-- Similar projects -->
     <section class="similar-projects">
         <h2><?php the_field('portfolio_m_title_of_similar_projects'); ?></h2>
@@ -234,7 +223,7 @@ get_header();
             foreach ($tags as $individual_tag) $tag_ids[] = $individual_tag->term_id;
             $args = array(
                 'tag__in' => $tag_ids,
-                'orderby' => 'rand', // случайный подбор
+                'orderby' => 'rand',
                 'ignore_sticky_posts' => 1,
                 'post__not_in' => array($post->ID),
                 'showposts' => 3,
@@ -275,10 +264,8 @@ get_header();
         </div>
     </section>
 
-
     <!--  Feedback form -->
     <?php get_template_part('templates/feedback-form'); ?>
-
 
     <!-- bright-spot -->
     <div class="wrap">
@@ -286,7 +273,6 @@ get_header();
             <img src="<?php bloginfo('template_url'); ?>/assets/images/bright-spots/bright-spot-portfolio-m-right.svg" alt="bright-spot-portfolio-m-right">
         </div>
     </div>
-
 </div>
 
 <?php get_footer(); ?>

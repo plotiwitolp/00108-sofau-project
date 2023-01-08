@@ -3,7 +3,6 @@
  * Template Name: Шаблон Portfolio XS
  * Template Post Type: post
  */
-
 get_header();
 ?>
 <div class="section portfolio-tmpl-xs">
@@ -35,14 +34,12 @@ get_header();
         </div>
     </section>
 
-
     <!-- portfolio-banner -->
     <div class="portfolio-banner">
         <div class="portfolio-banner_img-wrap">
             <img src="<?php the_field('portfolio_xs_main_banner'); ?>" alt="main_banner">
         </div>
     </div>
-
 
     <!-- h2-info-two Task & Level design & interface -->
     <section class="h2-info">
@@ -64,14 +61,12 @@ get_header();
         </div>
     </section>
 
-
     <!-- bright-spot -->
     <div class="wrap">
         <div class="bright-spot bright-spot-portfolio-xs-left">
             <img src="<?php bloginfo('template_url'); ?>/assets/images/bright-spots/bright-spot-portfolio-xs-left.svg" alt="bright-spot-portfolio-xs-left">
         </div>
     </div>
-
 
     <!-- Similar projects -->
     <section class="similar-projects">
@@ -127,7 +122,5 @@ get_header();
 
     <!--  Feedback form -->
     <?php get_template_part('templates/feedback-form'); ?>
-
 </div>
-
 <?php get_footer(); ?>

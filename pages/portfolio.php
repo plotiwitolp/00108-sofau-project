@@ -2,7 +2,6 @@
 /*
 Template Name: Шаблон страницы Portfolio
 */
-
 get_header();
 ?>
 <div class="section">
@@ -12,7 +11,6 @@ get_header();
             <h1 class="wow animate__fadeInLeft" data-wow-duration="500ms"><?php the_field('portfolio_tittle_h1'); ?></h1>
         </div>
     </section>
-
 
     <section class="portfolio">
         <!-- tags -->
@@ -83,8 +81,7 @@ get_header();
                     'before_page_number' => __('<div class="pagination__page-item"><span>'),
                     'after_page_number' => __('</span></div>'),
                 ));
-                ?>
-                <?php wp_reset_postdata(); ?>
+                wp_reset_postdata(); ?>
             </div>
         </div>
 
@@ -107,6 +104,5 @@ get_header();
             <img src="<?php bloginfo('template_url'); ?>/assets/images/bright-spots/bright-spot-portfolio-top.svg" alt="bright-spot-portfolio-top">
         </div>
     </div>
-
 </div>
 <?php get_footer(); ?>

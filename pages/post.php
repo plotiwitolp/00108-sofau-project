@@ -8,7 +8,6 @@
     </section>
     <!--  feedback form -->
     <?php get_template_part('templates/feedback-form'); ?>
-
 </div>
 
 <?php get_footer(); ?>

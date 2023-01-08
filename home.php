@@ -2,7 +2,6 @@
 /*
 Template Name: Шаблон страницы Home
 */
-
 get_header();
 ?>
 
@@ -40,7 +39,6 @@ get_header();
             $posts = get_posts([
                 'numberposts' => -1,
                 'category' => 6,
-                // 'orderby' => 'title',
                 'order' => 'ASC',
                 'post_type' => 'post',
                 'suppress_filter' => true,
@@ -129,7 +127,6 @@ get_header();
         </div>
     </section>
 
-
     <!-- bright-spot -->
     <div class="wrap">
         <div class="bright-spot bright-spot-3">
@@ -139,10 +136,5 @@ get_header();
 
     <!--  Feedback form -->
     <?php get_template_part('templates/feedback-form'); ?>
-
 </div>
-
 <?php get_footer(); ?>
-<?php
-// require_once './footer.php';
-?>

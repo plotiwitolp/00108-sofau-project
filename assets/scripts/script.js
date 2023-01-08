@@ -50,7 +50,6 @@
     // end WOW
 
     // start job-preview hover
-    // -- может быть нужна проверка на наличие на странице эл .job-preview
     $('.job-preview .job-preview__item').mouseover(function () {
       $(this).addClass('job-preview__item__active');
     });
@@ -59,7 +58,7 @@
     });
     // end job-preview hover
 
-    // start временная пагинация для демонстрации
+    // start пагинация
     $('.pagination__page-item a').bind('click.dontClick', function (e) {
       e.preventDefault();
     });
@@ -68,44 +67,25 @@
       $('.pagination__page-item').removeClass('pagination__page-item_active');
       $(this).addClass('pagination__page-item_active');
       let n = $set.index(this);
-      console.log($set.length);
       if (n == 0) {
-        $('.pagination__prev ').hide();
+        setTimeout(() => {
+          $('.pagination__prev ').hide();
+        }, 1000);
       } else {
         $('.pagination__prev ').show();
       }
       if (n == $set.length - 1) {
-        $('.pagination__next').hide();
+        setTimeout(() => {
+          $('.pagination__next').hide();
+        }, 1000);
       } else {
         $('.pagination__next').show();
       }
     });
-    // end временная пагинация для демонстрации
-
-    // start временное переключение по меткам для демонстрации
-    /* services & portfolio при переходе по страницам*/
-    // let link = window.location.href;
-    // let linkId = link.split('id')[1];
-    // let linkIdEl = $('.services .tag__item')[+linkId];
-    // let linkIdElPrtf = $('.portfolio .tag__item')[+linkId];
-    // $(linkIdEl).addClass('hover');
-    // $(linkIdElPrtf).addClass('hover');
-    // /* portfolio & services  при клике на самой странийце по меткам*/
-    // $('.portfolio .tag__item').on('click', function () {
-    //   $('.portfolio .tag__item').removeClass('hover');
-    //   $(this).addClass('hover');
-    // });
-    // $('.header__desk-sub_test a').on('click', function () {
-    //   let id = $(this).attr('href').split('id')[1];
-    //   let elTag = $('.tag .tag__item')[id];
-    //   $('.tag .tag__item').removeClass('hover');
-    //   $(elTag).addClass('hover');
-    // });
-    // end временное переключение по меткам для демонстрации
+    // end пагинация
 
     // start верхнее меню для моб версии
     $('.header__mob-sub').prev().after("<span class='nav-arr'>");
-
     function hideMobMenu() {
       $('.header-right-bottom').hide();
       $('.header__mob').hide();
@@ -139,14 +119,12 @@
       });
     }
     startSubMobMenu();
-
     function stopMobMenu() {
       $('.header-right-bottom').show();
       $('.header__mob').hide();
       $('.header__socials').hide();
       $('.header-right-bottom-wrap').show();
     }
-
     let windowsizeStart = $(window).width();
     let isMob = false;
     if (windowsizeStart < 1325) {
@@ -154,7 +132,6 @@
     } else {
       isMob = false;
     }
-
     if (isMob) {
       hideMobMenu();
       startMobMenu();
@@ -162,10 +139,8 @@
       hideMobMenu();
       stopMobMenu();
     }
-
     let isResizebleDesk = false;
     let isResizebleMob = false;
-
     $(window).resize(function () {
       if (!window.matchMedia('(max-width: 1325px)').matches) {
         if (!isResizebleDesk) {

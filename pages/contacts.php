@@ -2,7 +2,6 @@
 /*
 Template Name: Шаблон страницы Contacts
 */
-
 get_header();
 ?>
 <div class="section contacts">
@@ -15,7 +14,6 @@ get_header();
     <!--  feedback form -->
     <?php get_template_part('templates/feedback-form');
     ?>
-
 </div>
 
 <?php get_footer(); ?>

@@ -3,7 +3,6 @@
  * Template Name: Шаблон Services L
  * Template Post Type: post
  */
-
 get_header();
 ?>
 <div class="section">
@@ -94,7 +93,10 @@ get_header();
         </div>
 
         <!-- TECHNICAL EXPERTISE -->
-        <?php get_template_part('templates/technical-exp'); ?>
+        <section class="technical-exp">
+            <h2><?php the_field('services_l_title_tech_h2'); ?></h2>
+            <?php get_template_part('templates/technical-exp'); ?>
+        </section>
 
         <!-- services-4-blocks-thumb -->
         <div class="services-4-blocks-thumb">

@@ -3,7 +3,6 @@
  * Template Name: Шаблон Portfolio L
  * Template Post Type: post
  */
-
 get_header();
 ?>
 <div class="section portfolio-tmpl-l">
@@ -283,7 +282,7 @@ get_header();
             foreach ($tags as $individual_tag) $tag_ids[] = $individual_tag->term_id;
             $args = array(
                 'tag__in' => $tag_ids,
-                'orderby' => 'rand', // случайный подбор
+                'orderby' => 'rand',
                 'ignore_sticky_posts' => 1,
                 'post__not_in' => array($post->ID),
                 'showposts' => 3,

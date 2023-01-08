@@ -3,7 +3,6 @@
  * Template Name: Шаблон Portfolio S
  * Template Post Type: post
  */
-
 get_header();
 ?>
 <div class="section portfolio-tmpl-s">
@@ -35,7 +34,6 @@ get_header();
         </div>
     </section>
 
-
     <!-- portfolio-banner -->
     <div class="portfolio-banner">
         <div class="portfolio-banner_img-wrap">
@@ -43,14 +41,12 @@ get_header();
         </div>
     </div>
 
-
     <!-- bright-spot -->
     <div class="wrap">
         <div class="bright-spot bright-spot-portfolio-top">
             <img src="<?php bloginfo('template_url'); ?>/assets/images/portfolio/bright-spot-portfolio-top.svg" alt="bright-spot-portfolio-top">
         </div>
     </div>
-
 
     <!-- h2-info-two Task & Level design & interface -->
     <section class="h2-info">
@@ -71,7 +67,6 @@ get_header();
             </div>
         </div>
     </section>
-
 
     <!-- works-gallery Task & Level design & interface -->
     <div class="works-gallery gallery_1">
@@ -112,7 +107,6 @@ get_header();
         </div>
     </div>
 
-
     <!-- Similar projects -->
     <section class="similar-projects">
         <h2><?php the_field('portfolio_s_title_of_similar_projects'); ?></h2>
@@ -124,7 +118,7 @@ get_header();
             foreach ($tags as $individual_tag) $tag_ids[] = $individual_tag->term_id;
             $args = array(
                 'tag__in' => $tag_ids,
-                'orderby' => 'rand', // случайный подбор
+                'orderby' => 'rand',
                 'ignore_sticky_posts' => 1,
                 'post__not_in' => array($post->ID),
                 'showposts' => 3,
@@ -165,10 +159,7 @@ get_header();
         </div>
     </section>
 
-
     <!--  Feedback form -->
     <?php get_template_part('templates/feedback-form'); ?>
-
 </div>
-
 <?php get_footer(); ?>
