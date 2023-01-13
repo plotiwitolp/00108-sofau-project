@@ -30,49 +30,51 @@ get_header();
         </div>
     </section>
     <!-- OUR SERVIСES -->
-    <section class="our-services">
-        <div class="our-services__h2">
-            <h2><?= get_category(6, ARRAY_A)['name'] ?></h2>
-        </div>
-        <div class="job-preview">
-            <?php
-            $posts = get_posts([
-                'numberposts' => -1,
-                'category' => 6,
-                'order' => 'ASC',
-                'post_type' => 'post',
-                'suppress_filter' => true,
-            ]);
-            foreach ($posts as $post) {
-                setup_postdata($post);
-            ?>
-                <div class="job-preview__item wow animate__fadeInUp" data-wow-duration="500ms">
-                    <div class="job-preview__thumb">
-                        <img class="desk_img" src="<?php the_field('our_services_thumb_img_desc'); ?>" alt="our_services-3d_art">
-                        <img class="mob_img" src="<?php the_field('our_services_thumb_img_mob'); ?>" alt="our_services-3d_art_mob">
-                    </div>
-                    <div class="job-preview__desc-wrap">
-                        <div class="job-preview__desc">
-                            <h3><?php the_title(); ?></h3>
-                            <p>
-                                <?php the_field('our_services_thumb_text'); ?>
-                            </p>
-                            <span class="button see-more-btn"><a href="<?php the_permalink(); ?>">See more</a></span>
+    <?php if (get_field('home_show_hide_services')) { ?>
+        <section class="our-services">
+            <div class="our-services__h2">
+                <h2><?= get_category(6, ARRAY_A)['name'] ?></h2>
+            </div>
+            <div class="job-preview">
+                <?php
+                $posts = get_posts([
+                    'numberposts' => -1,
+                    'category' => 6,
+                    'order' => 'ASC',
+                    'post_type' => 'post',
+                    'suppress_filter' => true,
+                ]);
+                foreach ($posts as $post) {
+                    setup_postdata($post);
+                ?>
+                    <div class="job-preview__item wow animate__fadeInUp" data-wow-duration="500ms">
+                        <div class="job-preview__thumb">
+                            <img class="desk_img" src="<?php the_field('our_services_thumb_img_desc'); ?>" alt="our_services-3d_art">
+                            <img class="mob_img" src="<?php the_field('our_services_thumb_img_mob'); ?>" alt="our_services-3d_art_mob">
+                        </div>
+                        <div class="job-preview__desc-wrap">
+                            <div class="job-preview__desc">
+                                <h3><?php the_title(); ?></h3>
+                                <p>
+                                    <?php the_field('our_services_thumb_text'); ?>
+                                </p>
+                                <span class="button see-more-btn"><a href="<?php the_permalink(); ?>">See more</a></span>
+                            </div>
                         </div>
                     </div>
-                </div>
-            <?php
-            }
-            wp_reset_postdata();
-            ?>
-        </div>
-        <div class="bright-spot bright-spot-1">
-            <img src="<?php bloginfo('template_url'); ?>/assets/images/bright-spot-1.svg" alt="bright-spot-1">
-        </div>
-        <div class="bright-spot bright-spot-2">
-            <img src="<?php bloginfo('template_url'); ?>/assets/images/bright-spot-2.svg" alt="bright-spot-2">
-        </div>
-    </section>
+                <?php
+                }
+                wp_reset_postdata();
+                ?>
+            </div>
+            <div class="bright-spot bright-spot-1">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/bright-spot-1.svg" alt="bright-spot-1">
+            </div>
+            <div class="bright-spot bright-spot-2">
+                <img src="<?php bloginfo('template_url'); ?>/assets/images/bright-spot-2.svg" alt="bright-spot-2">
+            </div>
+        </section>
+    <?php } ?>
     <!-- Our advantages -->
 
     <?php get_template_part('templates/our-advantages'); ?>
